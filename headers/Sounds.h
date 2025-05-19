@@ -15,7 +15,5 @@
 // DECLARATIONS
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
-extern SoundSpec BounceSoundSpec;
-extern SoundSpec PointSoundSpec;
 
 #endif

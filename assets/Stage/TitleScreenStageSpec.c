@@ -48,8 +48,6 @@ PositionedActorROMSpec TitleScreenStageUiActors[] =
 
 FontROMSpec* const TitleScreenStageFonts[] =
 {
-	&VirtualBoyExtFontSpec,
-
 	NULL
 };
 

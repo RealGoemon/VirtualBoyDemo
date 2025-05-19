@@ -48,8 +48,6 @@ PositionedActorROMSpec UnderworldStageUiActors[] =
 
 FontROMSpec* const UnderworldStageFonts[] =
 {
-	&VirtualBoyExtFontSpec,
-
 	NULL
 };
 

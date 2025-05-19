@@ -4,16 +4,7 @@
 
 # VUEngine plugins which the project uses
 PLUGINS							= vuengine//actors/LowPowerActor \
-								  vuengine//fonts/AstonishFont \
-								  vuengine//fonts/VirtualBoyFont \
-								  vuengine//other/AutomaticPause \
-								  vuengine//other/I18n \
-								  vuengine//other/SaveDataManager \
-								  vuengine//states/splash/AdjustmentScreenPrototype \
-								  vuengine//states/splash/AlignmentCheckScreen \
-								  vuengine//states/splash/AutomaticPauseSelectionScreen \
-								  vuengine//states/splash/LanguageSelectionScreen \
-								  vuengine//states/splash/PrecautionScreen
+								  vuengine//other/LowPowerIndicator
 
 # Optimization level
 OPTIMIZATION					= O2
