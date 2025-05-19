@@ -1,0 +1,219 @@
+{
+    "_id": "eIJcjpMOxRbeh9tF",
+    "_version": "0.6.0",
+    "animations": {
+        "default": 0,
+        "multiframe": false,
+        "totalFrames": 10
+    },
+    "body": {
+        "bounciness": 0,
+        "enabled": false,
+        "friction": 0,
+        "gravityAxes": [],
+        "mass": 0,
+        "maximumSpeed": 0,
+        "maximumVelocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotationAxes": []
+    },
+    "components": {
+        "animations": [
+            {
+                "callback": "",
+                "cycles": 8,
+                "frames": [],
+                "loop": true,
+                "name": "idlejump"
+            },
+            {
+                "callback": "",
+                "cycles": 8,
+                "frames": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "loop": true,
+                "name": "run"
+            }
+        ],
+        "children": [],
+        "colliders": [],
+        "mutators": [],
+        "sprites": [
+            {
+                "_imageData": {
+                    "images": [
+                        {
+                            "animation": {
+                                "frames": 10
+                            },
+                            "maps": [
+                                {
+                                    "data": "H4sIAAAAAAAACiXNuXEcQRAAsFzOpnHTz3SvSX1JqJR/GioSFkz8fb3f7/fr44uDQKLQuBgsHnziB37iF37jzzfHd3zHd3zHd3zHd3zHd3zHd3zHd3zHd3zhC1/4whe+8IUvfOELX/jCF77whS986Utf+tKXvvSlL33pS1/60pe+9KUvfeUrX/nKV77yla985Stf+cpXvvKVr3zta1/72te+9rWvfe1rX/va1772ta9913d913d913d913d913d913d913d913d94xvf+MY3vvGNb3zjG9/4xje+8Y1vfOtb3/rWt771rW9961vf+ta3vvWtb32P7/E9vsf3+J5+/fsPen6QFRsEAAA=",
+                                    "height": "30",
+                                    "width": "5",
+                                    "name": "idlejump"
+                                }
+                            ],
+                            "tiles": {
+                                "count": 150,
+                                "data": "H4sIAAAAAAAACu2XQW7cMAxF7+L1LChAnwaXNCJdouj9r1F8UrbszLRNik7RFhOAwI+iWKRIPklfFhk/y+1T0kSkpmxVhLbcFq8inlIA7HNb71h741z13nTrnKvuTX27W6JMudKW2wJ3ANBPOvkZ6cDuurvB3WpIB40+qNVDuqu6UyKnLLdldahCUxposQ/qRePfMrY9CoZZKNVXKc+NzSCMb7ktalVgdYxWNTBMQ90nrA7QOLo16x6ecT+wNeMXMnaGWbZuNEp3L57ZLIDk7ogU0J4YG4uQlXatSRcRk/c1yRryTItFSUWyoBoJzwlMos8MnZI1FtY9bxGbPDO2N4i8ZWzNqmyIvDVUaSkNsktg67Qszw6sKXun7RNSimAVKWtKHDXJgDACenbeYu/qkcI6k2WTMDrzxp8s2l12d+9ZiO4JiLlEuUuW047RYk+M7SRfnLzjJE6cVAM+zkkQLX8JJ/uVk/4TTvqVk/7i5G+UL06+OPn/cVInJ/kF/Tc5CUfs9gc5aS9Ovjj5K/J/5mSdstVLId5zkmCUdJ1gJCuTkxtZyX5js+3tdF5tHbERjIOTBA3cn8oStzpQkeSLdjpxkn8kK0MSHwlHpGvHYztKLh+vyUmBCs6tV5IlewoJGr69n1mTVoWsDE4SjvU4GZKT7BXLfuNDe9wnCUY74Bh7cpwBrgnHbXCSYNw5yX47wK+/0G9v9ZBbM3FPz3qT3i1cb0223pLrtiJdHwSP4nLbhpPBPsc41I5+C0pGhoDV3FY7GlID/E1N1nHUAcVzlKd/foGy4NPnG4Nxt310IP404dRkAw8jikqbo0PqCOjEkvBwl1whEmCDg1fXC+tizGU/ds9Tj0f+g978sbR5OtUpv1OTmQwdxVVyNefRnCU3Tts4xmsgs+x7drlSlfdLwAV+wuAzqfFYvjj54uSf4ORj2WfJ9TcRWlwwjntJpDCZqta6e9yuDFtXy4vWxEo+GbBfIh0ITjYoWoz2/G5JtLFhS3wMaKO7DTDfw3zwCLpKGenmd4frsKNbzERoVwmYGrZ1Etzv4KgTpHEZfofMh7KM/7smC/ECDLnNR8VHMrSX8sn1uBjaMRf3NXl2vQa5v1+/VU7gL/z1eg09zV2bobdoPb4TbFBD1YtN2BSz6fr9NfTOh6/fAIuaD9DJGQAA",
+                                "name": "idlejump"
+                            }
+                        }
+                    ]
+                },
+                "bgmapMode": "Bgmap",
+                "colorMode": 0,
+                "compression": "none",
+                "displacement": {
+                    "parallax": 0,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "displayMode": "Mono",
+                "displays": "ON",
+                "imageProcessingSettings": {
+                    "colorDistanceFormula": "euclidean",
+                    "imageQuantizationAlgorithm": "nearest",
+                    "minimumColorDistanceToDither": 0,
+                    "serpentine": false
+                },
+                "isAnimated": true,
+                "manipulationFunction": "",
+                "name": "idlejump",
+                "optimizeTiles": true,
+                "section": "rom",
+                "shareTiles": true,
+                "sourceType": "image",
+                "texture": {
+                    "files": [
+                        "idlejump.png"
+                    ],
+                    "files2": [],
+                    "flip": {
+                        "x": false,
+                        "y": false
+                    },
+                    "padding": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "palette": 1,
+                    "recycleable": false,
+                    "repeat": {
+                        "mode": "1x1",
+                        "size": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "x": false,
+                        "y": false
+                    }
+                },
+                "transparency": "None"
+            },
+            {
+                "_imageData": {
+                    "images": [
+                        {
+                            "animation": {
+                                "frames": 10
+                            },
+                            "maps": [
+                                {
+                                    "data": "H4sIAAAAAAAACiXVuZEgNxAAQV9WprCNHyKegRMX9N8NBi+lElOsPz+/v7+/P//8n5AkWYpUadJlyJQlW45c+eT9TfCCF7zgBS94wQte8IIXvOAFL3jBC17iJV7iJV7iJV7iJV7iJV7iJV7iJV7iJV7mZV7mZV7mZV7mZV7mZV7mZV7mZV7mZV7hFV7hFV7hFV7hFV7hFV7hFV7hFV7hFV7lVV7lVV7lVV7lVV7lVV7lVV7lVV7lVV7jNV7jNV7jNV7jNV7jNV7jNV7jNV7jNV7ndV7ndV7ndV7ndV7ndV7ndV7ndV7ndd7gDd7gDd7gDd7gDd7gDd7gDd7gDd7gDd7kTd7kTd7kTd7kTd7kTd7kTd7kTd7kTd7iLd7iLd7iLd7iLd7iLd7iLd7iLd7iLd7mbd7mbd7mbd7mbd7mbd7mbd7mbd7mbd7hHd7hHd7hHd7hHd7hHd7hHd7hHd7hHd7lXd7lXd7lXd7lXd7lXd7lXd7lXd7lXd7H+3gf7+N9vI/38T7ex/t4H+/jfbyP9/E+3uM93uM93uM93uM93uM93uM93uM93uO9v174X/hf+F/4X/hf+F/4X/hf+F/4X/hf+F/4X/hf+F/4X/hf+F/4X/hf+F/4X/hf+F/4X/hf+F/4X/hf+F/4X/hf+F/4X/hf+F/4X/hf+F/4X/hf+F/4X6T98+9/MYshuTUIAAA=",
+                                    "height": "60",
+                                    "width": "5",
+                                    "name": "run"
+                                }
+                            ],
+                            "tiles": {
+                                "count": 300,
+                                "data": "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",
+                                "name": "run"
+                            }
+                        }
+                    ]
+                },
+                "bgmapMode": "Bgmap",
+                "colorMode": 0,
+                "compression": "none",
+                "displacement": {
+                    "parallax": 0,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "displayMode": "Mono",
+                "displays": "ON",
+                "imageProcessingSettings": {
+                    "colorDistanceFormula": "euclidean",
+                    "imageQuantizationAlgorithm": "nearest",
+                    "minimumColorDistanceToDither": 0,
+                    "serpentine": false
+                },
+                "isAnimated": true,
+                "manipulationFunction": "",
+                "name": "run",
+                "optimizeTiles": true,
+                "section": "rom",
+                "shareTiles": true,
+                "sourceType": "image",
+                "texture": {
+                    "files": [
+                        "run.png"
+                    ],
+                    "files2": [],
+                    "flip": {
+                        "x": false,
+                        "y": false
+                    },
+                    "padding": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "palette": 1,
+                    "recycleable": false,
+                    "repeat": {
+                        "mode": "1x1",
+                        "size": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "x": false,
+                        "y": false
+                    }
+                },
+                "transparency": "None"
+            }
+        ],
+        "wireframes": []
+    },
+    "extraProperties": {
+        "enabled": false,
+        "extraInfo": "",
+        "pixelSize": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        }
+    },
+    "inGameType": "None",
+    "logic": {
+        "configuration": {},
+        "customAllocator": "",
+        "enabled": false
+    },
+    "sprites": {
+        "type": "Bgmap"
+    }
+}

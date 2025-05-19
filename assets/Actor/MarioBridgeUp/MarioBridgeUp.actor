@@ -1,0 +1,142 @@
+{
+    "_id": "oWdpj1mFPdQcgGyu",
+    "_version": "0.6.0",
+    "animations": {
+        "default": 0,
+        "multiframe": false,
+        "totalFrames": 9
+    },
+    "body": {
+        "bounciness": 0,
+        "enabled": false,
+        "friction": 0,
+        "gravityAxes": [],
+        "mass": 0,
+        "maximumSpeed": 0,
+        "maximumVelocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotationAxes": []
+    },
+    "components": {
+        "animations": [
+            {
+                "callback": "",
+                "cycles": 8,
+                "frames": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8
+                ],
+                "loop": true,
+                "name": "Animation"
+            }
+        ],
+        "children": [],
+        "colliders": [],
+        "mutators": [],
+        "sprites": [
+            {
+                "_imageData": {
+                    "images": [
+                        {
+                            "animation": {
+                                "frames": 9
+                            },
+                            "maps": [
+                                {
+                                    "data": "H4sIAAAAAAAACiXNuREUMBAAsF4uJjg/67VDP9AEQ/9tMKBIoX5/vt/v9/PjHwUVDR2BgcTEwsbBxcNP/PpP8RVf8RVf8RVf8RVf8RVf8RVf8RVf8RVf9VVf9VVf9VVf9VVf9VVf9VVf9VVf9VVf8zVf8zVf8zVf8zVf8zVf8zVf8zVf8zVf93Vf93Vf93Vf93Vf93Vf93Vf93Vf93Vf+MIXvvCFL3zhC1/4whe+8IUvfOEL3/AN3/AN3/AN3/AN3/AN3/AN3/AN3/ANX/rSl770pS996Utf+tKXvvSlL33pS9/0Td/0Td/0Td/0Td/0Td/0Td/0Td/0Td/yLd/yLd/yLd/yLd/yLd/yLd/yLd/yLd/2bd/2bd/2bd/2bd/2bd/2bd/2bd/2bd/xHd/xHd/xHd/xHd/xHd/xHd/xHd/xHd/1Xd/1Xd/1Xd/1Xd/1Xd/1Xd/1Xd/1Xd/zPd/zPd/zPd/zvfz8+QviF/356QUAAA==",
+                                    "height": "54",
+                                    "width": "4",
+                                    "name": "bridgeup"
+                                }
+                            ],
+                            "tiles": {
+                                "count": 216,
+                                "data": "H4sIAAAAAAAACu2ZQXLjOAxF79LrXoAZADaW8Fi6xNTc/xpdEEESlCjZTuJedMtVrPyoaOlbBp4/qf9+gL9+/IwSe4lZEtWjqoqq5NJe0qQuJ0tUzsuqkNiOsqqmPMEkl7kjD/vOcHOUmtQrAF+LSXI7ZrCZ5CbFJxBXOymY5CrlCb+pSbVhl0AAvVbrsvkUNoHqTS3OiMwQcZZq/9oEoeVlkrN3M7nMyPdXiDhPkPw2ynbY7bjdtLHOflQFwCwVKe4MwYbZmRGUME8gtlH8UpHFZJBKpDayM5KjuW6H1zKpjSxnKzA774Rgo/h1kwBAWEuDSv2OrvZ1CZBuNqrftH+rwzdvf66HtR4ukVTxo9wd+0i06oChsw/VG93mu1U1EX3ku/5Kv518OPnwmA+sCNz4wCM+LJf7Jj4YCbZQYLWxyMsdYDkDTwic+cACxSQ2PnT1+y4+8N1G9msupNUDNZm29bst5XHPp05y8kYnwjSXgsHmzCTmW42SZSIC1hv2dnbr4eTDyYchH7Dxocml9TIqls4k+AIfNM/lhooyV17nw0UALg4xrCaxhYZP8iE4W5kc8mGyUf26yQd8eIiKMR/+sfKcZ+kzQeADq4AQl5OlDPNXmuxdUgULth+/LdnXneiddhaICaz5INT4gDYcCgaynlxjarziIZBWHRtWck1CQIWKuB23oLkLFzblIliKdUsuLajgSA2ufBiQa0yN4FcazyI1WqrIJbv8WHr7e88XEriFAhCjl8+VGiW4zW39Fv0eLzUMFELV2U3q74Xu5QfeOqOjOPNEfqjLHXd2a59iEOgPQ0OQAQrAKkna6iARPrO+UNV/eZ7RASJE198OBcLQkALGiIO3jVLFu5w5FHCTH4wa1PNhnGzsCPFX+KCh/RsUQpTo/ZrHEHIKFIwRi+TCB5vJXPnQQWEdJfy6acOHQf1Kn2y2fKCAinyFVTxwEKxaL8SZ/aWGdHknHUQJK6NFTggwt7wz4fr+9nzg1kPfygfbf5iP+JA+keJX+SG5FJK4kcBa2r85K+sLJo5QSPnH8l399rgZzvzwZ+aHcZTYzQ+DTDDOD9rmSseHYX4YLTWMDXTEh/BdvNr+4/XFdqkRljvuLC81gNpW5Rf5EHp+Ur1e5mmVCZwfYX1Rrra7vnjVzp8sxyEn8KF72yjkfJIPr8hgZzGplCU1yuWssLJjqKAMMaqUU8fctzgb70epMLkdIkUiRm//mhSWTZRlgnCxk5QoNVSUuUZtoWf3d0q/jSF2b/sP4Sg1MPl2icuLQ9eP3rabJL63cm8da0fvx89b4NL2H8LRp9cXfjEziULXQiOrTl4XbSBXyBrA871I25JQvZ18GMmTD38VH2RvfzLwgXs+rFYdT/FBHvCBt/uT8DofuM8PyR5auBS2h57XDR8wdXI1169w8iHc6pMPfxMfnskP+3y49HzQng9cd1Fo+i35YcWHyyxQH18yTKplrpv8WJ5/ZmeE+5sOT/Dh/18NSu1kISUAAA==",
+                                "name": "bridgeup"
+                            }
+                        }
+                    ]
+                },
+                "bgmapMode": "Bgmap",
+                "colorMode": 0,
+                "compression": "none",
+                "displacement": {
+                    "parallax": 0,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "displayMode": "Mono",
+                "displays": "ON",
+                "imageProcessingSettings": {
+                    "colorDistanceFormula": "euclidean",
+                    "imageQuantizationAlgorithm": "nearest",
+                    "minimumColorDistanceToDither": 0,
+                    "serpentine": false
+                },
+                "isAnimated": true,
+                "manipulationFunction": "",
+                "name": "bridgeup",
+                "optimizeTiles": true,
+                "section": "rom",
+                "shareTiles": true,
+                "sourceType": "image",
+                "texture": {
+                    "files": [
+                        "bridgeup.png"
+                    ],
+                    "files2": [],
+                    "flip": {
+                        "x": false,
+                        "y": false
+                    },
+                    "padding": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "palette": 1,
+                    "recycleable": false,
+                    "repeat": {
+                        "mode": "1x1",
+                        "size": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "x": false,
+                        "y": false
+                    }
+                },
+                "transparency": "None"
+            }
+        ],
+        "wireframes": []
+    },
+    "extraProperties": {
+        "enabled": false,
+        "extraInfo": "",
+        "pixelSize": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        }
+    },
+    "inGameType": "None",
+    "logic": {
+        "configuration": {},
+        "customAllocator": "",
+        "enabled": false
+    },
+    "sprites": {
+        "type": "Bgmap"
+    }
+}

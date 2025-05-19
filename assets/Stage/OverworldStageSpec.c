@@ -43,6 +43,9 @@ extern ActorSpec Hill1ActorSpec;
 extern ActorSpec Hill2ActorSpec;
 extern ActorSpec FlowerActorSpec;
 extern ActorSpec GoombaActorSpec;
+extern ActorSpec SmallMarioActorSpec;
+extern ActorSpec MarioBridgeDownActorSpec;
+extern ActorSpec MarioBridgeUpActorSpec;
 
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 // ACTOR LISTS

@@ -1,0 +1,141 @@
+{
+    "_id": "00Vkqrt9JKdyUS0f",
+    "_version": "0.6.0",
+    "animations": {
+        "default": 0,
+        "multiframe": false,
+        "totalFrames": 9
+    },
+    "body": {
+        "bounciness": 0,
+        "enabled": false,
+        "friction": 0,
+        "gravityAxes": [],
+        "mass": 0,
+        "maximumSpeed": 0,
+        "maximumVelocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotationAxes": []
+    },
+    "components": {
+        "animations": [
+            {
+                "callback": "",
+                "cycles": 8,
+                "frames": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                ],
+                "loop": true,
+                "name": "bridgedown"
+            }
+        ],
+        "children": [],
+        "colliders": [],
+        "mutators": [],
+        "sprites": [
+            {
+                "_imageData": {
+                    "images": [
+                        {
+                            "animation": {
+                                "frames": 9
+                            },
+                            "maps": [
+                                {
+                                    "data": "H4sIAAAAAAAACiXNuREUMBAAsF4uJjg/67VDP9AEQ/9tMKBIoX5/vt/v9/PjHwUVDR2BgcTEwsbBxcNP/PpP8RVf8RVf8RVf8RVf8RVf8RVf8RVf8RVf9VVf9VVf9VVf9VVf9VVf9VVf9VVf9VVf8zVf8zVf8zVf8zVf8zVf8zVf8zVf8zVf93Vf93Vf93Vf93Vf93Vf93Vf93Vf93Vf+MIXvvCFL3zhC1/4whe+8IUvfOEL3/AN3/AN3/AN3/AN3/AN3/AN3/AN3/ANX/rSl770pS996Utf+tKXvvSlL33pS9/0Td/0Td/0Td/0Td/0Td/0Td/0Td/0Td/yLd/yLd/yLd/yLd/yLd/yLd/yLd/yLd/2bd/2bd/2bd/2bd/2bd/2bd/2bd/2bd/xHd/xHd/xHd/xHd/xHd/xHd/xHd/xHd/1Xd/1Xd/1Xd/1Xd/1Xd/1Xd/1Xd/1Xd/zPd/zPd/zPd/zvfz8+QviF/356QUAAA==",
+                                    "height": "54",
+                                    "width": "4",
+                                    "name": "bridgedown"
+                                }
+                            ],
+                            "tiles": {
+                                "count": 216,
+                                "data": "H4sIAAAAAAAACu2ZQXLzNgyF75L1vwBTPjBYQiV5iU7vf40OCEiUbNmJ06RN0zijGVhDSc8U3keA+eOJ4vP061uHyDNUIZVsoZaWW2n58rKENWQFJdanX09pqZqWunyiyK6cATU50kCAjLBIrkVcr7AUGXJEe1LA7oCFE48wcWXiWuwyrqpc+UOU5RkKEWUPFYwmanJMtoLzOAuFK4OAFWAPVZVt+kx2EthlKhjDxx0Y6mdvykkzZPtqlxGRxPRlIsyw5e0OcVYF9oghR6spg+dDgco4W2oGYNPXhbVhvPkuC3roZUWX0Osff0Sxp8ywTL3lbyRtW7JJGiI1Q5eRqQAlHVlCLESqdJTDYEoeJhWyr+t9kb+KIb9Y+MOHj+JDfowPal9v8wEbH+xmMfamnHQMU+Aq+IBjiGu9hqvgQ5Nl4wN3O5xR3Q67rw81Oa3YSDgqNj50gVEDE1cx1TiGOOqlKef1pPXP4qGRK49EbDlFCOTUe46xLaBgZyM8HRtPSJ+Yyv+18IcP/2D9wDs+QN1kr/JBwGP4g/VDnSSwsE699eoOKtxV3G+NuzoJoKIbH4YLo5xZ+SCTD1Z0CHv90IG61Q8TCqlvULAw7RIGjybthMIzLDVAURM8+1T7XUcqF60wSVY/qOSi4qjIxCp+WaZnfflXXWi2Q37jZYnVnPiJcsz60HBWFzuGCwUAiydBhk+1WZ/8zXOvaocNYO3si0SSkdWP6t05S4lIp8l4jg2/1dIgLaDQ2A77FcKqpfkaC7HDlC21JF5sgCyV7XAHLFiGdAaUN7/tnDVkTJPJcUG5IEGsx5qJNG+kjXc8mgefyf3SPJuKKOijikfM5H5pBq/Ws2I+CvprEoT1ClGSaT2ztHUR/fetaOhXk7pPT1bWRdmtx2APS18rczSt9tXuy6KNg31AY7loKg79xSYnpPNV0ZDesWBDreHS8Ytt9Y+QNZPqy/CQED2P/kJ8JoMPJLOpSF+nqfjhw/fnA+9QcYsPeCsfMIsGOFXu8sESxgeYMUZYJ65s06HnrZSIcN9fsCy6yLLxYYaxSTI9v+ODTD5YKGd8KFsq71FRjtR4Z38RPcMaPvde09IvqHEk11p2lN5fuLe1v+DYtpiv+7Osdx7+8OGb8sFcyFcuvMmHtbW3Yn4t6E/5IO/mAyJ3dnLy1LuDwk0+YPLhpCYQFZW28UG8Xkev64CiC+yry1mIfgsSjDLmQ1yIKAq8aBhFwTog4aIpZrVGToMlFCQYvYhvYI7391H9xfl+FDCls2ZVOBR669IlQju2V+j3nU282S6a+J0LH1V2zV/sXPgypmGkctsax+D+4IPtMJXYE/MNp5skOHfhTZEnLrSlFi+b9JNNs92uu1o12Te/6bqoaVhP/ffIGQl8fmUshmE9hWf1OQkO0s165JaelYKFsr15O2xAy6Tdt2/M2r7TMJTxFsZZ06rSYn3bNRXWSeDYVNgKbYv2kMPYSFA6EfoWlotwAdHics7n95C/2/QdoGCm73W0GrrY8Zam4vj/i6n3TlORrvP3bimRwvRjNXXTj9BN7xM1TO+ve906CZSsADntL9LxaY9C7IcP/zM+bPt9t/iQCb6n22umBQ/zQSYfYutv3QWMoqGqWPGkE1dXRcOglP8KGDVsG9bY0J0PSz2i4qq/uMWH0/oBQNU7TcWBDztypRmOfLj4/8UjfHiwv5hbqzf6C5r9xQm5fvjwNfkgs4H+AnwA5xUKZjujwRr2y/DIB7a/CDfpyiqjS3qVD3KLD7huKoi4EZUW26VNtiQAXYa7WQ8+8Fv5sDYVuwFeaqz9hR2urEwo3PebHCsbuZv2PBGUVOl5191eNrqf01/8+Rfu79H5ISUAAA==",
+                                "name": "bridgedown"
+                            }
+                        }
+                    ]
+                },
+                "bgmapMode": "Bgmap",
+                "colorMode": 0,
+                "compression": "none",
+                "displacement": {
+                    "parallax": 0,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "displayMode": "Mono",
+                "displays": "ON",
+                "imageProcessingSettings": {
+                    "colorDistanceFormula": "euclidean",
+                    "imageQuantizationAlgorithm": "nearest",
+                    "minimumColorDistanceToDither": 0,
+                    "serpentine": false
+                },
+                "isAnimated": true,
+                "manipulationFunction": "",
+                "name": "bridgedown",
+                "optimizeTiles": true,
+                "section": "rom",
+                "shareTiles": true,
+                "sourceType": "image",
+                "texture": {
+                    "files": [
+                        "bridgedown.png"
+                    ],
+                    "files2": [],
+                    "flip": {
+                        "x": false,
+                        "y": false
+                    },
+                    "padding": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "palette": 1,
+                    "recycleable": false,
+                    "repeat": {
+                        "mode": "1x1",
+                        "size": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "x": false,
+                        "y": false
+                    }
+                },
+                "transparency": "None"
+            }
+        ],
+        "wireframes": []
+    },
+    "extraProperties": {
+        "enabled": false,
+        "extraInfo": "",
+        "pixelSize": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        }
+    },
+    "inGameType": "None",
+    "logic": {
+        "configuration": {},
+        "customAllocator": "",
+        "enabled": false
+    },
+    "sprites": {
+        "type": "Bgmap"
+    }
+}
