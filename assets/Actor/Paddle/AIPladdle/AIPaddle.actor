@@ -1,0 +1,161 @@
+{
+    "_id": "LXw6B9zDDFWOVMrJ",
+    "_version": "0.6.0",
+    "animations": {
+        "default": 0,
+        "multiframe": false,
+        "totalFrames": 1
+    },
+    "body": {
+        "bounciness": 1,
+        "enabled": true,
+        "friction": 0.25,
+        "gravityAxes": [],
+        "mass": 0.55,
+        "maximumSpeed": 8,
+        "maximumVelocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotationAxes": []
+    },
+    "components": {
+        "animations": [],
+        "children": [],
+        "colliders": [
+            {
+                "checkForCollisions": true,
+                "displacement": {
+                    "parallax": 0,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "layers": [
+                    "8mqpu6KL9PPdifyY"
+                ],
+                "layersToCheck": [
+                    "EXUdZOmEedD9n6AS"
+                ],
+                "name": "Collider",
+                "pixelSize": {
+                    "x": 8,
+                    "y": 32,
+                    "z": 16
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "type": "Box"
+            }
+        ],
+        "mutators": [
+            {
+                "mutationClass": "AIPaddle",
+                "name": "AIPaddle"
+            }
+        ],
+        "sprites": [
+            {
+                "_imageData": {
+                    "images": [
+                        {
+                            "animation": {
+                                "frames": 1
+                            },
+                            "maps": [
+                                {
+                                    "data": "H4sIAAAAAAAAA4tWMjAwMFDSAVGGCMoYJBgLANzTSUodAAAA",
+                                    "height": "4",
+                                    "width": "1",
+                                    "name": "Paddle"
+                                }
+                            ],
+                            "tiles": {
+                                "count": 2,
+                                "data": "H4sIAAAAAAAAA4tWMjYwcDZwczNQ0lFyNjAwBmEqMGMBQrsKwVkAAAA=",
+                                "name": "Paddle"
+                            }
+                        }
+                    ]
+                },
+                "bgmapMode": "Bgmap",
+                "colorMode": 0,
+                "compression": "none",
+                "displacement": {
+                    "parallax": 0,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "displayMode": "Mono",
+                "displays": "ON",
+                "imageProcessingSettings": {
+                    "colorDistanceFormula": "euclidean",
+                    "imageQuantizationAlgorithm": "nearest",
+                    "minimumColorDistanceToDither": 0,
+                    "serpentine": false
+                },
+                "isAnimated": true,
+                "manipulationFunction": "",
+                "name": "Paddle",
+                "optimizeTiles": true,
+                "section": "rom",
+                "sourceType": "image",
+                "texture": {
+                    "files": [
+                        "Paddle.png"
+                    ],
+                    "files2": [],
+                    "flip": {
+                        "x": false,
+                        "y": false
+                    },
+                    "padding": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "palette": 0,
+                    "recycleable": false,
+                    "repeat": {
+                        "mode": "1x1",
+                        "size": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "x": false,
+                        "y": false
+                    }
+                },
+                "transparency": "None"
+            }
+        ],
+        "wireframes": []
+    },
+    "extraProperties": {
+        "enabled": false,
+        "extraInfo": "",
+        "pixelSize": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        }
+    },
+    "inGameType": "5mZTdX1TSzYcLpaf",
+    "logic": {
+        "configuration": {},
+        "customAllocator": "",
+        "enabled": false
+    },
+    "sprites": {
+        "type": "Bgmap"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "_version": "0.6.0",
+    "languages": [
+        {
+            "code": "en",
+            "flag": "FlagUnitedKingdomActorSpec",
+            "localizedName": "English",
+            "name": "English"
+        },
+        {
+            "code": "de",
+            "flag": "FlagGermanyActorSpec",
+            "localizedName": "Deutsch",
+            "name": "German"
+        },
+        {
+            "code": "es",
+            "flag": "FlagSpainActorSpec",
+            "localizedName": "Español",
+            "name": "Spanish"
+        }
+    ],
+    "translations": {
+        "YourGameHere": {
+            "de": "Dein Spiel hier",
+            "en": "Your Game Here",
+            "es": "Su juego aquí"
+        }
+    }
+}

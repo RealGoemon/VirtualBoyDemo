@@ -1,0 +1,214 @@
+{
+    "_id": "Zx0B5zRkdpulFzre",
+    "_version": "0.6.0",
+    "animations": {
+        "default": 0,
+        "multiframe": false,
+        "totalFrames": 1
+    },
+    "body": {
+        "bounciness": 0,
+        "enabled": false,
+        "friction": 0,
+        "gravityAxes": [],
+        "mass": 0,
+        "maximumSpeed": 0,
+        "maximumVelocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotationAxes": []
+    },
+    "components": {
+        "animations": [],
+        "children": [],
+        "colliders": [],
+        "mutators": [],
+        "sprites": [
+            {
+                "_imageData": {
+                    "images": [
+                        {
+                            "animation": {
+                                "frames": 1
+                            },
+                            "maps": [
+                                {
+                                    "data": "H4sIAAAAAAAACu2VOw7CMBBE75KawjtLElISPpdA3P8aCL0tMFqBBVIqV68Ze/SmsG9DKcWG3RMCvhX2oIARTN8xgwNYwLH5+ApOVXvgDC7gmkQswGbGZuZZEj9DzKasrz6AmCFmSxZB03Cw1CGSqBgqlqkEFLCkXaqAphATYpqy5PzaLu5UZiSMtGbtpx9RuSvwYYKG5dvRvnxv7+29vbdv2u4BnnvXX+3Oj+D8CD6+Re4PWGPY518IAAA=",
+                                    "height": "17",
+                                    "width": "18",
+                                    "name": "toori_L"
+                                },
+                                {
+                                    "data": "H4sIAAAAAAAACu2VPQrDMAxG7+K5g2tLajw2f5covf81OjwHkiBIaEsmTw+Fz3x5WvQKMWYLtxBjzBchP0DHx8hUmOwQ+Ql6MIARTMfPZ6Zh3V4hFXeQvAgOIkCBeUk0BU0pTmT3ADFBTLwfXJLYCrYyOxGtQEU9lSWJkYrTrviltIZiq/hp50XKph0x7b32WjQ67elL6LRpZz32l82fwPnNt/bW3tpb+6XtRtJIWv6p3Tgaxpmw/Rl8fwAU6BzeXwgAAA==",
+                                    "height": "17",
+                                    "width": "18",
+                                    "name": "toori_R"
+                                }
+                            ],
+                            "tiles": {
+                                "count": 103,
+                                "data": "H4sIAAAAAAAACpWXQY7kIAxF7zLrWRgaI1h+R+YSo7n/NUYGAiQh1T0lRf0aUcF8g/3rzy/qn1+/v8d0xfRpLjPHibB/K0YscwE52gSec+vnOtrmAoZuGTWsc4kcX2Ow1YByMCM1JHvOl8kxsNSv2ev7wuif28IT7Q8ROUMPkK+jhYjKA/tcW6KUUmaQ5xKqhweS/zSXxlxVxf29SF8Fab43+R6vACTnhtreIoA4N+QmUjzR9b39z9Eo6YJ63HGZGyHSMUME0NJHISjXuY4ZE7PjGPtoxyp1X/g7NKlFqtRvSBZbRaiqiMlXoFoeKKpaUNGktqehtyRM9A8cQukFi9xxmZsBPeWLULSFbRRQuaVlXr2KzPmK+wztcZ+h/eg+Q/vRY6bF8PiEqiQiVd9v0dIi2jOEE32Bogz0Dfeq73Gv+ksutqq/5OIYecNBhOMDloSkK9bS9oKzgCz1bI9FSulSW9XqlUsm2jx/4pAagJSynr5bEfMF6FJbBfNSztvtZ2RpFLzjGm96j1c9RoYMPV4xTakN0yekmEZ3MowJr7ikxRohHlXuUhyXDNnNWvB+396bz+a9647tpC54P7/rNq+4OZ7LjmtnSO8xIBD15sOBKIeKIRBxL9tEFEYRQ2xthhHBnG21wMyuLxycIwqhhZOdq6aBKDA511tSeHYnZBOqLcFEkVs4johnOG5UT+TcYogZ3AuTYw7NopCzJdpqjiOF02CMyNq77k1tNkArvvHhmJa5P/I7o0svzsbQtXDo5ndcOzvT74i5q+kfpt/BOGf2ln7nu4exKygTj4fX2HsYa58/9TAi1jqeHsZfPczZQgVpeBhmDj/xZzy9XMXF78R5nfh+syRdsBx3XI9cxPAwGRIB7aMRcnuvn4k1dLmeswWXVkdXfJ4dQfKqVWoBiTmWibXrJS/afF+VWlVfUSdePcweMfEMR/WCUu64XpE80h1jRAakj+Ym37rjPC+DYWy3cOI+Q3vcZ2g/us/QHiX5Q5M/2vkdSEJKmFhvoUmtU/WP+OocN7hXfY971V9ysVV9j5gXhxMRpw8oCWlkyLCWqz2WoqM+fOdhQPLVpQYOFBU/Dm2axaZ2SPsJ1aW2UatTt9u9FDEdUiORt6fvuJcrdBNTpf4qQ3UPKW21LaYpn2H6hKsvcQH2vOIitfUxTp9qyaq63ZYF73fosgs7UQvez9ka+hU3x2jZRa3QAa/xLl4D02tU2/H0Gtm8RqySMGI3GCEwW69vrqJOt6/V0bOxBken1zhNwxrD9BqGp9cw27HxGhGcM+ovn5i7wbCVpqs4ezexjQY+DUagcC4crjH8/QdfmljUtREAAA==",
+                                "name": "toori_L"
+                            }
+                        }
+                    ]
+                },
+                "bgmapMode": "Bgmap",
+                "colorMode": 0,
+                "compression": "none",
+                "displacement": {
+                    "parallax": 3,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "displayMode": "Stereo",
+                "displays": "ON",
+                "imageProcessingSettings": {
+                    "colorDistanceFormula": "euclidean",
+                    "imageQuantizationAlgorithm": "nearest",
+                    "minimumColorDistanceToDither": 0,
+                    "serpentine": false
+                },
+                "isAnimated": true,
+                "manipulationFunction": "",
+                "name": "toori_L",
+                "optimizeTiles": true,
+                "section": "rom",
+                "shareTiles": true,
+                "sourceType": "image",
+                "texture": {
+                    "files": [
+                        "toori_L.png"
+                    ],
+                    "files2": [
+                        "toori_R.png"
+                    ],
+                    "flip": {
+                        "x": false,
+                        "y": false
+                    },
+                    "padding": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "palette": 0,
+                    "recycleable": false,
+                    "repeat": {
+                        "mode": "1x1",
+                        "size": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "x": false,
+                        "y": false
+                    }
+                },
+                "transparency": "None"
+            },
+            {
+                "_imageData": {
+                    "images": [
+                        {
+                            "animation": {
+                                "frames": 1
+                            },
+                            "maps": [
+                                {
+                                    "data": "H4sIAAAAAAAACu2Ruw2AMAwFd0lNYROSkJLvEoj910DI1ZNeQUBQoFTXnH1RvDkRUdecaD+GN4ih+yobDBHqydCzgQwYmDIycwJlNiyQRaxsNSgqRFFlJiq+NPsC6CPU7q6BDcSbSLDFjqr50c9fR8HP13qt13qt/7W+H3UauidfCAAA",
+                                    "height": "17",
+                                    "width": "18",
+                                    "name": "toori_L_bg"
+                                },
+                                {
+                                    "data": "H4sIAAAAAAAACu2RMQ6AIAxF78Ls8IsCMiroJYz3v4ZDFxs7iEYGw/RC8ttHfjcD0GQ6A8DWBc38AmOoZXcML+yBMWoD8QxKl4gFkpKETGbGIrQSq2YXEcrsc6JIbSfJrvtS7RcH1z5BfHdy2oB/iCC28FEpvmr+Pgqab/Zmb/Zm/6t9PwC3DxK5XwgAAA==",
+                                    "height": "17",
+                                    "width": "18",
+                                    "name": "toori_R_bg"
+                                }
+                            ],
+                            "tiles": {
+                                "count": 31,
+                                "data": "H4sIAAAAAAAACqWUUQrEMAhE79Lv/VBwTrPs/a+xaFw0xjaBDRReS6qZ0fi+yNf12iOICAtKoO4T3+DrBAkAOXIgAfpqyNDXJYIE6l9iKKTPSWIGwL9sJsKRA3Xxaomn2HtmB/fEJoluccQFjuJKxFWU+Lrg2BmmUjKVCw77gOpkh9w62aPZeKptZ1RGCsVte2Jqz1Ccy10qzyfiiw+P4hM+VX71oe/fvqPam9V21F3cvvJ3F+e/yuejS1fNaaykpi39my7v6N9QXGaULEgzbsZgmkb9cRw/X12m8LdVBQAA",
+                                "name": "toori_L_bg"
+                            }
+                        }
+                    ]
+                },
+                "bgmapMode": "Bgmap",
+                "colorMode": 0,
+                "compression": "none",
+                "displacement": {
+                    "parallax": 3,
+                    "x": 0,
+                    "y": 0,
+                    "z": 1
+                },
+                "displayMode": "Stereo",
+                "displays": "ON",
+                "imageProcessingSettings": {
+                    "colorDistanceFormula": "euclidean",
+                    "imageQuantizationAlgorithm": "nearest",
+                    "minimumColorDistanceToDither": 0,
+                    "serpentine": false
+                },
+                "isAnimated": true,
+                "manipulationFunction": "",
+                "name": "toori_L_bg",
+                "optimizeTiles": true,
+                "section": "rom",
+                "shareTiles": true,
+                "sourceType": "image",
+                "texture": {
+                    "files": [
+                        "toori_L_bg.png"
+                    ],
+                    "files2": [
+                        "toori_R_bg.png"
+                    ],
+                    "flip": {
+                        "x": false,
+                        "y": false
+                    },
+                    "padding": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "palette": 1,
+                    "recycleable": false,
+                    "repeat": {
+                        "mode": "1x1",
+                        "size": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "x": false,
+                        "y": false
+                    }
+                },
+                "transparency": "None"
+            }
+        ],
+        "wireframes": []
+    },
+    "extraProperties": {
+        "enabled": false,
+        "extraInfo": "",
+        "pixelSize": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        }
+    },
+    "inGameType": "None",
+    "logic": {
+        "configuration": {},
+        "customAllocator": "",
+        "enabled": false
+    },
+    "sprites": {
+        "type": "Bgmap"
+    }
+}

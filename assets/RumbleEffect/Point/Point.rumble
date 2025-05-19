@@ -1,0 +1,11 @@
+{
+    "_id": "daVp76YyTWfmHsuP",
+    "_version": "0.6.0",
+    "break": 255,
+    "effect": 12,
+    "frequency": 160,
+    "overdrive": 126,
+    "stopBeforeStarting": true,
+    "sustainNegative": 255,
+    "sustainPositive": 255
+}

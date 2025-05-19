@@ -1,0 +1,214 @@
+{
+    "_id": "rHPWG2uFHtZyMy3j",
+    "_version": "0.6.0",
+    "animations": {
+        "default": 0,
+        "multiframe": false,
+        "totalFrames": 1
+    },
+    "body": {
+        "bounciness": 0,
+        "enabled": false,
+        "friction": 0,
+        "gravityAxes": [],
+        "mass": 0,
+        "maximumSpeed": 0,
+        "maximumVelocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotationAxes": []
+    },
+    "components": {
+        "animations": [],
+        "children": [],
+        "colliders": [],
+        "mutators": [],
+        "sprites": [
+            {
+                "_imageData": {
+                    "images": [
+                        {
+                            "animation": {
+                                "frames": 1
+                            },
+                            "maps": [
+                                {
+                                    "data": "H4sIAAAAAAAACotWMjAwNFLSAVHGYMrAAJkyNIFQphBBCGVoBqHMIZQFCmUJoRwhGpwhPCcIBeW5YKNcIZShUiwAw/P+rJQAAAA=",
+                                    "height": "3",
+                                    "width": "7",
+                                    "name": "bridgeL"
+                                },
+                                {
+                                    "data": "H4sIAAAAAAAACotWMjAwMFTSAVFGEMoYQhmgUCYQyhRCmUEocwhlAaEsIZQjhHKCUM4QygVCuUIoNyyUIcQiQ0OlWACTl+CGlAAAAA==",
+                                    "height": "3",
+                                    "width": "7",
+                                    "name": "bridgeR"
+                                }
+                            ],
+                            "tiles": {
+                                "count": 31,
+                                "data": "H4sIAAAAAAAACq2UUW6DMBBE78J3PmYXe7X+HCNOUfX+16jWNgFSSFupJJFerCEZLw8+JoxjevwHku8Dflg1j/dVVthQYIB1NIHY5e8KW4AKqE+PyTyZEParvko/NFNyabuoSOwdWBGfF0Rr5g0lOvRV3VBd4dDA3KtLNNMoCZ0eUynt/3TUMbPAnHMedSzbhqWUcqhuZrE3+UMWSKZI7TS4C7yVBCS+Bsbw1J8zI2ufzhIT2nF5wX0kfh6U76tLR0Lh1NGMrG0OrKy1B2qtdV3XNVbHMepEaM/ynFUlFc8s5md2/pa92cU1/uSO37oubChiQO7oKYvLlZPd9exxNXw7zW9c/445PMpj9eAv3vkrniCewskUOsADSwjsDcMGS3xxMlu2906KifTqqgypeqCU4O1qasv24j5udESLdgHaLTQwnLnfhZ9x84xU0rc7a5OLlUOje882uS6z0Hi1J0w8MxRzZMMxn8/Zzy/vVVihVQUAAA==",
+                                "name": "bridgeL"
+                            }
+                        }
+                    ]
+                },
+                "bgmapMode": "Bgmap",
+                "colorMode": 0,
+                "compression": "none",
+                "displacement": {
+                    "parallax": 1,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "displayMode": "Stereo",
+                "displays": "ON",
+                "imageProcessingSettings": {
+                    "colorDistanceFormula": "euclidean",
+                    "imageQuantizationAlgorithm": "nearest",
+                    "minimumColorDistanceToDither": 0,
+                    "serpentine": false
+                },
+                "isAnimated": true,
+                "manipulationFunction": "",
+                "name": "bridgeL",
+                "optimizeTiles": true,
+                "section": "rom",
+                "shareTiles": true,
+                "sourceType": "image",
+                "texture": {
+                    "files": [
+                        "bridgeL.png"
+                    ],
+                    "files2": [
+                        "bridgeR.png"
+                    ],
+                    "flip": {
+                        "x": false,
+                        "y": false
+                    },
+                    "padding": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "palette": 0,
+                    "recycleable": false,
+                    "repeat": {
+                        "mode": "1x1",
+                        "size": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "x": false,
+                        "y": false
+                    }
+                },
+                "transparency": "None"
+            },
+            {
+                "_imageData": {
+                    "images": [
+                        {
+                            "animation": {
+                                "frames": 1
+                            },
+                            "maps": [
+                                {
+                                    "data": "H4sIAAAAAAAACotWMjAwcFXSAVFuEMoAmTKEUoYQQTMIzwjCs8RNGRpDeI4QnglhDaYQnotSLABzLorplAAAAA==",
+                                    "height": "3",
+                                    "width": "7",
+                                    "name": "bridgeL_bg"
+                                },
+                                {
+                                    "data": "H4sIAAAAAAAACotWMjAwMFTSAVFGEMoYQhlAKBMIZQqhzCCUOYSygFCWeChHCOUEoZwJa3BRigUAOdh9CZQAAAA=",
+                                    "height": "3",
+                                    "width": "7",
+                                    "name": "bridgeR_bg"
+                                }
+                            ],
+                            "tiles": {
+                                "count": 22,
+                                "data": "H4sIAAAAAAAACq2SUQ7DIAxD79LvfRjJPs3U+19jCgkla4HxMSSkpyo1TuL3gTjH6w9YJEKaF4gAAyVauRUUXbWuQEfZvWEXMyGuECFcUbLrJoVSUXG22vTfeFlvCoaM5ssDazdeS4hExkuMDdV112h2ynM6Q0x2kt8p6hvXHpYPj/c2iYZEenYiDv61DhD9Ydw8DLMz7m3qQXnHyIvV3szsXV939wsLe0ObAzfFcqLa+H7s4vwA/stUiskDAAA=",
+                                "name": "bridgeL_bg"
+                            }
+                        }
+                    ]
+                },
+                "bgmapMode": "Bgmap",
+                "colorMode": 0,
+                "compression": "none",
+                "displacement": {
+                    "parallax": 1,
+                    "x": 0,
+                    "y": 0,
+                    "z": 1
+                },
+                "displayMode": "Stereo",
+                "displays": "ON",
+                "imageProcessingSettings": {
+                    "colorDistanceFormula": "euclidean",
+                    "imageQuantizationAlgorithm": "nearest",
+                    "minimumColorDistanceToDither": 0,
+                    "serpentine": false
+                },
+                "isAnimated": true,
+                "manipulationFunction": "",
+                "name": "bridgeL_bg",
+                "optimizeTiles": true,
+                "section": "rom",
+                "shareTiles": true,
+                "sourceType": "image",
+                "texture": {
+                    "files": [
+                        "bridgeL_bg.png"
+                    ],
+                    "files2": [
+                        "bridgeR_bg.png"
+                    ],
+                    "flip": {
+                        "x": false,
+                        "y": false
+                    },
+                    "padding": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "palette": 1,
+                    "recycleable": false,
+                    "repeat": {
+                        "mode": "1x1",
+                        "size": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "x": false,
+                        "y": false
+                    }
+                },
+                "transparency": "None"
+            }
+        ],
+        "wireframes": []
+    },
+    "extraProperties": {
+        "enabled": false,
+        "extraInfo": "",
+        "pixelSize": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        }
+    },
+    "inGameType": "None",
+    "logic": {
+        "configuration": {},
+        "customAllocator": "",
+        "enabled": false
+    },
+    "sprites": {
+        "type": "Bgmap"
+    }
+}

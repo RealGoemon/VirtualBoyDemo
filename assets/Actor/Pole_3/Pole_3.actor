@@ -1,0 +1,124 @@
+{
+    "_id": "rWS3iSk2zLGB0y87",
+    "_version": "0.6.0",
+    "animations": {
+        "default": 0,
+        "multiframe": false,
+        "totalFrames": 1
+    },
+    "body": {
+        "bounciness": 0,
+        "enabled": false,
+        "friction": 0,
+        "gravityAxes": [],
+        "mass": 0,
+        "maximumSpeed": 0,
+        "maximumVelocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotationAxes": []
+    },
+    "components": {
+        "animations": [],
+        "children": [],
+        "colliders": [],
+        "mutators": [],
+        "sprites": [
+            {
+                "_imageData": {
+                    "images": [
+                        {
+                            "animation": {
+                                "frames": 1
+                            },
+                            "maps": [
+                                {
+                                    "data": "H4sIAAAAAAAACotWMjAwMFDSAVGGEMoIQhlDKBMIZQqhzCCUOYSygFCWEMoRQjlRJucMoVwglCuEclOKBQA1d3qvqQAAAA==",
+                                    "height": "6",
+                                    "width": "4",
+                                    "name": "Pole_3"
+                                }
+                            ],
+                            "tiles": {
+                                "count": 16,
+                                "data": "H4sIAAAAAAAACmWQS2oEMQxE79LrWQhEqfBSsaxLhNz/GkH+ZLozgsYPudp69vclu67XHSkifSEo4v1/wJ09s8/AKm50d39mNdxFM+vciBgkKhsRn9knDhHRiQMi6nNwF8Ma3CgAF7bu/nXQDP16XebupVSDa42JGQFrc3BhcnbNzEjWLTIzmdO3cJ+Qu0pH3URbZWWQMiYqMmU4NiqZ09d7fU+zG9bm6Zo50P7MknhiBQ7ueprdsDY3qgPa8DZb3RtWYKF5O74BdPc2MaIDOEhuhB3fzCDQNtYLvjHXb3HzvT31p7oi4vgyUzGzC1eAW/3nF86CYFfBAgAA",
+                                "name": "Pole_3"
+                            }
+                        }
+                    ]
+                },
+                "bgmapMode": "Bgmap",
+                "colorMode": 0,
+                "compression": "none",
+                "displacement": {
+                    "parallax": 7,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "displayMode": "Mono",
+                "displays": "ON",
+                "imageProcessingSettings": {
+                    "colorDistanceFormula": "euclidean",
+                    "imageQuantizationAlgorithm": "nearest",
+                    "minimumColorDistanceToDither": 0,
+                    "serpentine": false
+                },
+                "isAnimated": true,
+                "manipulationFunction": "",
+                "name": "Pole_3",
+                "optimizeTiles": true,
+                "section": "rom",
+                "shareTiles": true,
+                "sourceType": "image",
+                "texture": {
+                    "files": [
+                        "Pole_3.png"
+                    ],
+                    "files2": [],
+                    "flip": {
+                        "x": false,
+                        "y": false
+                    },
+                    "padding": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "palette": 0,
+                    "recycleable": false,
+                    "repeat": {
+                        "mode": "1x1",
+                        "size": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "x": false,
+                        "y": false
+                    }
+                },
+                "transparency": "None"
+            }
+        ],
+        "wireframes": []
+    },
+    "extraProperties": {
+        "enabled": false,
+        "extraInfo": "",
+        "pixelSize": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        }
+    },
+    "inGameType": "None",
+    "logic": {
+        "configuration": {},
+        "customAllocator": "",
+        "enabled": false
+    },
+    "sprites": {
+        "type": "Bgmap"
+    }
+}

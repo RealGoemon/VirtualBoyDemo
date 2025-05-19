@@ -1,0 +1,132 @@
+{
+    "_id": "uwBTuZE6Wm8wv35N",
+    "_version": "0.6.0",
+    "animations": {
+        "default": 0,
+        "multiframe": false,
+        "totalFrames": 1
+    },
+    "body": {
+        "bounciness": 0,
+        "enabled": false,
+        "friction": 0,
+        "gravityAxes": [],
+        "mass": 0,
+        "maximumSpeed": 0,
+        "maximumVelocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotationAxes": []
+    },
+    "components": {
+        "animations": [],
+        "children": [],
+        "colliders": [],
+        "mutators": [],
+        "sprites": [
+            {
+                "_imageData": {
+                    "images": [
+                        {
+                            "animation": {
+                                "frames": 1
+                            },
+                            "maps": [
+                                {
+                                    "data": "H4sIAAAAAAAACj3NMRYBURBE0b38eILf1RhCDJtw7H8bDhfRi6ruY8w5ayzvRFp2speDrGMZ+Q+OcpKzXOQqm9zk/klN8VLYwha2sIWtVXjFK17xile84hUvvPDCCy+88MILL7zwwgsvvPDCC695zWte85rXvOY1b3532MY2trGN7e03eL4A8KUg+sEBAAA=",
+                                    "height": "8",
+                                    "width": "8",
+                                    "name": "warioL"
+                                },
+                                {
+                                    "data": "H4sIAAAAAAAACjWOMRKDMAwE/+KaQrZ8F1KSED6R4f/fYIYV1RbWefffIqK3pUXkDxw3ZgDe5gDZljaewZxAwOAFVvAGG7v1Rq+TD/iCHRAxiej8KVqEVrQoAREiQjXAICJEhDaAVmiFVmiF1viMbzA32sF8MDcRJsJEZM1pSXbJZdYlgSbQGKJ2dBqRS0Sn6fTxDM4LcVb3IsEBAAA=",
+                                    "height": "8",
+                                    "width": "8",
+                                    "name": "warioR"
+                                }
+                            ],
+                            "tiles": {
+                                "count": 112,
+                                "data": "H4sIAAAAAAAACpVYS44sKQy8S617ARLhUiyNEi4xmvtfY+QPkFXVPa9fSiVZtJPEYTsc9D+Pks/j66/M9mq2D5MsBc1N1TlEADMBzEk3VWCP+5IiEquqIiKPr0efc44x9PH1ML/Bu6+krz3m23sfY4z0nXPOT1+R7av6nS9w83VzztnzE+Yr2s23AhadHacfX6hOndN9LZqI7Xt07mYVtlJbQqIkbV/YBm6qXtCOMBWqF1+DV+hQ9a+JeUSYd4efTC5TICqKH33lBrWoXKoWsYgoGQ4CBdLUi9rDwb/RNyQeEGTHBrE4vR4SM0adVfv9aFZFrXDTNkIcHVRLt++rICT2pZmruKDaHSj7q8YZVAmNHY5JWDgR8eSqVNXOoeMA1RkJcNgdSYVC6RUllhYPPjf21+AJfXw9LqW72+ol0pEJgKVbouSEmQARBXgtk9SdAOobvv5k8FzB38xKogZmVcmqXr+VwhpnqARrvgbSkhRmA8Qq9QkUhkmgDLD4GTZ8hoxmQPAqsH57djx5IVC3tEVnPYcSzxEJ0L3qLWAmJZxtMwoTXx3+Me/COaz56JWKtSqAChNJW8dGMorW4GD0m23WwzdSlUVAK+sMHgdJtcKN4lJE+zOAko2vO5RKlOC+UsFS72bsIM0gtJPRMuj1K4zMekBx4gBVh14jIbEGXq8F1GIhjOBJ6U/KFaYqRRNfUrKl7Rv+2uxTk7l6H8tMevAEeOxeUf7O6nnd7Y8DKnYhJqUmbUNOIaZJxPIrV+digCpAwOfJin0N0ISvClAz3QKp3KY5Rz20hE+0Fft5bK1omixFmauAQegfVs+nmd1Kynv+Usql6SDG0TYOhqhewXJJpEzUFdJP9XkKL9XJ8B2q9gvi98JfZ2CSjagOeadtBnFHWpwzAz7ZmFGNjh0HColMy4LPKTdq3V6x1CwzWKPAkWRUqli1vpkFkgNQWykKn2QopbBtpdA+RINN4BEn895fjOj9xgC1KWG00q8dpmFmvyRSJd8GVR+W4TjOuGF2A9Vg9Yg7HWG87nsD1XyJLCNrQjmjTnLUuRQ4/MsN9ZlvYdbTDNVAXfOtIuHLoYYfhZaINJAtOrYwTKKs+r1BHZAGOQbrbk2QmbdkcSuFxbRWnrLGjBUMcop8Jxp2suSIHJ83OYe81mM6eSVTX+vMKHBBIiI1VtOMOhMp2ej+rJZuwAqzJ9RzKLTP8aon82tLJqXZu+vJo/t2FDdf1fT9Tk9++N70pH7ju3r+dgbTtGui7zKKdnI5oxbRHuPGH/Nv9SS0tYKy9GQENKzpNY++VaYrEcVbQIpnv+lJPn+tJ/e8UDXh8r7vMXHMCeol9ypx06c/t55kx+vEedGTR0Rio+4JuIcZbYpQBXEGHN2HT90352D2UDB1vwU0PnSfHN1nyudn3Yej+/olMrfDi+7bYT5vVX3Tfdu0A7OGUrD3IswYIxGxvZYjtBFOIBAUpGq7WmGYA608YxZCNiSq403L+cnGBT4/tJy4lptJ8ch6wLW0nNUedsSm2EN+KRLq1HIpUdaq6TjRRTaLzEOJybuWMxV0pZbbjGgq6Vstx6PllhhBCAhZ+MYsdK0R5FggN1OKIPVOUbTQcmygtjAtzGBw0LJkUKuOp/bnKqMkhVBEfNVyCr0UHbvkXD/wjFBkp/+PlnOyz7ueNVZemDZ8jAvy0bR5512X4ryzJRXjiIZl8ky9G09KlCRTgeSUvt0AK43to4woS/qQpoATVM9Farkimkj+Qcu5PgN/pc8+dVSKU8kzpI7aURwdhbxfyL3JFhvVuo9eqqDUM9/SLGI6ir/TRtYtaxYeXXI3sZN1EmA3CqxcgKuUNzma2Ctbl6zj/FGX8FwnGffuoAoWES/7mNztU5d4pcUORjFJeGVdufLfEpHCpUv8dnC0hnzzL44DlF87FpHebhLnWhJk8fqfJ4s4XzP1UXK1uilbtaWZOPz7H7b3uVlBEwAA",
+                                "name": "warioL"
+                            }
+                        }
+                    ]
+                },
+                "bgmapMode": "Bgmap",
+                "colorMode": 0,
+                "compression": "none",
+                "displacement": {
+                    "parallax": 0,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "displayMode": "Stereo",
+                "displays": "ON",
+                "imageProcessingSettings": {
+                    "colorDistanceFormula": "euclidean",
+                    "imageQuantizationAlgorithm": "nearest",
+                    "minimumColorDistanceToDither": 0,
+                    "serpentine": false
+                },
+                "isAnimated": true,
+                "manipulationFunction": "",
+                "name": "warioL",
+                "optimizeTiles": true,
+                "section": "rom",
+                "shareTiles": true,
+                "sourceType": "image",
+                "texture": {
+                    "files": [
+                        "warioL.png"
+                    ],
+                    "files2": [
+                        "warioR.png"
+                    ],
+                    "flip": {
+                        "x": false,
+                        "y": false
+                    },
+                    "padding": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "palette": 1,
+                    "recycleable": false,
+                    "repeat": {
+                        "mode": "1x1",
+                        "size": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "x": false,
+                        "y": false
+                    }
+                },
+                "transparency": "None"
+            }
+        ],
+        "wireframes": []
+    },
+    "extraProperties": {
+        "enabled": false,
+        "extraInfo": "",
+        "pixelSize": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        }
+    },
+    "inGameType": "None",
+    "logic": {
+        "configuration": {},
+        "customAllocator": "",
+        "enabled": false
+    },
+    "sprites": {
+        "type": "Bgmap"
+    }
+}

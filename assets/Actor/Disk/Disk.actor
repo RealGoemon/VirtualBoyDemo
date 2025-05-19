@@ -1,0 +1,162 @@
+{
+    "_id": "DBPJuEZXjiRfTlQA",
+    "_version": "0.6.0",
+    "animations": {
+        "default": 0,
+        "multiframe": false,
+        "totalFrames": 1
+    },
+    "body": {
+        "bounciness": 1,
+        "enabled": true,
+        "friction": 1,
+        "gravityAxes": [],
+        "mass": 0.1,
+        "maximumSpeed": 5,
+        "maximumVelocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotationAxes": []
+    },
+    "components": {
+        "animations": [],
+        "children": [],
+        "colliders": [
+            {
+                "checkForCollisions": true,
+                "displacement": {
+                    "parallax": 0,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "layers": [
+                    "Kcw7MNbiPnV3qhmO"
+                ],
+                "layersToCheck": [
+                    "8mqpu6KL9PPdifyY",
+                    "EXUdZOmEedD9n6AS"
+                ],
+                "name": "Collider",
+                "pixelSize": {
+                    "x": 8,
+                    "y": 0,
+                    "z": 0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "type": "Ball"
+            }
+        ],
+        "mutators": [
+            {
+                "mutationClass": "Disk",
+                "name": "Disk"
+            }
+        ],
+        "sprites": [
+            {
+                "_imageData": {
+                    "images": [
+                        {
+                            "animation": {
+                                "frames": 1
+                            },
+                            "maps": [
+                                {
+                                    "data": "H4sIAAAAAAAAA4tWMjAwMFCKBQA/0T/2CAAAAA==",
+                                    "height": "1",
+                                    "width": "1",
+                                    "name": "Disk"
+                                }
+                            ],
+                            "tiles": {
+                                "count": 1,
+                                "data": "H4sIAAAAAAAAA4tWMjYwcDZwczNQ0lFyNjAwBmFUJkgSpEgpFgBNA567LQAAAA==",
+                                "name": "Disk"
+                            }
+                        }
+                    ]
+                },
+                "bgmapMode": "Bgmap",
+                "colorMode": 0,
+                "compression": "none",
+                "displacement": {
+                    "parallax": 0,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "displayMode": "Mono",
+                "displays": "ON",
+                "imageProcessingSettings": {
+                    "colorDistanceFormula": "euclidean",
+                    "imageQuantizationAlgorithm": "nearest",
+                    "minimumColorDistanceToDither": 0,
+                    "serpentine": false
+                },
+                "isAnimated": true,
+                "manipulationFunction": "",
+                "name": "Disk",
+                "optimizeTiles": true,
+                "section": "rom",
+                "sourceType": "image",
+                "texture": {
+                    "files": [
+                        "Disk.png"
+                    ],
+                    "files2": [],
+                    "flip": {
+                        "x": false,
+                        "y": false
+                    },
+                    "padding": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "palette": 0,
+                    "recycleable": false,
+                    "repeat": {
+                        "mode": "1x1",
+                        "size": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "x": false,
+                        "y": false
+                    }
+                },
+                "transparency": "None"
+            }
+        ],
+        "wireframes": []
+    },
+    "extraProperties": {
+        "enabled": false,
+        "extraInfo": "",
+        "pixelSize": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        }
+    },
+    "inGameType": "UdKB8bl2ZbtVxd3q",
+    "logic": {
+        "configuration": {},
+        "customAllocator": "",
+        "enabled": false
+    },
+    "sprites": {
+        "type": "Bgmap"
+    }
+}
