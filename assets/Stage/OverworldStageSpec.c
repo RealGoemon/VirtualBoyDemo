@@ -85,8 +85,6 @@ PositionedActorROMSpec OverworldStageUiActors[] =
 
 FontROMSpec* const OverworldStageFonts[] =
 {
-	&VirtualBoyExtFontSpec,
-
 	NULL
 };
 

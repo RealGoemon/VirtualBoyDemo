@@ -19,11 +19,5 @@
 extern FontSpec DefaultFontSpec;
 extern FontSpec ProfilerFontSpec;
 extern FontSpec DebugFontSpec;
-extern FontSpec AstonishFontSpec;
-extern FontSpec AstonishExtFontSpec;
-extern FontSpec AstonishSFontSpec;
-extern FontSpec AstonishSExtFontSpec;
-extern FontSpec VirtualBoyFontSpec;
-extern FontSpec VirtualBoyExtFontSpec;
 
 #endif

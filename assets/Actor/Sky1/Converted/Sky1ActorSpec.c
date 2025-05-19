@@ -7,8 +7,8 @@
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 #include <Actor.h>
-#include <BgmapSprite.h>
 #include <InGameTypes.h>
+#include <MBgmapSprite.h>
 #include <Texture.h>
 
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
@@ -73,15 +73,22 @@ TextureROMSpec Sky1Sprite1TextureSpec =
 	false
 };
 
-BgmapSpriteROMSpec Sky1Sprite1SpriteSpec =
+TextureROMSpec* const Sky1Sprite1TextureSpecs[] =
 {
+	(TextureSpec*)&Sky1Sprite1TextureSpec,
+	NULL
+};
+
+MBgmapSpriteROMSpec Sky1Sprite1SpriteSpec =
+{
+	{
 	{
 		// VisualComponent
 		{
 			// Component
 			{
 				// Allocator
-				__TYPE(BgmapSprite),
+				__TYPE(MBgmapSprite),
 
 				// Component type
 				kSpriteComponent
@@ -92,7 +99,7 @@ BgmapSpriteROMSpec Sky1Sprite1SpriteSpec =
 		},
 
 		// Spec for the texture to display
-		(TextureSpec*)&Sky1Sprite1TextureSpec,
+		NULL,
 
 		// Transparency mode (__TRANSPARENCY_NONE, __TRANSPARENCY_EVEN or __TRANSPARENCY_ODD)
 		__TRANSPARENCY_NONE,
@@ -109,6 +116,25 @@ BgmapSpriteROMSpec Sky1Sprite1SpriteSpec =
 	
 	// Pointer to affine/hbias manipulation function
 	NULL
+	},
+
+	// Texture to use with the sprite
+	(TextureSpec**)Sky1Sprite1TextureSpecs,
+
+	// SCX/SCY value
+	__WORLD_1x1,
+
+	// Flag to loop the x axis
+	true,
+
+	// Flag to loop the y axis
+	false,
+
+	// Bounds the sprite's width to provide culling; if 0, the value is inferred from the texture
+	0,
+
+	// Bounds the sprite's height to provide culling; if 0, the value is inferred from the texture
+	0
 };
 
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————

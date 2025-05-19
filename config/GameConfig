@@ -1,33 +1,8 @@
 {
-    "_version": "0.6.0",
-    "plugins": {
-        "vuengine//actors/LowPowerActor": {},
-        "vuengine//fonts/AstonishFont": {},
-        "vuengine//fonts/VirtualBoyFont": {},
-        "vuengine//other/AutomaticPause": {
-            "bodyTextFont": "Default",
-            "titleTextFont": "Default",
-            "useLowPowerActor": true
-        },
-        "vuengine//other/I18n": {},
-        "vuengine//other/SaveDataManager": {},
-        "vuengine//states/splash/AdjustmentScreenPrototype": {},
-        "vuengine//states/splash/AlignmentCheckScreen": {},
-        "vuengine//states/splash/AutomaticPauseSelectionScreen": {
-            "bodyTextFont": "Default",
-            "optionsTextFont": "Default",
-            "titleTextFont": "AstonishExt",
-            "useLowPowerActor": true
-        },
-        "vuengine//states/splash/LanguageSelectionScreen": {
-            "titleTextFont": "AstonishExt",
-            "useLowPowerActor": true,
-            "variant": 1
-        },
-        "vuengine//states/splash/PrecautionScreen": {
-            "textFont": "AstonishExt",
-            "useLowPowerActor": true
-        }
-    },
-    "projectTitle": "Nintendo Virtual Boy Demo"
+	"_version": "0.6.0",
+	"plugins": {
+		"vuengine//actors/LowPowerActor": {},
+		"vuengine//other/LowPowerIndicator": {}
+	},
+	"projectTitle": "Nintendo Virtual Boy Demo"
 }

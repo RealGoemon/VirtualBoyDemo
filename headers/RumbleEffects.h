@@ -15,7 +15,5 @@
 // DECLARATIONS
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
-extern RumbleEffectSpec BounceRumbleEffectSpec;
-extern RumbleEffectSpec PointRumbleEffectSpec;
 
 #endif
