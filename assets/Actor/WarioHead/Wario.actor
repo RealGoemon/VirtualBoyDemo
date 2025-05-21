@@ -83,9 +83,7 @@
                     "files": [
                         "warioL.png"
                     ],
-                    "files2": [
-                        "warioR.png"
-                    ],
+                    "files2": [],
                     "flip": {
                         "x": false,
                         "y": false

@@ -98,7 +98,7 @@ BgmapSpriteROMSpec Pole_3Sprite1SpriteSpec =
 		__TRANSPARENCY_NONE,
 
 		// Displacement added to the sprite's position
-		{17, -24, 0, 6}
+		{17, -25, 4, 6}
 	},
 
 	// Flag to indicate in which display to show the texture (__WORLD_ON, __WORLD_LON or __WORLD_RON)

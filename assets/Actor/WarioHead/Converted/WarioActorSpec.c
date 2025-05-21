@@ -41,7 +41,7 @@ CharSetROMSpec WarioSprite1CharsetSpec =
 	NULL
 };
 
-TextureROMSpec WarioSprite1LTextureSpec =
+TextureROMSpec WarioSprite1TextureSpec =
 {
 	// Pointer to the char spec that the texture uses
 	(CharSetSpec*)&WarioSprite1CharsetSpec,
@@ -74,7 +74,7 @@ TextureROMSpec WarioSprite1LTextureSpec =
 	false
 };
 
-BgmapSpriteROMSpec WarioSprite1LSpriteSpec =
+BgmapSpriteROMSpec WarioSprite1SpriteSpec =
 {
 	{
 		// VisualComponent
@@ -93,7 +93,7 @@ BgmapSpriteROMSpec WarioSprite1LSpriteSpec =
 		},
 
 		// Spec for the texture to display
-		(TextureSpec*)&WarioSprite1LTextureSpec,
+		(TextureSpec*)&WarioSprite1TextureSpec,
 
 		// Transparency mode (__TRANSPARENCY_NONE, __TRANSPARENCY_EVEN or __TRANSPARENCY_ODD)
 		__TRANSPARENCY_NONE,
@@ -103,78 +103,7 @@ BgmapSpriteROMSpec WarioSprite1LSpriteSpec =
 	},
 
 	// Flag to indicate in which display to show the texture (__WORLD_ON, __WORLD_LON or __WORLD_RON)
-	__WORLD_LON,
-
-	// The display mode (__WORLD_BGMAP, __WORLD_AFFINE or __WORLD_HBIAS)
-	__WORLD_BGMAP,
-	
-	// Pointer to affine/hbias manipulation function
-	NULL
-};
-
-TextureROMSpec WarioSprite1RTextureSpec =
-{
-	// Pointer to the char spec that the texture uses
-	(CharSetSpec*)&WarioSprite1CharsetSpec,
-
-	// Pointer to the map array that defines how to use the tiles from the char set
-	WarioActorwarioRMap,
-
-	// Horizontal size in tiles of the texture (max. 64)
-	8,
-
-	// Vertical size in tiles of the texture (max. 64)
-	8,
-
-	// padding for affine/hbias transformations
-	{0, 0},
-
-	// Number of frames that the texture supports
-	1,
-
-	// Palette index to use by the graphical data (0 - 3)
-	1,
-
-	// Flag to recycle the texture with a different map
-	false,
-
-	// Flag to vertically flip the image
-	false,
-
-	// Flag to horizontally flip the image
-	false
-};
-
-BgmapSpriteROMSpec WarioSprite1RSpriteSpec =
-{
-	{
-		// VisualComponent
-		{
-			// Component
-			{
-				// Allocator
-				__TYPE(BgmapSprite),
-
-				// Component type
-				kSpriteComponent
-			},
-
-			// Array of animation functions
-			(const AnimationFunction**)NULL
-		},
-
-		// Spec for the texture to display
-		(TextureSpec*)&WarioSprite1RTextureSpec,
-
-		// Transparency mode (__TRANSPARENCY_NONE, __TRANSPARENCY_EVEN or __TRANSPARENCY_ODD)
-		__TRANSPARENCY_NONE,
-
-		// Displacement added to the sprite's position
-		{0, 0, 0, 0}
-	},
-
-	// Flag to indicate in which display to show the texture (__WORLD_ON, __WORLD_LON or __WORLD_RON)
-	__WORLD_RON,
+	__WORLD_ON,
 
 	// The display mode (__WORLD_BGMAP, __WORLD_AFFINE or __WORLD_HBIAS)
 	__WORLD_BGMAP,
@@ -189,8 +118,7 @@ BgmapSpriteROMSpec WarioSprite1RSpriteSpec =
 
 ComponentSpec* const WarioComponentSpecs[] = 
 {
-	(ComponentSpec*)&WarioSprite1LSpriteSpec,
-	(ComponentSpec*)&WarioSprite1RSpriteSpec,
+	(ComponentSpec*)&WarioSprite1SpriteSpec,
 	NULL
 };
 
