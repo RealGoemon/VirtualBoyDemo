@@ -60,8 +60,8 @@
                 "compression": "none",
                 "displacement": {
                     "parallax": 0,
-                    "x": 0,
-                    "y": 0,
+                    "x": 13,
+                    "y": -13,
                     "z": 0
                 },
                 "displayMode": "Stereo",

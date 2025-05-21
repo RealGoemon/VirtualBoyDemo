@@ -53,9 +53,9 @@
                 "colorMode": 0,
                 "compression": "none",
                 "displacement": {
-                    "parallax": 5,
-                    "x": 0,
-                    "y": 0,
+                    "parallax": 4,
+                    "x": 16,
+                    "y": -13,
                     "z": 0
                 },
                 "displayMode": "Mono",

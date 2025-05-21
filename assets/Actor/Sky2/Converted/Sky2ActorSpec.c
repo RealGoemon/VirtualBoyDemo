@@ -7,8 +7,8 @@
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 #include <Actor.h>
+#include <BgmapSprite.h>
 #include <InGameTypes.h>
-#include <MBgmapSprite.h>
 #include <Texture.h>
 
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
@@ -49,7 +49,7 @@ TextureROMSpec Sky2Sprite1TextureSpec =
 	Sky2Actorsky2Map,
 
 	// Horizontal size in tiles of the texture (max. 64)
-	4,
+	64,
 
 	// Vertical size in tiles of the texture (max. 64)
 	1,
@@ -73,22 +73,15 @@ TextureROMSpec Sky2Sprite1TextureSpec =
 	false
 };
 
-TextureROMSpec* const Sky2Sprite1TextureSpecs[] =
+BgmapSpriteROMSpec Sky2Sprite1SpriteSpec =
 {
-	(TextureSpec*)&Sky2Sprite1TextureSpec,
-	NULL
-};
-
-MBgmapSpriteROMSpec Sky2Sprite1SpriteSpec =
-{
-	{
 	{
 		// VisualComponent
 		{
 			// Component
 			{
 				// Allocator
-				__TYPE(MBgmapSprite),
+				__TYPE(BgmapSprite),
 
 				// Component type
 				kSpriteComponent
@@ -99,13 +92,13 @@ MBgmapSpriteROMSpec Sky2Sprite1SpriteSpec =
 		},
 
 		// Spec for the texture to display
-		NULL,
+		(TextureSpec*)&Sky2Sprite1TextureSpec,
 
 		// Transparency mode (__TRANSPARENCY_NONE, __TRANSPARENCY_EVEN or __TRANSPARENCY_ODD)
 		__TRANSPARENCY_NONE,
 
 		// Displacement added to the sprite's position
-		{0, 0, 0, 10}
+		{256, -8, 4, 10}
 	},
 
 	// Flag to indicate in which display to show the texture (__WORLD_ON, __WORLD_LON or __WORLD_RON)
@@ -116,25 +109,6 @@ MBgmapSpriteROMSpec Sky2Sprite1SpriteSpec =
 	
 	// Pointer to affine/hbias manipulation function
 	NULL
-	},
-
-	// Texture to use with the sprite
-	(TextureSpec**)Sky2Sprite1TextureSpecs,
-
-	// SCX/SCY value
-	__WORLD_1x1,
-
-	// Flag to loop the x axis
-	true,
-
-	// Flag to loop the y axis
-	false,
-
-	// Bounds the sprite's width to provide culling; if 0, the value is inferred from the texture
-	0,
-
-	// Bounds the sprite's height to provide culling; if 0, the value is inferred from the texture
-	0
 };
 
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————

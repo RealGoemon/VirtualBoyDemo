@@ -25,7 +25,7 @@ extern uint16 Hill2ActorHill2Map[];
 CharSetROMSpec Hill2Sprite1CharsetSpec =
 {
 	// Number of CHARs in function of the number of frames to load at the same time
-	6,
+	7,
 
 	// Whether it is shared or not
 	true,
@@ -49,10 +49,10 @@ TextureROMSpec Hill2Sprite1TextureSpec =
 	Hill2ActorHill2Map,
 
 	// Horizontal size in tiles of the texture (max. 64)
-	2,
+	54,
 
 	// Vertical size in tiles of the texture (max. 64)
-	3,
+	4,
 
 	// padding for affine/hbias transformations
 	{0, 0},
@@ -98,7 +98,7 @@ BgmapSpriteROMSpec Hill2Sprite1SpriteSpec =
 		__TRANSPARENCY_NONE,
 
 		// Displacement added to the sprite's position
-		{0, 0, 0, 10}
+		{216, -16, 5, 8}
 	},
 
 	// Flag to indicate in which display to show the texture (__WORLD_ON, __WORLD_LON or __WORLD_RON)

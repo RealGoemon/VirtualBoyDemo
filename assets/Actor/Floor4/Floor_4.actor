@@ -1,5 +1,5 @@
 {
-    "_id": "mtfeAiton6x8H2bu",
+    "_id": "AarapdwYwgPJDD6k",
     "_version": "0.6.0",
     "animations": {
         "default": 0,
@@ -35,16 +35,16 @@
                             },
                             "maps": [
                                 {
-                                    "data": "H4sIAAAAAAAACotWMjAwMFDSGaUIUoYQyghCGY/y8PFMIJQphDIb5eHjmUMoCwhlicJzxCM3InlOSrEAFLmYbbUEAAA=",
+                                    "data": "H4sIAAAAAAAACotWMjAwMFDSAVGGoxTtKSMIZQyhTEZ5NOSZQigzCGU+yqMhzwJCWUIox2HOcxooM2MB4cWjpbEFAAA=",
                                     "height": "4",
-                                    "width": "43",
-                                    "name": "Floor2"
+                                    "width": "52",
+                                    "name": "Floor4"
                                 }
                             ],
                             "tiles": {
                                 "count": 12,
-                                "data": "H4sIAAAAAAAACoWRQW7EMAwD/+JzDjIQytCRgcNPFP3/NwrJyWa3KNCcCHs8ouOvJklmZm1rBw+e53m2rfH6PqP1cbPgwe7FgqR7AW+RBG7DbsaoY9adMCDZ4TQsr3nRbWsd5ma9ZJoG7L2iJqQ9YwD3tN3MUd798fbHC8mhWXGUYWYdgAF5xUmGJxCQMKRcDUxi6HX58M//8LfXAWJ5HZO+vLkZo1YxZk65ZAg4Hm+sDs7AfSzdbWtDmmONiByxZP+yuXmxF/Crg+cTrQ6e75Ydvn8AHk6C3RECAAA=",
-                                "name": "Floor2"
+                                "data": "H4sIAAAAAAAACo2QQYrEMBAD/+LzHNoQddNHDbY+sez/v7G4nWTIYWB9ErhcUvLTNA5bp73am8ScebRXIwky8xkl6WbfnHPODdR5RjMHUM86DGZ9RWgYcPSKGpB2G3AZDjNmVVh3woDFhtNweYveXjfr/OpNaCJUIxODiHNvkok7ci+TQ6NkUYaxAIAJecVBpnN7hZA+Xt0fn/78DwktRV7LorwhjTgrEokQTiCj2hBjtZwyJBwfb26vM8Gv3gTWMP8Puy6L/f0DHcVpdBECAAA=",
+                                "name": "Floor4"
                             }
                         }
                     ]
@@ -54,8 +54,8 @@
                 "compression": "none",
                 "displacement": {
                     "parallax": 0,
-                    "x": 172,
-                    "y": -16,
+                    "x": 208,
+                    "y": -17,
                     "z": 0
                 },
                 "displayMode": "Mono",
@@ -68,14 +68,14 @@
                 },
                 "isAnimated": true,
                 "manipulationFunction": "",
-                "name": "Floor2",
+                "name": "Floor4",
                 "optimizeTiles": true,
                 "section": "rom",
                 "shareTiles": true,
                 "sourceType": "image",
                 "texture": {
                     "files": [
-                        "Floor2.png"
+                        "Floor4.png"
                     ],
                     "files2": [],
                     "flip": {

@@ -99,7 +99,7 @@ BgmapSpriteROMSpec MBlock_1Sprite1LSpriteSpec =
 		__TRANSPARENCY_NONE,
 
 		// Displacement added to the sprite's position
-		{0, 0, 0, 0}
+		{13, -13, 0, 0}
 	},
 
 	// Flag to indicate in which display to show the texture (__WORLD_ON, __WORLD_LON or __WORLD_RON)
@@ -170,7 +170,7 @@ BgmapSpriteROMSpec MBlock_1Sprite1RSpriteSpec =
 		__TRANSPARENCY_NONE,
 
 		// Displacement added to the sprite's position
-		{0, 0, 0, 0}
+		{13, -13, 0, 0}
 	},
 
 	// Flag to indicate in which display to show the texture (__WORLD_ON, __WORLD_LON or __WORLD_RON)

@@ -35,15 +35,15 @@
                             },
                             "maps": [
                                 {
-                                    "data": "H4sIAAAAAAAACotWMjAwMFDSAVGGEMoIQhlDKBMIZaoUCwAEMNcgKwAAAA==",
-                                    "height": "3",
-                                    "width": "2",
+                                    "data": "H4sIAAAAAAAACotWMjAwMFTSAVFGEAqVZ4BC4VOJTx8+U/CpJFcfuS6jt+3GEMoEGw9VHz6V+PThM4V4H5FrA7n2Ee9qcm0nPjxpzyM+5Iemfag8UwhlNhh4+EJiONgH58UCANme97jpBQAA",
+                                    "height": "4",
+                                    "width": "54",
                                     "name": "Hill2"
                                 }
                             ],
                             "tiles": {
-                                "count": 6,
-                                "data": "H4sIAAAAAAAACoXM0QnDQAwD0F38nQ+JSBMcaImS/dcIdtJCaKEGw+NO8quMBElqK1uR94veey+qt7ZK4CRoUsxycwleRgcIiqKftb8kSEJ+X/jwx2tXeNfmW00RgIa45+vCJIYzj+xxAo2VvMEJAQAA",
+                                "count": 7,
+                                "data": "H4sIAAAAAAAACoXMUQqAMAwD0Lv47UdhhBzAkEuI97+GtJvCUFig8NianluMbPuacIQHwSCOThw5ncypmhERToqKhmSj0eBckEVRmGtLypJMPBde/rxmRaNW30xStln0yOdCbRQr0+51A20oNPs1AQAA",
                                 "name": "Hill2"
                             }
                         }
@@ -53,10 +53,10 @@
                 "colorMode": 0,
                 "compression": "none",
                 "displacement": {
-                    "parallax": 10,
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
+                    "parallax": 8,
+                    "x": 216,
+                    "y": -16,
+                    "z": 5
                 },
                 "displayMode": "Mono",
                 "displays": "ON",

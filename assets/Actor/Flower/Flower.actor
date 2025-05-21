@@ -64,10 +64,10 @@
                 "colorMode": 0,
                 "compression": "none",
                 "displacement": {
-                    "parallax": 5,
+                    "parallax": 4,
                     "x": 0,
                     "y": 0,
-                    "z": 1
+                    "z": 4
                 },
                 "displayMode": "Mono",
                 "displays": "ON",
@@ -97,7 +97,7 @@
                         "x": 0,
                         "y": 0
                     },
-                    "palette": 0,
+                    "palette": 1,
                     "recycleable": false,
                     "repeat": {
                         "mode": "1x1",

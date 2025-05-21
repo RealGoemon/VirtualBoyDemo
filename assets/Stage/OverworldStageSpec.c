@@ -25,12 +25,19 @@ extern ActorSpec LowPowerIndicatorActorSpec;
 extern ActorSpec Torii_1ActorSpec;
 extern ActorSpec WarioActorSpec;
 extern ActorSpec Floor_1ActorSpec;
+extern ActorSpec Floor_2ActorSpec;
+extern ActorSpec Floor_3ActorSpec;
+extern ActorSpec Floor_4ActorSpec;
 extern ActorSpec Bridge_1ActorSpec;
 extern ActorSpec Block_1ActorSpec;
 extern ActorSpec MBlock_1ActorSpec;
 extern ActorSpec SmallBlockActorSpec;
 extern ActorSpec PipeActorSpec;
 extern ActorSpec MidFloor_1ActorSpec;
+extern ActorSpec MidFloor_2ActorSpec;
+extern ActorSpec MidFloor_3ActorSpec;
+extern ActorSpec MidFloor_4ActorSpec;
+extern ActorSpec MidFloor_5ActorSpec;
 extern ActorSpec Pole_1ActorSpec;
 extern ActorSpec Pole_2ActorSpec;
 extern ActorSpec Pole_3ActorSpec;
@@ -44,6 +51,7 @@ extern ActorSpec Hill2ActorSpec;
 extern ActorSpec FlowerActorSpec;
 extern ActorSpec GoombaActorSpec;
 extern ActorSpec SmallMarioActorSpec;
+extern ActorSpec BigMario_1ActorSpec;
 extern ActorSpec MarioBridgeDownActorSpec;
 extern ActorSpec MarioBridgeUpActorSpec;
 
@@ -54,25 +62,49 @@ extern ActorSpec MarioBridgeUpActorSpec;
 PositionedActorROMSpec OverworldStageActors[] =
 {
 	
-	{&Torii_1ActorSpec, 			{0, 12, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
-	{&Sky1ActorSpec, 				{0, -97, 2}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
-	{&Sky2ActorSpec, 				{0, -77, 5}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
-	{&SkyPipeActorSpec, 			{32, -97, 2}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
-	{&Mountains1ActorSpec, 			{0, -8, 6}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
-	{&Pole_1ActorSpec, 				{-112, 49, 3}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
-	{&Pole_2ActorSpec, 				{-64, 45, 3}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
-	{&Pole_3ActorSpec, 				{-24, 41, 3}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
-	{&MidFloor_1ActorSpec, 			{-128, 83, 2}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
-	{&PipeActorSpec, 				{112, 64, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
-	{&SmallPipeActorSpec, 			{-90, 53, 2}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
-	{&FlowerActorSpec, 				{-89, 0, 2}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
-	{&Block_1ActorSpec, 			{144, 69, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
-	{&MBlock_1ActorSpec, 			{128, 0, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
-	{&SmallBlockActorSpec, 			{-64, 57, 2}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
-	{&Bridge_1ActorSpec, 			{2, 68, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
-	{&WarioActorSpec, 				{-144, -32, -1}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
-	{&Floor_1ActorSpec, 			{-256, 113, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
-	{&LowPowerIndicatorActorSpec, 	{-192 + 8, 112 - 4, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	//{&Torii_1ActorSpec, 			{0, 12, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	{&Sky1ActorSpec, 				{-10, -80, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	//{&Sky1ActorSpec, 				{480, -80, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	//{&Sky1ActorSpec, 				{960, -80, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	//{&Sky1ActorSpec, 				{1440, -80, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	{&Sky2ActorSpec, 				{-10, -68, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	//{&Sky2ActorSpec, 				{512, -68, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	//{&Sky2ActorSpec, 				{1024, -68, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	//{&SkyPipeActorSpec, 			{32, -97, 2}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+
+	{&Mountains1ActorSpec, 			{-10, -8, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	{&Hill1ActorSpec, 				{-24, 40, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	{&Hill2ActorSpec, 				{240, 40, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	
+	{&Pole_1ActorSpec, 				{17, 65, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	{&Pole_1ActorSpec, 				{129, 65, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	{&Pole_2ActorSpec, 				{161, 65, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	{&Pole_1ActorSpec, 				{281, 65, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	
+	
+	{&SmallPipeActorSpec, 			{68, 65, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	{&FlowerActorSpec, 				{84, 0, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	{&MidFloor_1ActorSpec, 			{36, 80, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	{&MidFloor_2ActorSpec, 			{268, 80, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	{&MidFloor_3ActorSpec, 			{445, 80, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+
+	{&Block_1ActorSpec, 			{320, 80, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	{&Block_1ActorSpec, 			{344, 80, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	{&Block_1ActorSpec, 			{368, 80, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	{&Block_1ActorSpec, 			{344, 56, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	{&Block_1ActorSpec, 			{368, 56, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	{&MBlock_1ActorSpec, 			{208, 24, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	//{&PipeActorSpec, 				{112, 64, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	//{&SmallBlockActorSpec, 			{-64, 57, 2}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	//{&Bridge_1ActorSpec, 			{16, 68, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	//{&WarioActorSpec, 				{-144, -32, -1}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+
+	{&BigMario_1ActorSpec, 			{24, 56, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	{&Floor_1ActorSpec, 			{0, 113, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	{&Floor_2ActorSpec, 			{512, 113, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	{&Floor_3ActorSpec, 			{944, 113, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	{&Floor_4ActorSpec, 			{1144, 113, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	//{&LowPowerIndicatorActorSpec, 	{-192 + 8, 112 - 4, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
 
 	{NULL, {0, 0, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
 };
@@ -125,7 +157,7 @@ StageROMSpec OverworldStageSpec =
 		// Stage's size in pixels
 		{
 			// x
-			__SCREEN_WIDTH,
+			1752,
 			// y
 			__SCREEN_HEIGHT,
 			// z
@@ -135,7 +167,7 @@ StageROMSpec OverworldStageSpec =
 		// Camera's initial position inside the stage
 		{
 			// x
-			0,
+			192,
 			// y
 			0,
 			// z

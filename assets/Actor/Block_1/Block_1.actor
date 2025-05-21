@@ -35,13 +35,13 @@
                             },
                             "maps": [
                                 {
-                                    "data": "H4sIAAAAAAAACotWMjAwMFDSAVGGEMoIQhlDKBMIZQqhzCCUOYSyUIoFAIXiFYBAAAAA",
+                                    "data": "H4sIAAAAAAAACotWMjAwsFTSAVGOEMoJQjlDKBcI5Qqh3MCUoQGEMlSKBQCf4iZgQAAAAA==",
                                     "height": "3",
                                     "width": "3",
                                     "name": "BigBlock_L"
                                 },
                                 {
-                                    "data": "H4sIAAAAAAAACotWMjAwsFTSAVGOEMoJQjlDKBcI5Qqh3MCUoQGEMlSKBQCf4iZgQAAAAA==",
+                                    "data": "H4sIAAAAAAAACotWMjAwMFDSAVGGEMoIQhlDKBMIZQqhzCCUOYSyUIoFAIXiFYBAAAAA",
                                     "height": "3",
                                     "width": "3",
                                     "name": "BigBlock_R"
@@ -49,7 +49,7 @@
                             ],
                             "tiles": {
                                 "count": 18,
-                                "data": "H4sIAAAAAAAACo2RXQoDIRCD7+LzPog9QSLJJUrvf43iD6tbV7YDwvcQSWbyDrZzjDGGo2J54Qiksxa07aGtUwWkJIUjACe+hjbBTk2bSCZUwYT3bjsEIbRvhCRc0TQla3HzLRaBt24AM1CxLAMg943tHn1avs3QYrtxApCGtuOuC2bpFx+7IPDQBUoc6IqTBciMBa9xShXt6qfxhHS9097tMcMcZ9uF7P+62BivXXy+kkchyhkDAAA=",
+                                "data": "H4sIAAAAAAAACo2RQQoDIRRD7+K6W+06weQSpfe/RvnODDod7VQQ3iKQfN4r2a4555weDeOnRyJZpW+07Z5tbwtQkgKBA589W2CXLVtAFkBnHCpAVlzwPAeCEBt68YA0bWnddrthnANWoGEcA6AeF9s6H4/99Sx+FAOlZ3dcuXDVBW9dALxxwZjTAgPO21aIJuPQoqZlQNOUrEubpxgBL9vWLsL3Xy6mF89cvD8nwWCJGQMAAA==",
                                 "name": "BigBlock_L"
                             }
                         }
@@ -60,8 +60,8 @@
                 "compression": "none",
                 "displacement": {
                     "parallax": 0,
-                    "x": 0,
-                    "y": 0,
+                    "x": 12,
+                    "y": -12,
                     "z": 0
                 },
                 "displayMode": "Stereo",
@@ -94,7 +94,7 @@
                         "x": 0,
                         "y": 0
                     },
-                    "palette": 0,
+                    "palette": 1,
                     "recycleable": false,
                     "repeat": {
                         "mode": "1x1",

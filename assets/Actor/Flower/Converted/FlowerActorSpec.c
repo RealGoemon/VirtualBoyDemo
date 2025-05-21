@@ -91,7 +91,7 @@ TextureROMSpec FlowerSprite1TextureSpec =
 	1,
 
 	// Palette index to use by the graphical data (0 - 3)
-	0,
+	1,
 
 	// Flag to recycle the texture with a different map
 	false,
@@ -128,7 +128,7 @@ BgmapSpriteROMSpec FlowerSprite1SpriteSpec =
 		__TRANSPARENCY_NONE,
 
 		// Displacement added to the sprite's position
-		{0, 0, 1, 5}
+		{0, 0, 4, 4}
 	},
 
 	// Flag to indicate in which display to show the texture (__WORLD_ON, __WORLD_LON or __WORLD_RON)

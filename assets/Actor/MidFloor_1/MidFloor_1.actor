@@ -54,9 +54,9 @@
                 "compression": "none",
                 "displacement": {
                     "parallax": 4,
-                    "x": 79,
-                    "y": -9,
-                    "z": 0
+                    "x": 80,
+                    "y": -8,
+                    "z": 3
                 },
                 "displayMode": "Mono",
                 "displays": "ON",

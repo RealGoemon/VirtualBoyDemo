@@ -53,10 +53,10 @@
                 "colorMode": 0,
                 "compression": "none",
                 "displacement": {
-                    "parallax": 14,
-                    "x": 0,
+                    "parallax": 10,
+                    "x": 256,
                     "y": 0,
-                    "z": 0
+                    "z": 6
                 },
                 "displayMode": "Mono",
                 "displays": "ON",

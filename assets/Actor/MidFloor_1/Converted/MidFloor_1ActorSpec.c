@@ -98,7 +98,7 @@ BgmapSpriteROMSpec MidFloor_1Sprite1SpriteSpec =
 		__TRANSPARENCY_NONE,
 
 		// Displacement added to the sprite's position
-		{79, -9, 0, 4}
+		{80, -8, 3, 4}
 	},
 
 	// Flag to indicate in which display to show the texture (__WORLD_ON, __WORLD_LON or __WORLD_RON)

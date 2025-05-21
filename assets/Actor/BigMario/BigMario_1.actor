@@ -4,7 +4,7 @@
     "animations": {
         "default": 0,
         "multiframe": false,
-        "totalFrames": 10
+        "totalFrames": 17
     },
     "body": {
         "bounciness": 0,
@@ -24,23 +24,66 @@
         "animations": [
             {
                 "callback": "",
-                "cycles": 8,
-                "frames": [],
+                "cycles": 20,
+                "frames": [
+                    0,
+                    1,
+                    2
+                ],
                 "loop": true,
-                "name": "idlejump"
+                "name": "idle"
             },
             {
                 "callback": "",
                 "cycles": 8,
                 "frames": [
-                    0,
-                    1,
-                    2,
                     3,
-                    4
+                    4,
+                    5,
+                    6,
+                    7
                 ],
                 "loop": true,
                 "name": "run"
+            },
+            {
+                "callback": "",
+                "cycles": 8,
+                "frames": [
+                    8,
+                    9
+                ],
+                "loop": true,
+                "name": "jump"
+            },
+            {
+                "callback": "",
+                "cycles": 8,
+                "frames": [
+                    10
+                ],
+                "loop": true,
+                "name": "stop"
+            },
+            {
+                "callback": "",
+                "cycles": 8,
+                "frames": [
+                    13
+                ],
+                "loop": true,
+                "name": "die"
+            },
+            {
+                "callback": "",
+                "cycles": 8,
+                "frames": [
+                    14,
+                    15,
+                    16
+                ],
+                "loop": true,
+                "name": "poledown"
             }
         ],
         "children": [],
@@ -52,20 +95,20 @@
                     "images": [
                         {
                             "animation": {
-                                "frames": 10
+                                "frames": 17
                             },
                             "maps": [
                                 {
-                                    "data": "H4sIAAAAAAAACiXNuXEcQRAAsFzOpnHTz3SvSX1JqJR/GioSFkz8fb3f7/fr44uDQKLQuBgsHnziB37iF37jzzfHd3zHd3zHd3zHd3zHd3zHd3zHd3zHd3zhC1/4whe+8IUvfOELX/jCF77whS986Utf+tKXvvSlL33pS1/60pe+9KUvfeUrX/nKV77yla985Stf+cpXvvKVr3zta1/72te+9rWvfe1rX/va1772ta9913d913d913d913d913d913d913d913d94xvf+MY3vvGNb3zjG9/4xje+8Y1vfOtb3/rWt771rW9961vf+ta3vvWtb32P7/E9vsf3+J5+/fsPen6QFRsEAAA=",
-                                    "height": "30",
+                                    "data": "H4sIAAAAAAAACiXVuZHgRgDAwFzWlrHgT5PfJHGl/NNQ6dqCCbP//Pz+/v7+/PN/kklmWWSVTXY55JRLbnnklU/G3+SXX3755Zdffvnll19++eWXX375TX6T3+Q3+U1+k9/kN/lNfpPf5Df5TX6T3+Q3+c1+s9/sN/vNfrPf7Df7zX6z3+w3+81+s9/sN/stfovf4rf4LX6L3+K3+C1+i9/it/gtfovf4rf4rX6r3+q3+q1+q9/qt/qtfqvf6rf6rX6r3+q3+m1+m9/mt/ltfpvf5rf5bX6b3+a3+W1+m9/mt/ntfrvf7rf77X673+63++1+u9/ut/vtfrvf7rf7HX6H3+F3+B1+h9/hd/gdfoff4Xf4HX6H3+F3+J1+p9/pd/qdfqff6Xf6nX6n3+l3+p1+p9/pd/pdfpff5Xf5XX6X3+V3+V1+l9/ld/ldfpff5Xf53X633+13+91+t9/td/vdfrff7Xf73X633+13+z1+j9/j9/g9fo/f4/f4PX6P3+P3+D1+j9/j9/i9fq/f6/f6vX6v3+v3+r1+r9/r9/q9fq/f6/f6fX6f3+f3+X1+n9/n9/l9fp/f5/f5fX6f3+f3+Q2/4Tf8ht/wG37Db/gNv+E3/Ibf8Bt+w2/8/cW/+Bf/4l/8i3/xL/7Fv/gX/+Jf/It/8S/+xb/4F//iX/yLf/Ev/sW/+Bf/4l/8i3/xL/7Fv/gX/+Jf/It/8S/+xb/4F//iX/yLf/Ev/sW/+Bf/4l/8i3/xL/7Fv/gX/+Jf/It/8S/+xb/4F//iX/yLf/Ev/sW/+Bf/4l/8i3/xL/7Fv/gX/+Jf/It/8S/+xb/4F//iX/yLf/Ev/sW/+Bf/4l/8i3/xL/7Fv/gX/+Jf/It/8S/+xb/4F//iX/yLf/Ev/sW/+Bf/4l/8i3/xL/7Fv/gX/+Jf/It/8S/+xb/4F//iX/yLf/Ev/sW/+Bf/4l/8i3/xL/7Fv/gX/+Jf/It/8S/+xb/4F//iX/yLf/Ev/sW/+Bf/4l/8i3/xL/7Fv/gX/+Jf/It/8S/+xb/4F//iX/yLf/Ev/sW/+Bf/4l/8i3/xL/7Fv/gX/+Jf/It/8S/+xb/4F//iX/yLf/Ev/sW/+Bf/4l/8i3/xL/7Fv/gX/+Jf/It/8S/+xb/4F//iX/yLf/Ev/sW/+Bf/4l/8i3/xL/7Fv/gX/+Jf/Gu8P//+B6oyFUbzDQAA",
+                                    "height": "102",
                                     "width": "5",
-                                    "name": "idlejump"
+                                    "name": "BigMario"
                                 }
                             ],
                             "tiles": {
-                                "count": 150,
-                                "data": "H4sIAAAAAAAACu2XQW7cMAxF7+L1LChAnwaXNCJdouj9r1F8UrbszLRNik7RFhOAwI+iWKRIPklfFhk/y+1T0kSkpmxVhLbcFq8inlIA7HNb71h741z13nTrnKvuTX27W6JMudKW2wJ3ANBPOvkZ6cDuurvB3WpIB40+qNVDuqu6UyKnLLdldahCUxposQ/qRePfMrY9CoZZKNVXKc+NzSCMb7ktalVgdYxWNTBMQ90nrA7QOLo16x6ecT+wNeMXMnaGWbZuNEp3L57ZLIDk7ogU0J4YG4uQlXatSRcRk/c1yRryTItFSUWyoBoJzwlMos8MnZI1FtY9bxGbPDO2N4i8ZWzNqmyIvDVUaSkNsktg67Qszw6sKXun7RNSimAVKWtKHDXJgDACenbeYu/qkcI6k2WTMDrzxp8s2l12d+9ZiO4JiLlEuUuW047RYk+M7SRfnLzjJE6cVAM+zkkQLX8JJ/uVk/4TTvqVk/7i5G+UL06+OPn/cVInJ/kF/Tc5CUfs9gc5aS9Ovjj5K/J/5mSdstVLId5zkmCUdJ1gJCuTkxtZyX5js+3tdF5tHbERjIOTBA3cn8oStzpQkeSLdjpxkn8kK0MSHwlHpGvHYztKLh+vyUmBCs6tV5IlewoJGr69n1mTVoWsDE4SjvU4GZKT7BXLfuNDe9wnCUY74Bh7cpwBrgnHbXCSYNw5yX47wK+/0G9v9ZBbM3FPz3qT3i1cb0223pLrtiJdHwSP4nLbhpPBPsc41I5+C0pGhoDV3FY7GlID/E1N1nHUAcVzlKd/foGy4NPnG4Nxt310IP404dRkAw8jikqbo0PqCOjEkvBwl1whEmCDg1fXC+tizGU/ds9Tj0f+g978sbR5OtUpv1OTmQwdxVVyNefRnCU3Tts4xmsgs+x7drlSlfdLwAV+wuAzqfFYvjj54uSf4ORj2WfJ9TcRWlwwjntJpDCZqta6e9yuDFtXy4vWxEo+GbBfIh0ITjYoWoz2/G5JtLFhS3wMaKO7DTDfw3zwCLpKGenmd4frsKNbzERoVwmYGrZ1Etzv4KgTpHEZfofMh7KM/7smC/ECDLnNR8VHMrSX8sn1uBjaMRf3NXl2vQa5v1+/VU7gL/z1eg09zV2bobdoPb4TbFBD1YtN2BSz6fr9NfTOh6/fAIuaD9DJGQAA",
-                                "name": "idlejump"
+                                "count": 510,
+                                "data": "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",
+                                "name": "BigMario"
                             }
                         }
                     ]
@@ -89,88 +132,14 @@
                 },
                 "isAnimated": true,
                 "manipulationFunction": "",
-                "name": "idlejump",
+                "name": "BigMario",
                 "optimizeTiles": true,
                 "section": "rom",
                 "shareTiles": true,
                 "sourceType": "image",
                 "texture": {
                     "files": [
-                        "idlejump.png"
-                    ],
-                    "files2": [],
-                    "flip": {
-                        "x": false,
-                        "y": false
-                    },
-                    "padding": {
-                        "x": 0,
-                        "y": 0
-                    },
-                    "palette": 1,
-                    "recycleable": false,
-                    "repeat": {
-                        "mode": "1x1",
-                        "size": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "x": false,
-                        "y": false
-                    }
-                },
-                "transparency": "None"
-            },
-            {
-                "_imageData": {
-                    "images": [
-                        {
-                            "animation": {
-                                "frames": 10
-                            },
-                            "maps": [
-                                {
-                                    "data": "H4sIAAAAAAAACiXVuZEgNxAAQV9WprCNHyKegRMX9N8NBi+lElOsPz+/v7+/P//8n5AkWYpUadJlyJQlW45c+eT9TfCCF7zgBS94wQte8IIXvOAFL3jBC17iJV7iJV7iJV7iJV7iJV7iJV7iJV7iJV7mZV7mZV7mZV7mZV7mZV7mZV7mZV7mZV7hFV7hFV7hFV7hFV7hFV7hFV7hFV7hFV7lVV7lVV7lVV7lVV7lVV7lVV7lVV7lVV7jNV7jNV7jNV7jNV7jNV7jNV7jNV7jNV7ndV7ndV7ndV7ndV7ndV7ndV7ndV7ndd7gDd7gDd7gDd7gDd7gDd7gDd7gDd7gDd7kTd7kTd7kTd7kTd7kTd7kTd7kTd7kTd7iLd7iLd7iLd7iLd7iLd7iLd7iLd7iLd7mbd7mbd7mbd7mbd7mbd7mbd7mbd7mbd7hHd7hHd7hHd7hHd7hHd7hHd7hHd7hHd7lXd7lXd7lXd7lXd7lXd7lXd7lXd7lXd7H+3gf7+N9vI/38T7ex/t4H+/jfbyP9/E+3uM93uM93uM93uM93uM93uM93uM93uO9v174X/hf+F/4X/hf+F/4X/hf+F/4X/hf+F/4X/hf+F/4X/hf+F/4X/hf+F/4X/hf+F/4X/hf+F/4X/hf+F/4X/hf+F/4X/hf+F/4X/hf+F/4X/hf+F/4X6T98+9/MYshuTUIAAA=",
-                                    "height": "60",
-                                    "width": "5",
-                                    "name": "run"
-                                }
-                            ],
-                            "tiles": {
-                                "count": 300,
-                                "data": "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",
-                                "name": "run"
-                            }
-                        }
-                    ]
-                },
-                "bgmapMode": "Bgmap",
-                "colorMode": 0,
-                "compression": "none",
-                "displacement": {
-                    "parallax": 0,
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "displayMode": "Mono",
-                "displays": "ON",
-                "imageProcessingSettings": {
-                    "colorDistanceFormula": "euclidean",
-                    "imageQuantizationAlgorithm": "nearest",
-                    "minimumColorDistanceToDither": 0,
-                    "serpentine": false
-                },
-                "isAnimated": true,
-                "manipulationFunction": "",
-                "name": "run",
-                "optimizeTiles": true,
-                "section": "rom",
-                "shareTiles": true,
-                "sourceType": "image",
-                "texture": {
-                    "files": [
-                        "run.png"
+                        "BigMario.png"
                     ],
                     "files2": [],
                     "flip": {

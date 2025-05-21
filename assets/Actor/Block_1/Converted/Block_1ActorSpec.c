@@ -62,7 +62,7 @@ TextureROMSpec Block_1Sprite1LTextureSpec =
 	1,
 
 	// Palette index to use by the graphical data (0 - 3)
-	0,
+	1,
 
 	// Flag to recycle the texture with a different map
 	false,
@@ -99,7 +99,7 @@ BgmapSpriteROMSpec Block_1Sprite1LSpriteSpec =
 		__TRANSPARENCY_NONE,
 
 		// Displacement added to the sprite's position
-		{0, 0, 0, 0}
+		{12, -12, 0, 0}
 	},
 
 	// Flag to indicate in which display to show the texture (__WORLD_ON, __WORLD_LON or __WORLD_RON)
@@ -133,7 +133,7 @@ TextureROMSpec Block_1Sprite1RTextureSpec =
 	1,
 
 	// Palette index to use by the graphical data (0 - 3)
-	0,
+	1,
 
 	// Flag to recycle the texture with a different map
 	false,
@@ -170,7 +170,7 @@ BgmapSpriteROMSpec Block_1Sprite1RSpriteSpec =
 		__TRANSPARENCY_NONE,
 
 		// Displacement added to the sprite's position
-		{0, 0, 0, 0}
+		{12, -12, 0, 0}
 	},
 
 	// Flag to indicate in which display to show the texture (__WORLD_ON, __WORLD_LON or __WORLD_RON)

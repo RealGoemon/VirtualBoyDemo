@@ -2,7 +2,7 @@
 ///////////////////////////////////////////////  THIS FILE WAS AUTO-GENERATED - DO NOT EDIT  ///////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	
-const uint32 Floor2ActorFloor2Tiles[] __attribute__((aligned(4))) =
+const uint32 Floor_2ActorFloor2Tiles[] __attribute__((aligned(4))) =
 {
 	0x00000000,
 	0xFFFF0000,0xBABAEEEE,0xAAAAAAAA,0xAAAAAAAA,0x017F0000,0x5ABA16EE,0x5AAA66AA,0x5AAA66AA,
@@ -13,7 +13,7 @@ const uint32 Floor2ActorFloor2Tiles[] __attribute__((aligned(4))) =
 	0x95F6A95A,0x5FFD57FD,0x7FFD7FFD,0xA95A57F6,0x5FFD57F6,0x57D95FF6,0x6AA55565,0x6AAA6AA9,
 };
 
-const uint16 Floor2ActorFloor2Map[] __attribute__((aligned(4))) =
+const uint16 Floor_2ActorFloor2Map[] __attribute__((aligned(4))) =
 {
 	0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,
 	0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,

@@ -15,14 +15,14 @@
 // DECLARATIONS
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
-extern uint32 Floor2ActorFloor2Tiles[];
-extern uint16 Floor2ActorFloor2Map[];
+extern uint32 Floor_2ActorFloor2Tiles[];
+extern uint16 Floor_2ActorFloor2Map[];
 
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 // SPRITES
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
-CharSetROMSpec Floor2Sprite1CharsetSpec =
+CharSetROMSpec Floor_2Sprite1CharsetSpec =
 {
 	// Number of CHARs in function of the number of frames to load at the same time
 	12,
@@ -34,19 +34,19 @@ CharSetROMSpec Floor2Sprite1CharsetSpec =
 	true,
 
 	// Tiles array
-	Floor2ActorFloor2Tiles,
+	Floor_2ActorFloor2Tiles,
 
 	// Frame offsets array
 	NULL
 };
 
-TextureROMSpec Floor2Sprite1TextureSpec =
+TextureROMSpec Floor_2Sprite1TextureSpec =
 {
 	// Pointer to the char spec that the texture uses
-	(CharSetSpec*)&Floor2Sprite1CharsetSpec,
+	(CharSetSpec*)&Floor_2Sprite1CharsetSpec,
 
 	// Pointer to the map array that defines how to use the tiles from the char set
-	Floor2ActorFloor2Map,
+	Floor_2ActorFloor2Map,
 
 	// Horizontal size in tiles of the texture (max. 64)
 	43,
@@ -73,7 +73,7 @@ TextureROMSpec Floor2Sprite1TextureSpec =
 	false
 };
 
-BgmapSpriteROMSpec Floor2Sprite1SpriteSpec =
+BgmapSpriteROMSpec Floor_2Sprite1SpriteSpec =
 {
 	{
 		// VisualComponent
@@ -92,13 +92,13 @@ BgmapSpriteROMSpec Floor2Sprite1SpriteSpec =
 		},
 
 		// Spec for the texture to display
-		(TextureSpec*)&Floor2Sprite1TextureSpec,
+		(TextureSpec*)&Floor_2Sprite1TextureSpec,
 
 		// Transparency mode (__TRANSPARENCY_NONE, __TRANSPARENCY_EVEN or __TRANSPARENCY_ODD)
 		__TRANSPARENCY_NONE,
 
 		// Displacement added to the sprite's position
-		{172, -16, 0, 0}
+		{172, -17, 0, 0}
 	},
 
 	// Flag to indicate in which display to show the texture (__WORLD_ON, __WORLD_LON or __WORLD_RON)
@@ -115,19 +115,19 @@ BgmapSpriteROMSpec Floor2Sprite1SpriteSpec =
 // ACTOR
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
-ComponentSpec* const Floor2ComponentSpecs[] = 
+ComponentSpec* const Floor_2ComponentSpecs[] = 
 {
-	(ComponentSpec*)&Floor2Sprite1SpriteSpec,
+	(ComponentSpec*)&Floor_2Sprite1SpriteSpec,
 	NULL
 };
 
-ActorROMSpec Floor2ActorSpec =
+ActorROMSpec Floor_2ActorSpec =
 {
 	// Class allocator
 	__TYPE(Actor),
 
 	// Component specs
-	(ComponentSpec**)Floor2ComponentSpecs,
+	(ComponentSpec**)Floor_2ComponentSpecs,
 
 	// Children specs
 	NULL,
