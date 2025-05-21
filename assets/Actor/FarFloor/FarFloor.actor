@@ -1,5 +1,5 @@
 {
-    "_id": "z3gYhvRwKmnEhqwY",
+    "_id": "egntjDG39flaMrcb",
     "_version": "0.6.0",
     "animations": {
         "default": 0,
@@ -35,16 +35,16 @@
                             },
                             "maps": [
                                 {
-                                    "data": "H4sIAAAAAAAACu2XSw6DMAxE78K6i9h8WpYUyiWq3v8alTq0EpXlJsKhQfLqiQSJyYzjhHsVQgjVyfFPEMBADTRAC3Ql6HR84QxcVuilwQVDCaodcnDx8BgPGpzHWFxwtd4xr79j3KhsBCbgBswvEF4hym5PESLy7zjT/FbKCLcnwu2JGuFD1O5sj1TXWUTYBKdtw/Uaum35ScoIg7Q8KVpUByP20aDY08c6kR7jRmWWIDRVGrOVFE2pDqbuIyMnImLM3wCTVaN6aDYL7nMIc0jUwlSCIWKMNsFpxSfNMStm4XRinE58yOLbIcb4RWfoDNwpc6IyD+5tj3TrKh8e3LGx9x+RwwyPJ01Nc3iBGAAA",
-                                    "height": "14",
+                                    "data": "H4sIAAAAAAAACotWMjAwMFDSAVGGEMoIQhlDqFG5QS0XCwBZ2rfkwQEAAA==",
+                                    "height": "1",
                                     "width": "64",
-                                    "name": "Mountains1"
+                                    "name": "FarFloor"
                                 }
                             ],
                             "tiles": {
-                                "count": 40,
-                                "data": "H4sIAAAAAAAACp2UTW7GIAxE7/Ktu7Cleaepev9rVPykgCGAmtWImGTe2PD9sfp8vv4rwYwiJeROKEirqShLyd09SjgUjBK4qTVz/jzkbbvanu3ZZkhmcVt6q/pdzFwPprmr/g131zXQLMlJRpkLqH6ThSKTyUIhyaaPMUqIcp2DOokaZmazmkPLF4dtC3OTb+DJFLc9Nn8G8bTtbZRJpLzG1ztjWJ3j65qVcLsWsh3aXBsHfPR73e5wstydKMd5aGx0dooHElA5OKisP/CHUWbhgRe2RS+Y2Bbx0X7BqoBRMkn53MJzkkc7x0i06IUYZb2umhzvHbksXAo3FKPcz+TLFXTC1B5z4+zuzN8T//wCA3uqoeEGAAA=",
-                                "name": "Mountains1"
+                                "count": 4,
+                                "data": "H4sIAAAAAAAACkXOywnAQAwD0V583sMIpGpC+m8jeH+5DeZh+6kEJUmNUpBWAhi8k0CNMmRbFOe3hJuedskJ5gVfoISTRg2is6wn7a/V+UH9zvsBE0N2vLEAAAA=",
+                                "name": "FarFloor"
                             }
                         }
                     ]
@@ -53,10 +53,10 @@
                 "colorMode": 0,
                 "compression": "none",
                 "displacement": {
-                    "parallax": 10,
+                    "parallax": 5,
                     "x": 256,
-                    "y": 0,
-                    "z": 6
+                    "y": -4,
+                    "z": 5
                 },
                 "displayMode": "Mono",
                 "displays": "ON",
@@ -68,14 +68,14 @@
                 },
                 "isAnimated": true,
                 "manipulationFunction": "",
-                "name": "Mountains1",
+                "name": "FarFloor",
                 "optimizeTiles": true,
                 "section": "rom",
                 "shareTiles": true,
                 "sourceType": "image",
                 "texture": {
                     "files": [
-                        "Mountains1.png"
+                        "FarFloor.png"
                     ],
                     "files2": [],
                     "flip": {

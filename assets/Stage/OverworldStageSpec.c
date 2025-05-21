@@ -54,6 +54,7 @@ extern ActorSpec SmallMarioActorSpec;
 extern ActorSpec BigMario_1ActorSpec;
 extern ActorSpec MarioBridgeDownActorSpec;
 extern ActorSpec MarioBridgeUpActorSpec;
+extern ActorSpec FarFloorActorSpec;
 
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 // ACTOR LISTS
@@ -75,6 +76,8 @@ PositionedActorROMSpec OverworldStageActors[] =
 	{&Mountains1ActorSpec, 			{-10, -8, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
 	{&Hill1ActorSpec, 				{-24, 40, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
 	{&Hill2ActorSpec, 				{240, 40, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+
+	{&FarFloorActorSpec, 			{-5, 48, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
 	
 	{&Pole_1ActorSpec, 				{17, 65, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
 	{&Pole_1ActorSpec, 				{129, 65, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},

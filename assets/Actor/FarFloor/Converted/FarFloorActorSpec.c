@@ -15,17 +15,17 @@
 // DECLARATIONS
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
-extern uint32 Mountains1ActorMountains1Tiles[];
-extern uint16 Mountains1ActorMountains1Map[];
+extern uint32 FarFloorActorFarFloorTiles[];
+extern uint16 FarFloorActorFarFloorMap[];
 
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 // SPRITES
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
-CharSetROMSpec Mountains1Sprite1CharsetSpec =
+CharSetROMSpec FarFloorSprite1CharsetSpec =
 {
 	// Number of CHARs in function of the number of frames to load at the same time
-	40,
+	4,
 
 	// Whether it is shared or not
 	true,
@@ -34,25 +34,25 @@ CharSetROMSpec Mountains1Sprite1CharsetSpec =
 	true,
 
 	// Tiles array
-	Mountains1ActorMountains1Tiles,
+	FarFloorActorFarFloorTiles,
 
 	// Frame offsets array
 	NULL
 };
 
-TextureROMSpec Mountains1Sprite1TextureSpec =
+TextureROMSpec FarFloorSprite1TextureSpec =
 {
 	// Pointer to the char spec that the texture uses
-	(CharSetSpec*)&Mountains1Sprite1CharsetSpec,
+	(CharSetSpec*)&FarFloorSprite1CharsetSpec,
 
 	// Pointer to the map array that defines how to use the tiles from the char set
-	Mountains1ActorMountains1Map,
+	FarFloorActorFarFloorMap,
 
 	// Horizontal size in tiles of the texture (max. 64)
 	64,
 
 	// Vertical size in tiles of the texture (max. 64)
-	14,
+	1,
 
 	// padding for affine/hbias transformations
 	{0, 0},
@@ -73,7 +73,7 @@ TextureROMSpec Mountains1Sprite1TextureSpec =
 	false
 };
 
-BgmapSpriteROMSpec Mountains1Sprite1SpriteSpec =
+BgmapSpriteROMSpec FarFloorSprite1SpriteSpec =
 {
 	{
 		// VisualComponent
@@ -92,13 +92,13 @@ BgmapSpriteROMSpec Mountains1Sprite1SpriteSpec =
 		},
 
 		// Spec for the texture to display
-		(TextureSpec*)&Mountains1Sprite1TextureSpec,
+		(TextureSpec*)&FarFloorSprite1TextureSpec,
 
 		// Transparency mode (__TRANSPARENCY_NONE, __TRANSPARENCY_EVEN or __TRANSPARENCY_ODD)
 		__TRANSPARENCY_NONE,
 
 		// Displacement added to the sprite's position
-		{256, 0, 6, 10}
+		{256, -4, 5, 5}
 	},
 
 	// Flag to indicate in which display to show the texture (__WORLD_ON, __WORLD_LON or __WORLD_RON)
@@ -115,19 +115,19 @@ BgmapSpriteROMSpec Mountains1Sprite1SpriteSpec =
 // ACTOR
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
-ComponentSpec* const Mountains1ComponentSpecs[] = 
+ComponentSpec* const FarFloorComponentSpecs[] = 
 {
-	(ComponentSpec*)&Mountains1Sprite1SpriteSpec,
+	(ComponentSpec*)&FarFloorSprite1SpriteSpec,
 	NULL
 };
 
-ActorROMSpec Mountains1ActorSpec =
+ActorROMSpec FarFloorActorSpec =
 {
 	// Class allocator
 	__TYPE(Actor),
 
 	// Component specs
-	(ComponentSpec**)Mountains1ComponentSpecs,
+	(ComponentSpec**)FarFloorComponentSpecs,
 
 	// Children specs
 	NULL,
