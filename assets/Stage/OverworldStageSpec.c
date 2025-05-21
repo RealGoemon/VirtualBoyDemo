@@ -87,7 +87,7 @@ PositionedActorROMSpec OverworldStageActors[] =
 	
 	{&SmallPipeActorSpec, 			{68, 65, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
 	{&FlowerActorSpec, 				{84, 0, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
-	{&MidFloor_1ActorSpec, 			{36, 80, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	{&MidFloor_1ActorSpec, 			{20, 80, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
 	{&MidFloor_2ActorSpec, 			{268, 80, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
 	{&MidFloor_3ActorSpec, 			{445, 80, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
 

@@ -49,7 +49,7 @@ TextureROMSpec MidFloor_1Sprite1TextureSpec =
 	MidFloor_1ActorMidFloor_1Map,
 
 	// Horizontal size in tiles of the texture (max. 64)
-	20,
+	22,
 
 	// Vertical size in tiles of the texture (max. 64)
 	2,
@@ -98,7 +98,7 @@ BgmapSpriteROMSpec MidFloor_1Sprite1SpriteSpec =
 		__TRANSPARENCY_NONE,
 
 		// Displacement added to the sprite's position
-		{80, -8, 3, 4}
+		{88, -8, 3, 4}
 	},
 
 	// Flag to indicate in which display to show the texture (__WORLD_ON, __WORLD_LON or __WORLD_RON)

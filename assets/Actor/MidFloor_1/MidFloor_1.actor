@@ -35,9 +35,9 @@
                             },
                             "maps": [
                                 {
-                                    "data": "H4sIAAAAAAAACotWMjAwMFDSAVGGEMqIzjxjCGUCoUwhlBmEMh8YnoVSLABtRVKGGQEAAA==",
+                                    "data": "H4sIAAAAAAAACotWMjAwMFDSAVGGEMpoQHnGEMoEQplCKDMIZT4YeBZKsQBuxvl/NQEAAA==",
                                     "height": "2",
-                                    "width": "20",
+                                    "width": "22",
                                     "name": "MidFloor_1"
                                 }
                             ],
@@ -54,7 +54,7 @@
                 "compression": "none",
                 "displacement": {
                     "parallax": 4,
-                    "x": 80,
+                    "x": 88,
                     "y": -8,
                     "z": 3
                 },
