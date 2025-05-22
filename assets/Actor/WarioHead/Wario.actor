@@ -62,7 +62,7 @@
                     "parallax": 0,
                     "x": 0,
                     "y": 0,
-                    "z": 0
+                    "z": -1
                 },
                 "displayMode": "Stereo",
                 "displays": "ON",
@@ -83,7 +83,9 @@
                     "files": [
                         "warioL.png"
                     ],
-                    "files2": [],
+                    "files2": [
+                        "warioR.png"
+                    ],
                     "flip": {
                         "x": false,
                         "y": false

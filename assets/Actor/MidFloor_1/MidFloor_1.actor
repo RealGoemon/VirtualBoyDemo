@@ -35,15 +35,15 @@
                             },
                             "maps": [
                                 {
-                                    "data": "H4sIAAAAAAAACotWMjAwMFDSAVGGEMpoQHnGEMoEQplCKDMIZT4YeBZKsQBuxvl/NQEAAA==",
+                                    "data": "H4sIAAAAAAAACotWMjAwMFTSAVFGEMp4QHkmEMoUQhlQRpHrMTMIZQ6hLAYDz5IqAUKGx2IBqQiagiMCAAA=",
                                     "height": "2",
-                                    "width": "22",
+                                    "width": "39",
                                     "name": "MidFloor_1"
                                 }
                             ],
                             "tiles": {
-                                "count": 9,
-                                "data": "H4sIAAAAAAAACo2PMQoDMRAD/+I6hQW74lTqHSH//0bw7tmQq+JqMLNCeg971huvQfOSXMi8JF0LkxvttksgJemgb0wp9XS93XyeZeP/7pzJ2wXJmSUsRHcAmdi5pzqCkY1izACiS4atM6jDgglIJQQsBFedtUj073hEIFVhohUQ7/HLPs3adezcCRoB1q89aY/PF7jjowCNAQAA",
+                                "count": 10,
+                                "data": "H4sIAAAAAAAACo2PMQpDMQxD7/LnDhbY4mvUOUrvf42SOAm0S5vpEZ6F9LxivevxG+2DNG/JE1m3pHtgcaPd9hRISTrohSWVvl1vt77PqvF/N6K4XJCMmsJAdAeQhZ17qiOZ1ShmJJBdMm2dQR2WLECaQsJCctQZi0R/jkcmSjNMtBLiGj/s06xd584N0Ehw/tpB+3q9AXe8SsC5AQAA",
                                 "name": "MidFloor_1"
                             }
                         }
@@ -54,7 +54,7 @@
                 "compression": "none",
                 "displacement": {
                     "parallax": 4,
-                    "x": 88,
+                    "x": 156,
                     "y": -8,
                     "z": 3
                 },

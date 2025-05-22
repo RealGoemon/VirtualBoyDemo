@@ -15,9 +15,9 @@
 // DECLARATIONS
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
-extern uint32 Block_1ActorBigBlock_LTiles[];
-extern uint16 Block_1ActorBigBlock_LMap[];
-extern uint16 Block_1ActorBigBlock_RMap[];
+extern uint32 Block_1ActorBigBlock_LaTiles[];
+extern uint16 Block_1ActorBigBlock_LaMap[];
+extern uint16 Block_1ActorBigBlock_RaMap[];
 
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 // SPRITES
@@ -26,7 +26,7 @@ extern uint16 Block_1ActorBigBlock_RMap[];
 CharSetROMSpec Block_1Sprite1CharsetSpec =
 {
 	// Number of CHARs in function of the number of frames to load at the same time
-	18,
+	19,
 
 	// Whether it is shared or not
 	true,
@@ -35,7 +35,7 @@ CharSetROMSpec Block_1Sprite1CharsetSpec =
 	true,
 
 	// Tiles array
-	Block_1ActorBigBlock_LTiles,
+	Block_1ActorBigBlock_LaTiles,
 
 	// Frame offsets array
 	NULL
@@ -47,13 +47,13 @@ TextureROMSpec Block_1Sprite1LTextureSpec =
 	(CharSetSpec*)&Block_1Sprite1CharsetSpec,
 
 	// Pointer to the map array that defines how to use the tiles from the char set
-	Block_1ActorBigBlock_LMap,
+	Block_1ActorBigBlock_LaMap,
 
 	// Horizontal size in tiles of the texture (max. 64)
-	3,
+	9,
 
 	// Vertical size in tiles of the texture (max. 64)
-	3,
+	6,
 
 	// padding for affine/hbias transformations
 	{0, 0},
@@ -99,7 +99,7 @@ BgmapSpriteROMSpec Block_1Sprite1LSpriteSpec =
 		__TRANSPARENCY_NONE,
 
 		// Displacement added to the sprite's position
-		{12, -12, 0, 0}
+		{36, -24, 0, 0}
 	},
 
 	// Flag to indicate in which display to show the texture (__WORLD_ON, __WORLD_LON or __WORLD_RON)
@@ -118,13 +118,13 @@ TextureROMSpec Block_1Sprite1RTextureSpec =
 	(CharSetSpec*)&Block_1Sprite1CharsetSpec,
 
 	// Pointer to the map array that defines how to use the tiles from the char set
-	Block_1ActorBigBlock_RMap,
+	Block_1ActorBigBlock_RaMap,
 
 	// Horizontal size in tiles of the texture (max. 64)
-	3,
+	9,
 
 	// Vertical size in tiles of the texture (max. 64)
-	3,
+	6,
 
 	// padding for affine/hbias transformations
 	{0, 0},
@@ -170,7 +170,7 @@ BgmapSpriteROMSpec Block_1Sprite1RSpriteSpec =
 		__TRANSPARENCY_NONE,
 
 		// Displacement added to the sprite's position
-		{12, -12, 0, 0}
+		{36, -24, 0, 0}
 	},
 
 	// Flag to indicate in which display to show the texture (__WORLD_ON, __WORLD_LON or __WORLD_RON)

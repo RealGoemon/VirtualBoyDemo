@@ -7,53 +7,125 @@
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 #include <Actor.h>
-#include <BgmapSprite.h>
 #include <InGameTypes.h>
+#include <ObjectSprite.h>
 #include <Texture.h>
 
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 // DECLARATIONS
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
-extern uint32 Pole_2ActorPole_2_lTiles[];
-extern uint16 Pole_2ActorPole_2_lMap[];
-extern uint16 Pole_2ActorPole_2_rMap[];
+extern uint32 PoleActorpole_lTiles[];
+extern uint16 PoleActorpole_lMap[];
+extern uint16 PoleActorpole_rMap[];
+
+//——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+// ANIMATIONS
+//——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+AnimationFunctionROMSpec PoleAnimation1AnimationSpec =
+{
+	// Number of frames that the texture supports of this animation function
+	1,
+
+	// Frames to play in animation
+	{
+		2, 
+	},
+
+	// Number of cycles a frame of animation is displayed
+	8,
+
+	// Whether to play it in loop or not
+	true,
+
+	// Animation's name
+	"small",
+};
+
+AnimationFunctionROMSpec PoleAnimation2AnimationSpec =
+{
+	// Number of frames that the texture supports of this animation function
+	1,
+
+	// Frames to play in animation
+	{
+		1, 
+	},
+
+	// Number of cycles a frame of animation is displayed
+	8,
+
+	// Whether to play it in loop or not
+	true,
+
+	// Animation's name
+	"mid",
+};
+
+AnimationFunctionROMSpec PoleAnimation3AnimationSpec =
+{
+	// Number of frames that the texture supports of this animation function
+	1,
+
+	// Frames to play in animation
+	{
+		0, 
+	},
+
+	// Number of cycles a frame of animation is displayed
+	8,
+
+	// Whether to play it in loop or not
+	true,
+
+	// Animation's name
+	"big",
+};
+
+AnimationFunctionROMSpec* PoleAnimationSpecs[] =
+{
+	(AnimationFunction*)&PoleAnimation1AnimationSpec,
+	(AnimationFunction*)&PoleAnimation2AnimationSpec,
+	(AnimationFunction*)&PoleAnimation3AnimationSpec,
+	NULL,
+};
 
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 // SPRITES
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
-CharSetROMSpec Pole_2Sprite1CharsetSpec =
+CharSetROMSpec PoleSprite1CharsetSpec =
 {
 	// Number of CHARs in function of the number of frames to load at the same time
-	26,
+	144,
 
 	// Whether it is shared or not
 	true,
 
 	// Whether the tiles are optimized or not
-	true,
+	false,
 
 	// Tiles array
-	Pole_2ActorPole_2_lTiles,
+	PoleActorpole_lTiles,
 
 	// Frame offsets array
 	NULL
 };
 
-TextureROMSpec Pole_2Sprite1LTextureSpec =
+TextureROMSpec PoleSprite1LTextureSpec =
 {
 	// Pointer to the char spec that the texture uses
-	(CharSetSpec*)&Pole_2Sprite1CharsetSpec,
+	(CharSetSpec*)&PoleSprite1CharsetSpec,
 
 	// Pointer to the map array that defines how to use the tiles from the char set
-	Pole_2ActorPole_2_lMap,
+	PoleActorpole_lMap,
 
 	// Horizontal size in tiles of the texture (max. 64)
 	4,
 
 	// Vertical size in tiles of the texture (max. 64)
-	5,
+	18,
 
 	// padding for affine/hbias transformations
 	{0, 0},
@@ -74,7 +146,7 @@ TextureROMSpec Pole_2Sprite1LTextureSpec =
 	false
 };
 
-BgmapSpriteROMSpec Pole_2Sprite1LSpriteSpec =
+ObjectSpriteROMSpec PoleSprite1LSpriteSpec =
 {
 	{
 		// VisualComponent
@@ -82,7 +154,7 @@ BgmapSpriteROMSpec Pole_2Sprite1LSpriteSpec =
 			// Component
 			{
 				// Allocator
-				__TYPE(BgmapSprite),
+				__TYPE(ObjectSprite),
 
 				// Component type
 				kSpriteComponent
@@ -93,38 +165,32 @@ BgmapSpriteROMSpec Pole_2Sprite1LSpriteSpec =
 		},
 
 		// Spec for the texture to display
-		(TextureSpec*)&Pole_2Sprite1LTextureSpec,
+		(TextureSpec*)&PoleSprite1LTextureSpec,
 
 		// Transparency mode (__TRANSPARENCY_NONE, __TRANSPARENCY_EVEN or __TRANSPARENCY_ODD)
 		__TRANSPARENCY_NONE,
 
 		// Displacement added to the sprite's position
-		{17, -21, 4, 6}
+		{17, -25, 4, 6}
 	},
 
 	// Flag to indicate in which display to show the texture (__WORLD_ON, __WORLD_LON or __WORLD_RON)
 	__WORLD_LON,
-
-	// The display mode (__WORLD_BGMAP, __WORLD_AFFINE or __WORLD_HBIAS)
-	__WORLD_BGMAP,
-	
-	// Pointer to affine/hbias manipulation function
-	NULL
 };
 
-TextureROMSpec Pole_2Sprite1RTextureSpec =
+TextureROMSpec PoleSprite1RTextureSpec =
 {
 	// Pointer to the char spec that the texture uses
-	(CharSetSpec*)&Pole_2Sprite1CharsetSpec,
+	(CharSetSpec*)&PoleSprite1CharsetSpec,
 
 	// Pointer to the map array that defines how to use the tiles from the char set
-	Pole_2ActorPole_2_rMap,
+	PoleActorpole_rMap,
 
 	// Horizontal size in tiles of the texture (max. 64)
 	4,
 
 	// Vertical size in tiles of the texture (max. 64)
-	5,
+	18,
 
 	// padding for affine/hbias transformations
 	{0, 0},
@@ -145,7 +211,7 @@ TextureROMSpec Pole_2Sprite1RTextureSpec =
 	false
 };
 
-BgmapSpriteROMSpec Pole_2Sprite1RSpriteSpec =
+ObjectSpriteROMSpec PoleSprite1RSpriteSpec =
 {
 	{
 		// VisualComponent
@@ -153,7 +219,7 @@ BgmapSpriteROMSpec Pole_2Sprite1RSpriteSpec =
 			// Component
 			{
 				// Allocator
-				__TYPE(BgmapSprite),
+				__TYPE(ObjectSprite),
 
 				// Component type
 				kSpriteComponent
@@ -164,43 +230,37 @@ BgmapSpriteROMSpec Pole_2Sprite1RSpriteSpec =
 		},
 
 		// Spec for the texture to display
-		(TextureSpec*)&Pole_2Sprite1RTextureSpec,
+		(TextureSpec*)&PoleSprite1RTextureSpec,
 
 		// Transparency mode (__TRANSPARENCY_NONE, __TRANSPARENCY_EVEN or __TRANSPARENCY_ODD)
 		__TRANSPARENCY_NONE,
 
 		// Displacement added to the sprite's position
-		{17, -21, 4, 6}
+		{17, -25, 4, 6}
 	},
 
 	// Flag to indicate in which display to show the texture (__WORLD_ON, __WORLD_LON or __WORLD_RON)
 	__WORLD_RON,
-
-	// The display mode (__WORLD_BGMAP, __WORLD_AFFINE or __WORLD_HBIAS)
-	__WORLD_BGMAP,
-	
-	// Pointer to affine/hbias manipulation function
-	NULL
 };
 
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 // ACTOR
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
-ComponentSpec* const Pole_2ComponentSpecs[] = 
+ComponentSpec* const PoleComponentSpecs[] = 
 {
-	(ComponentSpec*)&Pole_2Sprite1LSpriteSpec,
-	(ComponentSpec*)&Pole_2Sprite1RSpriteSpec,
+	(ComponentSpec*)&PoleSprite1LSpriteSpec,
+	(ComponentSpec*)&PoleSprite1RSpriteSpec,
 	NULL
 };
 
-ActorROMSpec Pole_2ActorSpec =
+ActorROMSpec PoleActorSpec =
 {
 	// Class allocator
 	__TYPE(Actor),
 
 	// Component specs
-	(ComponentSpec**)Pole_2ComponentSpecs,
+	(ComponentSpec**)PoleComponentSpecs,
 
 	// Children specs
 	NULL,
@@ -216,6 +276,6 @@ ActorROMSpec Pole_2ActorSpec =
 	kTypeNone,
 
 	// Animation to play automatically
-	NULL
+	"small"
 	
 };

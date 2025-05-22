@@ -15,8 +15,9 @@
 // DECLARATIONS
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
-extern uint32 Hill2ActorHill2Tiles[];
-extern uint16 Hill2ActorHill2Map[];
+extern uint32 Hill2ActorHill2_lTiles[];
+extern uint16 Hill2ActorHill2_lMap[];
+extern uint16 Hill2ActorHill2_rMap[];
 
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 // SPRITES
@@ -25,7 +26,7 @@ extern uint16 Hill2ActorHill2Map[];
 CharSetROMSpec Hill2Sprite1CharsetSpec =
 {
 	// Number of CHARs in function of the number of frames to load at the same time
-	7,
+	12,
 
 	// Whether it is shared or not
 	true,
@@ -34,19 +35,19 @@ CharSetROMSpec Hill2Sprite1CharsetSpec =
 	true,
 
 	// Tiles array
-	Hill2ActorHill2Tiles,
+	Hill2ActorHill2_lTiles,
 
 	// Frame offsets array
 	NULL
 };
 
-TextureROMSpec Hill2Sprite1TextureSpec =
+TextureROMSpec Hill2Sprite1LTextureSpec =
 {
 	// Pointer to the char spec that the texture uses
 	(CharSetSpec*)&Hill2Sprite1CharsetSpec,
 
 	// Pointer to the map array that defines how to use the tiles from the char set
-	Hill2ActorHill2Map,
+	Hill2ActorHill2_lMap,
 
 	// Horizontal size in tiles of the texture (max. 64)
 	54,
@@ -73,7 +74,7 @@ TextureROMSpec Hill2Sprite1TextureSpec =
 	false
 };
 
-BgmapSpriteROMSpec Hill2Sprite1SpriteSpec =
+BgmapSpriteROMSpec Hill2Sprite1LSpriteSpec =
 {
 	{
 		// VisualComponent
@@ -92,7 +93,7 @@ BgmapSpriteROMSpec Hill2Sprite1SpriteSpec =
 		},
 
 		// Spec for the texture to display
-		(TextureSpec*)&Hill2Sprite1TextureSpec,
+		(TextureSpec*)&Hill2Sprite1LTextureSpec,
 
 		// Transparency mode (__TRANSPARENCY_NONE, __TRANSPARENCY_EVEN or __TRANSPARENCY_ODD)
 		__TRANSPARENCY_NONE,
@@ -102,7 +103,78 @@ BgmapSpriteROMSpec Hill2Sprite1SpriteSpec =
 	},
 
 	// Flag to indicate in which display to show the texture (__WORLD_ON, __WORLD_LON or __WORLD_RON)
-	__WORLD_ON,
+	__WORLD_LON,
+
+	// The display mode (__WORLD_BGMAP, __WORLD_AFFINE or __WORLD_HBIAS)
+	__WORLD_BGMAP,
+	
+	// Pointer to affine/hbias manipulation function
+	NULL
+};
+
+TextureROMSpec Hill2Sprite1RTextureSpec =
+{
+	// Pointer to the char spec that the texture uses
+	(CharSetSpec*)&Hill2Sprite1CharsetSpec,
+
+	// Pointer to the map array that defines how to use the tiles from the char set
+	Hill2ActorHill2_rMap,
+
+	// Horizontal size in tiles of the texture (max. 64)
+	54,
+
+	// Vertical size in tiles of the texture (max. 64)
+	4,
+
+	// padding for affine/hbias transformations
+	{0, 0},
+
+	// Number of frames that the texture supports
+	1,
+
+	// Palette index to use by the graphical data (0 - 3)
+	0,
+
+	// Flag to recycle the texture with a different map
+	false,
+
+	// Flag to vertically flip the image
+	false,
+
+	// Flag to horizontally flip the image
+	false
+};
+
+BgmapSpriteROMSpec Hill2Sprite1RSpriteSpec =
+{
+	{
+		// VisualComponent
+		{
+			// Component
+			{
+				// Allocator
+				__TYPE(BgmapSprite),
+
+				// Component type
+				kSpriteComponent
+			},
+
+			// Array of animation functions
+			(const AnimationFunction**)NULL
+		},
+
+		// Spec for the texture to display
+		(TextureSpec*)&Hill2Sprite1RTextureSpec,
+
+		// Transparency mode (__TRANSPARENCY_NONE, __TRANSPARENCY_EVEN or __TRANSPARENCY_ODD)
+		__TRANSPARENCY_NONE,
+
+		// Displacement added to the sprite's position
+		{216, -16, 5, 8}
+	},
+
+	// Flag to indicate in which display to show the texture (__WORLD_ON, __WORLD_LON or __WORLD_RON)
+	__WORLD_RON,
 
 	// The display mode (__WORLD_BGMAP, __WORLD_AFFINE or __WORLD_HBIAS)
 	__WORLD_BGMAP,
@@ -117,7 +189,8 @@ BgmapSpriteROMSpec Hill2Sprite1SpriteSpec =
 
 ComponentSpec* const Hill2ComponentSpecs[] = 
 {
-	(ComponentSpec*)&Hill2Sprite1SpriteSpec,
+	(ComponentSpec*)&Hill2Sprite1LSpriteSpec,
+	(ComponentSpec*)&Hill2Sprite1RSpriteSpec,
 	NULL
 };
 

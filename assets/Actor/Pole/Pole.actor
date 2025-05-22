@@ -1,10 +1,10 @@
 {
-    "_id": "S1zro7z3ZQDb0v4Z",
+    "_id": "COgS5aaXPpWPx4Zt",
     "_version": "0.6.0",
     "animations": {
         "default": 0,
         "multiframe": false,
-        "totalFrames": 1
+        "totalFrames": 2
     },
     "body": {
         "bounciness": 0,
@@ -21,7 +21,35 @@
         "rotationAxes": []
     },
     "components": {
-        "animations": [],
+        "animations": [
+            {
+                "callback": "",
+                "cycles": 8,
+                "frames": [
+                    2
+                ],
+                "loop": true,
+                "name": "small"
+            },
+            {
+                "callback": "",
+                "cycles": 8,
+                "frames": [
+                    1
+                ],
+                "loop": true,
+                "name": "mid"
+            },
+            {
+                "callback": "",
+                "cycles": 8,
+                "frames": [
+                    0
+                ],
+                "loop": true,
+                "name": "big"
+            }
+        ],
         "children": [],
         "colliders": [],
         "mutators": [],
@@ -31,26 +59,26 @@
                     "images": [
                         {
                             "animation": {
-                                "frames": 1
+                                "frames": 2
                             },
                             "maps": [
                                 {
-                                    "data": "H4sIAAAAAAAACotWMjAwMFDSwaQMIZQRhDLGI4hVuwmEMoVQZngEsWo3h1AWEMoSjyDx7sQqSLw7sQoS7050wVgAQ0Ykw3sBAAA=",
-                                    "height": "6",
-                                    "width": "9",
-                                    "name": "BigBlock_La"
+                                    "data": "H4sIAAAAAAAACiXNsVEDARAEsF4+Jniw73YJDeabYOi/DQYUKdT3cZ73Hi9/vOOBD3ziiS9c/8yJV7zhhjsGi8A3vvGNb3zjG9/41re+9a1vfetb3/rWt771rW9961vf+uKLL7744osvvvjiiy+++OKLL7746quvvvrqq6+++uqrr7766quvvl7Hzy/AuV+9+QEAAA==",
+                                    "height": "18",
+                                    "width": "4",
+                                    "name": "pole_l"
                                 },
                                 {
-                                    "data": "H4sIAAAAAAAACotWMjAwMFDSwaQcIZQThHLGI4hVuwuEcoVQbngEsWk3hFKGEMoItyAJ7sQqSLw7sQkS704MwVgArAUhf3sBAAA=",
-                                    "height": "6",
-                                    "width": "9",
-                                    "name": "BigBlock_Ra"
+                                    "data": "H4sIAAAAAAAACiXNuXECARAEwFzOxrjZWQkw0ZeESvmnoYK22uzf4zzP87g8CQbF4g3vuOKGOx74wCe+8I2fF/HFF1988cUXX3zxxRdffPHFF1984xvf+MY3vvGNb3zjG9/4xje+8Y1vfPXVV1999dVXX3311VdfffXVV19961vf+ta3vvWtb6/H3z+OkqQW+QEAAA==",
+                                    "height": "18",
+                                    "width": "4",
+                                    "name": "pole_r"
                                 }
                             ],
                             "tiles": {
-                                "count": 19,
-                                "data": "H4sIAAAAAAAACo2ROw4DIRBD70K9RRpIbQv7ElHuf42IjxY2G0RGQnqFkT3jV3j0CccebecYY+xYXjgC6awb2vbQ1qkCUpLCEYATn0ObYKemTSQTqmDC324rBCG0b4QkXNE0Jevm5p9YBF66AcxAxbIMgNw3tnv0afk2Q4vlxglAGtqOqy6YpW/cdkFg0wVKHOiKkwXIjBte45Qq2tVP4wnpeqe12zbDHGfZhez/ulgY37t4fwAIMqjjRQMAAA==",
-                                "name": "BigBlock_La"
+                                "count": 144,
+                                "data": "H4sIAAAAAAAACu2WTW7CQAyF78KahaXRszVLM44vUfX+16g8P2RSVCFQu4BOJMSnicl8RC8PPk7Uj9N5RiGi0hBCpOX7gKoU91IH2iEdVVWPs8lUKbnHdc1sE0HMmtnt7BE3IkoVNxAlrRsXYrSNsxAgDXNRvQxkRjmdT6yqoRQbx7tVdDNwrhsHutRVZmYRiW/h7i5efQP7FbwfoZOUKeWYpU2EtooJ7rQpOiYRr75a4nU0mzBOjlVmBfLVzAVHjIGB/TiaTRgnOyYFUsZu1lYnjIGGy/dvfVnz8DWgqOaKZgXAQJGO4OHrbgLkjpHQHb19zCbfKcq36glmw1fcE+pswzYgV/Ufn82XwtVnq89ew3f1w8LVZ6vP3rsfpvzm+/nVKb98J7/A1gITaXoyv9rziz2/9VZfBvZbrXt+kTMm7BsHMrf8PpD1Z/O7mx0lZ99bswnj5Fh9IOvP/h4v39/3nfoB9/oBsUfzbU9/zs3BREY8LbqgdQmOXTJVm/z3/w+rz1afvYbv6oeFq89Wn71HP3x+AU47WUfBGAAA",
+                                "name": "pole_l"
                             }
                         }
                     ]
@@ -59,10 +87,10 @@
                 "colorMode": 0,
                 "compression": "none",
                 "displacement": {
-                    "parallax": 0,
-                    "x": 36,
-                    "y": -24,
-                    "z": 0
+                    "parallax": 6,
+                    "x": 17,
+                    "y": -25,
+                    "z": 4
                 },
                 "displayMode": "Stereo",
                 "displays": "ON",
@@ -72,19 +100,19 @@
                     "minimumColorDistanceToDither": 0,
                     "serpentine": false
                 },
-                "isAnimated": true,
+                "isAnimated": false,
                 "manipulationFunction": "",
-                "name": "BigBlock_La",
+                "name": "pole_l",
                 "optimizeTiles": true,
                 "section": "rom",
                 "shareTiles": true,
                 "sourceType": "image",
                 "texture": {
                     "files": [
-                        "BigBlock_La.png"
+                        "pole_l.png"
                     ],
                     "files2": [
-                        "BigBlock_Ra.png"
+                        "pole_r.png"
                     ],
                     "flip": {
                         "x": false,
@@ -94,7 +122,7 @@
                         "x": 0,
                         "y": 0
                     },
-                    "palette": 1,
+                    "palette": 0,
                     "recycleable": false,
                     "repeat": {
                         "mode": "1x1",
@@ -127,6 +155,6 @@
         "enabled": false
     },
     "sprites": {
-        "type": "Bgmap"
+        "type": "Object"
     }
 }

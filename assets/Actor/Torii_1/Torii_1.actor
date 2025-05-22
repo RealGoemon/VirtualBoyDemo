@@ -62,7 +62,7 @@
                     "parallax": 3,
                     "x": 0,
                     "y": 0,
-                    "z": 0
+                    "z": 1
                 },
                 "displayMode": "Stereo",
                 "displays": "ON",
@@ -144,7 +144,7 @@
                     "parallax": 3,
                     "x": 0,
                     "y": 0,
-                    "z": 1
+                    "z": 2
                 },
                 "displayMode": "Stereo",
                 "displays": "ON",

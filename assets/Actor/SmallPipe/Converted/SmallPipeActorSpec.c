@@ -15,8 +15,9 @@
 // DECLARATIONS
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
-extern uint32 SmallPipeActorsmallpipeTiles[];
-extern uint16 SmallPipeActorsmallpipeMap[];
+extern uint32 SmallPipeActorsmallpipe_lTiles[];
+extern uint16 SmallPipeActorsmallpipe_lMap[];
+extern uint16 SmallPipeActorsmallpipe_rMap[];
 
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 // SPRITES
@@ -25,7 +26,7 @@ extern uint16 SmallPipeActorsmallpipeMap[];
 CharSetROMSpec SmallPipeSprite1CharsetSpec =
 {
 	// Number of CHARs in function of the number of frames to load at the same time
-	12,
+	24,
 
 	// Whether it is shared or not
 	true,
@@ -34,19 +35,19 @@ CharSetROMSpec SmallPipeSprite1CharsetSpec =
 	true,
 
 	// Tiles array
-	SmallPipeActorsmallpipeTiles,
+	SmallPipeActorsmallpipe_lTiles,
 
 	// Frame offsets array
 	NULL
 };
 
-TextureROMSpec SmallPipeSprite1TextureSpec =
+TextureROMSpec SmallPipeSprite1LTextureSpec =
 {
 	// Pointer to the char spec that the texture uses
 	(CharSetSpec*)&SmallPipeSprite1CharsetSpec,
 
 	// Pointer to the map array that defines how to use the tiles from the char set
-	SmallPipeActorsmallpipeMap,
+	SmallPipeActorsmallpipe_lMap,
 
 	// Horizontal size in tiles of the texture (max. 64)
 	4,
@@ -73,7 +74,7 @@ TextureROMSpec SmallPipeSprite1TextureSpec =
 	false
 };
 
-BgmapSpriteROMSpec SmallPipeSprite1SpriteSpec =
+BgmapSpriteROMSpec SmallPipeSprite1LSpriteSpec =
 {
 	{
 		// VisualComponent
@@ -92,7 +93,7 @@ BgmapSpriteROMSpec SmallPipeSprite1SpriteSpec =
 		},
 
 		// Spec for the texture to display
-		(TextureSpec*)&SmallPipeSprite1TextureSpec,
+		(TextureSpec*)&SmallPipeSprite1LTextureSpec,
 
 		// Transparency mode (__TRANSPARENCY_NONE, __TRANSPARENCY_EVEN or __TRANSPARENCY_ODD)
 		__TRANSPARENCY_NONE,
@@ -102,7 +103,78 @@ BgmapSpriteROMSpec SmallPipeSprite1SpriteSpec =
 	},
 
 	// Flag to indicate in which display to show the texture (__WORLD_ON, __WORLD_LON or __WORLD_RON)
-	__WORLD_ON,
+	__WORLD_LON,
+
+	// The display mode (__WORLD_BGMAP, __WORLD_AFFINE or __WORLD_HBIAS)
+	__WORLD_BGMAP,
+	
+	// Pointer to affine/hbias manipulation function
+	NULL
+};
+
+TextureROMSpec SmallPipeSprite1RTextureSpec =
+{
+	// Pointer to the char spec that the texture uses
+	(CharSetSpec*)&SmallPipeSprite1CharsetSpec,
+
+	// Pointer to the map array that defines how to use the tiles from the char set
+	SmallPipeActorsmallpipe_rMap,
+
+	// Horizontal size in tiles of the texture (max. 64)
+	4,
+
+	// Vertical size in tiles of the texture (max. 64)
+	3,
+
+	// padding for affine/hbias transformations
+	{0, 0},
+
+	// Number of frames that the texture supports
+	1,
+
+	// Palette index to use by the graphical data (0 - 3)
+	1,
+
+	// Flag to recycle the texture with a different map
+	false,
+
+	// Flag to vertically flip the image
+	false,
+
+	// Flag to horizontally flip the image
+	false
+};
+
+BgmapSpriteROMSpec SmallPipeSprite1RSpriteSpec =
+{
+	{
+		// VisualComponent
+		{
+			// Component
+			{
+				// Allocator
+				__TYPE(BgmapSprite),
+
+				// Component type
+				kSpriteComponent
+			},
+
+			// Array of animation functions
+			(const AnimationFunction**)NULL
+		},
+
+		// Spec for the texture to display
+		(TextureSpec*)&SmallPipeSprite1RTextureSpec,
+
+		// Transparency mode (__TRANSPARENCY_NONE, __TRANSPARENCY_EVEN or __TRANSPARENCY_ODD)
+		__TRANSPARENCY_NONE,
+
+		// Displacement added to the sprite's position
+		{16, -13, 0, 4}
+	},
+
+	// Flag to indicate in which display to show the texture (__WORLD_ON, __WORLD_LON or __WORLD_RON)
+	__WORLD_RON,
 
 	// The display mode (__WORLD_BGMAP, __WORLD_AFFINE or __WORLD_HBIAS)
 	__WORLD_BGMAP,
@@ -117,7 +189,8 @@ BgmapSpriteROMSpec SmallPipeSprite1SpriteSpec =
 
 ComponentSpec* const SmallPipeComponentSpecs[] = 
 {
-	(ComponentSpec*)&SmallPipeSprite1SpriteSpec,
+	(ComponentSpec*)&SmallPipeSprite1LSpriteSpec,
+	(ComponentSpec*)&SmallPipeSprite1RSpriteSpec,
 	NULL
 };
 

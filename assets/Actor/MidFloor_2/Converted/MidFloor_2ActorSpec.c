@@ -25,7 +25,7 @@ extern uint16 MidFloor_2ActorMidFloor_2Map[];
 CharSetROMSpec MidFloor_2Sprite1CharsetSpec =
 {
 	// Number of CHARs in function of the number of frames to load at the same time
-	6,
+	12,
 
 	// Whether it is shared or not
 	true,
@@ -49,10 +49,10 @@ TextureROMSpec MidFloor_2Sprite1TextureSpec =
 	MidFloor_2ActorMidFloor_2Map,
 
 	// Horizontal size in tiles of the texture (max. 64)
-	8,
+	55,
 
 	// Vertical size in tiles of the texture (max. 64)
-	2,
+	4,
 
 	// padding for affine/hbias transformations
 	{0, 0},
@@ -98,7 +98,7 @@ BgmapSpriteROMSpec MidFloor_2Sprite1SpriteSpec =
 		__TRANSPARENCY_NONE,
 
 		// Displacement added to the sprite's position
-		{32, -8, 3, 4}
+		{220, 0, 3, 4}
 	},
 
 	// Flag to indicate in which display to show the texture (__WORLD_ON, __WORLD_LON or __WORLD_RON)

@@ -103,7 +103,7 @@ BgmapSpriteROMSpec Torii_1Sprite1LSpriteSpec =
 		__TRANSPARENCY_NONE,
 
 		// Displacement added to the sprite's position
-		{0, 0, 0, 3}
+		{0, 0, 1, 3}
 	},
 
 	// Flag to indicate in which display to show the texture (__WORLD_ON, __WORLD_LON or __WORLD_RON)
@@ -174,7 +174,7 @@ BgmapSpriteROMSpec Torii_1Sprite1RSpriteSpec =
 		__TRANSPARENCY_NONE,
 
 		// Displacement added to the sprite's position
-		{0, 0, 0, 3}
+		{0, 0, 1, 3}
 	},
 
 	// Flag to indicate in which display to show the texture (__WORLD_ON, __WORLD_LON or __WORLD_RON)
@@ -264,7 +264,7 @@ BgmapSpriteROMSpec Torii_1Sprite2LSpriteSpec =
 		__TRANSPARENCY_NONE,
 
 		// Displacement added to the sprite's position
-		{0, 0, 1, 3}
+		{0, 0, 2, 3}
 	},
 
 	// Flag to indicate in which display to show the texture (__WORLD_ON, __WORLD_LON or __WORLD_RON)
@@ -335,7 +335,7 @@ BgmapSpriteROMSpec Torii_1Sprite2RSpriteSpec =
 		__TRANSPARENCY_NONE,
 
 		// Displacement added to the sprite's position
-		{0, 0, 1, 3}
+		{0, 0, 2, 3}
 	},
 
 	// Flag to indicate in which display to show the texture (__WORLD_ON, __WORLD_LON or __WORLD_RON)

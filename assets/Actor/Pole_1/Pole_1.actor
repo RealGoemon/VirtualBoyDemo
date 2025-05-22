@@ -35,16 +35,22 @@
                             },
                             "maps": [
                                 {
-                                    "data": "H4sIAAAAAAAACiXFuQ0AIAwAsV1SU4QfSt4lEPuvgdC58RFVVTE/S448BYqUKFOhSo06DZq0aMt9N/sKBHEAAAA=",
-                                    "height": "4",
-                                    "width": "4",
-                                    "name": "Pole_1"
+                                    "data": "H4sIAAAAAAAACs1USQrAIAz8i+cektLFHrvYT5T+/xuFjudBRKOnIWNgloCPExFxQzvQGbAAVrxNLS31FLN+PUxBPWADiRXx/dRTSJ3EbFsPdbYDDpCY5LStx+A4JCatJ65cIAOmos6IQn31BBMGx8msQON0/zBGsui3RhTqqyeYMDhORgXvBzPwhzkSCAAA",
+                                    "height": "5",
+                                    "width": "59",
+                                    "name": "Pole_1_la"
+                                },
+                                {
+                                    "data": "H4sIAAAAAAAACs2TuQ2AQAwEe7mYwOYn5G0C0X8bSExuIWTfEU0467X2TCIiqSoIBTVoQFs00p/OjK/HMnSgBwMYf1SPD6wzy9ZjGSYwgwWsmeuJf451ppVsAzs4HqhrMssQb88t8qxAWZWyKmVV6rl3yxBvfxEi/jlfKrhu9xHdLRIIAAA=",
+                                    "height": "5",
+                                    "width": "59",
+                                    "name": "Pole_1_ra"
                                 }
                             ],
                             "tiles": {
-                                "count": 16,
-                                "data": "H4sIAAAAAAAACmWQS2oEMQxE79LrWQhEqfBSsaxLhNz/GkH+ZLozgsYPudp69vclu67XHSkifSEo4v1/wJ09s8/AKm50d39mNdxFM+vciBgkKhsRn9knDhHRiQMi6nNwF8Ma3CgAF7bu/nXQDP16XebupVSDa42JGQFrc3BhcnbNzEjWLTIzmdO3cJ+Qu0pH3URbZWWQMiYqMmU4NiqZ09d7fU+zG9bm6Zo50P7MknhiBQ7ueprdsDY3qgPa8DZb3RtWYKF5O74BdPc2MaIDOEhuhB3fzCDQNtYLvjHXb3HzvT31p7oi4vgyUzGzC1eAW/3nF86CYFfBAgAA",
-                                "name": "Pole_1"
+                                "count": 33,
+                                "data": "H4sIAAAAAAAACp2UXW6DQAyE78IzD5bQrOVHB+NLVL3/NSp7F1h+0tCuhDJyrMkHzORroHaG8U8SM5E3iZn0lVL1RRCuUtzd60I9TaqqDuMgqmp1Sl6UyD2mzuxiFrvMvO6KiFlOjzjTJichoiXlIkRL/lrBDGBOWcJslRDhhNRXXMM4mAHGiePOgBZt0s0quihQSk7dzZM3ZLs3b+d4xzSJ0aQpjZ0mlVWaxS4tAlrq09nJTpBX3iTzfCSdDMhOdry+83aQN7xJltNeBmQnH/KKKj/lZQ6CZ7zMdfsRrzE3Xga4qHJzMGCTZnwMV75jQ4djR5zLrtlb9D605k4G2yT7Ji+7t33TY9/KTd+KXPsWH7jpG+BSA8533Yz+rB0Ctg4htnHKJErZil7KapZTETSGdbo7nMze+FaHk9k/fLtMfvRF5HP37bKD37JTv29RzoX2t8It69ec4XPOvn8ATeHegK0FAAA=",
+                                "name": "Pole_1_la"
                             }
                         }
                     ]
@@ -54,11 +60,11 @@
                 "compression": "none",
                 "displacement": {
                     "parallax": 6,
-                    "x": 17,
-                    "y": -17,
+                    "x": 236,
+                    "y": -19,
                     "z": 4
                 },
-                "displayMode": "Mono",
+                "displayMode": "Stereo",
                 "displays": "ON",
                 "imageProcessingSettings": {
                     "colorDistanceFormula": "euclidean",
@@ -68,16 +74,18 @@
                 },
                 "isAnimated": true,
                 "manipulationFunction": "",
-                "name": "Pole_1",
+                "name": "Pole_1_la",
                 "optimizeTiles": true,
                 "section": "rom",
                 "shareTiles": true,
                 "sourceType": "image",
                 "texture": {
                     "files": [
-                        "Pole_1.png"
+                        "Pole_1_la.png"
                     ],
-                    "files2": [],
+                    "files2": [
+                        "Pole_1_ra.png"
+                    ],
                     "flip": {
                         "x": false,
                         "y": false

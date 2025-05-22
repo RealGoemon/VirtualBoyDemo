@@ -35,16 +35,22 @@
                             },
                             "maps": [
                                 {
-                                    "data": "H4sIAAAAAAAACotWMjAwMFDSAVGGEMoIQhlDKBMIZQqhzCCUOYSygFCWEMoRQjlRJucMoVwglCuEclOKBQA1d3qvqQAAAA==",
+                                    "data": "H4sIAAAAAAAACotWMjAwNFDSAVGGEMoITBkYQ3gQysAMwjOB8MwhPFMIzxHCgygxcKJMDmq0BYSyhMi5KcUCAD1b0KapAAAA",
                                     "height": "6",
                                     "width": "4",
                                     "name": "Pole_3"
+                                },
+                                {
+                                    "data": "H4sIAAAAAAAACotWMjAwMFDSAVGGEMoIQhlDKBMIZQqhzCCUOYSygFCWEMoRQjlRJucMoVwglCuEclOKBQA1d3qvqQAAAA==",
+                                    "height": "6",
+                                    "width": "4",
+                                    "name": "Pole_3_l"
                                 }
                             ],
                             "tiles": {
-                                "count": 16,
-                                "data": "H4sIAAAAAAAACmWQS2oEMQxE79LrWQhEqfBSsaxLhNz/GkH+ZLozgsYPudp69vclu67XHSkifSEo4v1/wJ09s8/AKm50d39mNdxFM+vciBgkKhsRn9knDhHRiQMi6nNwF8Ma3CgAF7bu/nXQDP16XebupVSDa42JGQFrc3BhcnbNzEjWLTIzmdO3cJ+Qu0pH3URbZWWQMiYqMmU4NiqZ09d7fU+zG9bm6Zo50P7MknhiBQ7ueprdsDY3qgPa8DZb3RtWYKF5O74BdPc2MaIDOEhuhB3fzCDQNtYLvjHXb3HzvT31p7oi4vgyUzGzC1eAW/3nF86CYFfBAgAA",
-                                "name": "Pole_3"
+                                "count": 26,
+                                "data": "H4sIAAAAAAAACoWTUYoEIQxE7zLf+xGQSshn1nQusez9r7HE6LTOLIwg/dBCy6T650FzPL52FCLqhSpE1l8FZtIjeiJgACADwWZmp7a5GbWIPNeBS4DUOvCuPfEiojbwAlGzcXEnw7xYKGdd3M2+F+YcWhvWclUVG86LE5nHKt9aya8PDHewDm1ilHVqxtQ0X0yXCF0DGyLoMkxsIlEees7T2Wly9/vubMPcXKvMBujTWQhOTMHEZkBT3M5GL3ZMQSGb7n7NNNHdl8lEkfkKXu12dwCq5cFFVvk8QmQIsqrlN8KlSh015MZy5r78SkTDOKGwBPK0/jG/+JxfbPn9J5NHft0vqfq6+9RmJnlmUu9Mqj4zqdqZR82YmUVkvVjqxYk4SvKanfuEDXNzrc5xnrBhbk7ceuyfepw/wNk3nXj3zee5XilYHrZnvtr5/QOUcH/weQQAAA==",
+                                "name": "Pole_3_l"
                             }
                         }
                     ]
@@ -58,7 +64,7 @@
                     "y": -25,
                     "z": 4
                 },
-                "displayMode": "Mono",
+                "displayMode": "Stereo",
                 "displays": "ON",
                 "imageProcessingSettings": {
                     "colorDistanceFormula": "euclidean",
@@ -68,16 +74,18 @@
                 },
                 "isAnimated": true,
                 "manipulationFunction": "",
-                "name": "Pole_3",
+                "name": "Pole_3_l",
                 "optimizeTiles": true,
                 "section": "rom",
                 "shareTiles": true,
                 "sourceType": "image",
                 "texture": {
                     "files": [
+                        "Pole_3_l.png"
+                    ],
+                    "files2": [
                         "Pole_3.png"
                     ],
-                    "files2": [],
                     "flip": {
                         "x": false,
                         "y": false

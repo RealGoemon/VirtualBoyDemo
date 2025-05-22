@@ -35,16 +35,22 @@
                             },
                             "maps": [
                                 {
+                                    "data": "H4sIAAAAAAAACotWMjAwMFDSQaLMIZQFYR7x+gbWBmMIZUmYR7y+wWvDUOE5QiinYcGLBQAgr7M9SQMAAA==",
+                                    "height": "4",
+                                    "width": "30",
+                                    "name": "Hill1_l"
+                                },
+                                {
                                     "data": "H4sIAAAAAAAACotWMjAwMFDSQaIMIZQRYR7x+gbWBmMIZUKYR7y+wWvDUOGZQiizYcGLBQAfy7LMSQMAAA==",
                                     "height": "4",
                                     "width": "30",
-                                    "name": "Hill1"
+                                    "name": "Hill1_r"
                                 }
                             ],
                             "tiles": {
-                                "count": 7,
-                                "data": "H4sIAAAAAAAACoXMUQqAMAwD0Lv47UdhhBzAkEuI97+GtJvCUFig8NianluMbPuacIQHwSCOThw5ncypmhERToqKhmSj0eBckEVRmGtLypJMPBde/rxmRaNW30xStln0yOdCbRQr0+51A20oNPs1AQAA",
-                                "name": "Hill1"
+                                "count": 12,
+                                "data": "H4sIAAAAAAAACo2Q0QnDQAxDd8l3PwyH0AARWqJ0/zWK7buSpoHUnOHhk2zs5xYztsc9whGeCAaxN2LPbGRm2YyIcKKoGEgcNAacAlkUhW/bLcqSTKwOH7yopkXTVt9MpGyz0DN+OpSisOKkPd1B/98BMaC6gzAg1QhIRA8mJGFVF15VDyNIUlCOMF17nHerDr1QK3q3ekft6w0HUq+gEQIAAA==",
+                                "name": "Hill1_l"
                             }
                         }
                     ]
@@ -58,7 +64,7 @@
                     "y": -16,
                     "z": 5
                 },
-                "displayMode": "Mono",
+                "displayMode": "Stereo",
                 "displays": "ON",
                 "imageProcessingSettings": {
                     "colorDistanceFormula": "euclidean",
@@ -68,16 +74,18 @@
                 },
                 "isAnimated": true,
                 "manipulationFunction": "",
-                "name": "Hill1",
+                "name": "Hill1_l",
                 "optimizeTiles": true,
                 "section": "rom",
                 "shareTiles": true,
                 "sourceType": "image",
                 "texture": {
                     "files": [
-                        "Hill1.png"
+                        "Hill1_l.png"
                     ],
-                    "files2": [],
+                    "files2": [
+                        "Hill1_r.png"
+                    ],
                     "flip": {
                         "x": false,
                         "y": false

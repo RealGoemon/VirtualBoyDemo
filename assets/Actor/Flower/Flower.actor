@@ -1,10 +1,10 @@
 {
-    "_id": "Qt3O7drCjVe6aINi",
+    "_id": "luZ4exiH8elatxlQ",
     "_version": "0.6.0",
     "animations": {
         "default": 0,
         "multiframe": false,
-        "totalFrames": 3
+        "totalFrames": 1
     },
     "body": {
         "bounciness": 0,
@@ -21,18 +21,7 @@
         "rotationAxes": []
     },
     "components": {
-        "animations": [
-            {
-                "callback": "",
-                "cycles": 8,
-                "frames": [
-                    1,
-                    2
-                ],
-                "loop": true,
-                "name": "Animation"
-            }
-        ],
+        "animations": [],
         "children": [],
         "colliders": [],
         "mutators": [],
@@ -46,6 +35,12 @@
                             },
                             "maps": [
                                 {
+                                    "data": "H4sIAAAAAAAACiXNuRGAMBAEwVzOxjjtIh4TkJQERf5pUDBWm31HZjlj+rigQYfxo4QCAsMMFRZYYYMdDuATn/jEJz7zmc985jOfazwvJrdqOL4AAAA=",
+                                    "height": "9",
+                                    "width": "3",
+                                    "name": "flower_l"
+                                },
+                                {
                                     "data": "H4sIAAAAAAAACiXNuRGAMAwAwV4UE+j4CQ3GTXjovw0GLtpwe2RmxvCBjDLJLIussskuhxQ55ZIqt7Qf/PDDDz/88MMPP/zwo8TzAm/gEQS+AAAA",
                                     "height": "9",
                                     "width": "3",
@@ -53,9 +48,9 @@
                                 }
                             ],
                             "tiles": {
-                                "count": 27,
-                                "data": "H4sIAAAAAAAACrVTQWpsMQy7y1vPQoHIqZc2iS5Rev9rlDjTaWdR/sCnbyWMYlvS8/uF+3fdLvABY0xw9A2pDpcX4ZvbJoBe0MTZ1Pt1u4aWpWTP3J/P0PodWrgZza/bpdUxVNNyAppnB03EvboceXYI+TAt7g6pFbmiOkgzpc3VCklrTwuGZXjBVIvcz8gIWmQptmi06kCAXtMmAR1ty4Gxqrr39lOdnByqaZrU1JgbRohDNQJgkFHiOdDoBxJoo6AlWs7jTgPa7549wYd9/+Q28nVuf8DOOQHuzdw1/WgL6Y1DW8WSY2n1U91576pz25rbkgjJIspUSXmMMmMz9pO8mblvo5qFMQqCtEazryziL7Joz1ngP7LIjjqYV7j7j9sDX8w4ALDOqSO9qtLE0CzF3/BkUTByZa5cJ4BJknUMUpy7+JEFWhhQpwcLh0UpNo8n6PGnWdhA8xfu4uMTjjI0taUEAAA=",
-                                "name": "flower_r"
+                                "count": 54,
+                                "data": "H4sIAAAAAAAACs2VQW7cMAxF7+J1FhSgT5VLEtS/RNH7X6MQNRnHDTqZoA0Qrz4I2hT5xeefh9ye4+UQ3KWPFIy+JNjFaJVw5rYUkV5SiWzs/Xg5BqcGqdfct69J6zepbqpQO14Ozi6DVS1ShLnPwBS/RadJ7DM4bSgn1heC02N6fYHMIFcup5Ocq5rDNdxKBpvHeg1wh3pUx+oNWl+ACKyqJUS4e5smMmZF17ltRxOJwarGBJMjl3QnBquECBzwah5DGmxLiLRRUkNa5J5OE2l/n9lF3sf3YW4Dns/td9mRKYJ1MjOm7d6c/IHB1cWkyeTsO7r8XlHDGmuskbiT6l5DJRl7UKpoir6dV1WzNaimrvCSAmiD6qsX/hVetKsX8g9eRJdamGdy141bBZ/02EUEtU5dwipKpgxmdXzK7UVJjxkxY24DEgBqGUjfe/HGC2muIrV6om6iXh2r+UWaf6kXOqTZp/fiZFRcGZXPM2oEOZ5hFNwU7xjFk1HBlLhFHzEqHjIKejJKHzAq7e7Fmlg+8gKjrCgDMDiyOt5e5HtGUVpdmMKVNJ5e4PszKt4yKmsv1q+DxajgVC9GAVhc4s5195o6b89KUNSJynlVnIxqd0YNQa1IecGv8KJxLcR/8YKfYNT6Hzf09qTHtnarrvKFUbFptPjELddO3KJOTzp9M0qvjMo/GWUuoptGroKNCtVXMK29kO+yF79+AxZtJMJJCQAA",
+                                "name": "flower_l"
                             }
                         }
                     ]
@@ -69,7 +64,7 @@
                     "y": 0,
                     "z": 4
                 },
-                "displayMode": "Mono",
+                "displayMode": "Stereo",
                 "displays": "ON",
                 "imageProcessingSettings": {
                     "colorDistanceFormula": "euclidean",
@@ -79,16 +74,18 @@
                 },
                 "isAnimated": true,
                 "manipulationFunction": "",
-                "name": "flower_r",
+                "name": "flower_l",
                 "optimizeTiles": true,
                 "section": "rom",
-                "shareTiles": true,
+                "shareTiles": false,
                 "sourceType": "image",
                 "texture": {
                     "files": [
+                        "flower_l.png"
+                    ],
+                    "files2": [
                         "flower_r.png"
                     ],
-                    "files2": [],
                     "flip": {
                         "x": false,
                         "y": false

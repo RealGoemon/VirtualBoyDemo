@@ -15,8 +15,9 @@
 // DECLARATIONS
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
-extern uint32 Pole_1ActorPole_1Tiles[];
-extern uint16 Pole_1ActorPole_1Map[];
+extern uint32 Pole_1ActorPole_1_laTiles[];
+extern uint16 Pole_1ActorPole_1_laMap[];
+extern uint16 Pole_1ActorPole_1_raMap[];
 
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 // SPRITES
@@ -25,7 +26,7 @@ extern uint16 Pole_1ActorPole_1Map[];
 CharSetROMSpec Pole_1Sprite1CharsetSpec =
 {
 	// Number of CHARs in function of the number of frames to load at the same time
-	16,
+	33,
 
 	// Whether it is shared or not
 	true,
@@ -34,25 +35,25 @@ CharSetROMSpec Pole_1Sprite1CharsetSpec =
 	true,
 
 	// Tiles array
-	Pole_1ActorPole_1Tiles,
+	Pole_1ActorPole_1_laTiles,
 
 	// Frame offsets array
 	NULL
 };
 
-TextureROMSpec Pole_1Sprite1TextureSpec =
+TextureROMSpec Pole_1Sprite1LTextureSpec =
 {
 	// Pointer to the char spec that the texture uses
 	(CharSetSpec*)&Pole_1Sprite1CharsetSpec,
 
 	// Pointer to the map array that defines how to use the tiles from the char set
-	Pole_1ActorPole_1Map,
+	Pole_1ActorPole_1_laMap,
 
 	// Horizontal size in tiles of the texture (max. 64)
-	4,
+	59,
 
 	// Vertical size in tiles of the texture (max. 64)
-	4,
+	5,
 
 	// padding for affine/hbias transformations
 	{0, 0},
@@ -73,7 +74,7 @@ TextureROMSpec Pole_1Sprite1TextureSpec =
 	false
 };
 
-BgmapSpriteROMSpec Pole_1Sprite1SpriteSpec =
+BgmapSpriteROMSpec Pole_1Sprite1LSpriteSpec =
 {
 	{
 		// VisualComponent
@@ -92,17 +93,88 @@ BgmapSpriteROMSpec Pole_1Sprite1SpriteSpec =
 		},
 
 		// Spec for the texture to display
-		(TextureSpec*)&Pole_1Sprite1TextureSpec,
+		(TextureSpec*)&Pole_1Sprite1LTextureSpec,
 
 		// Transparency mode (__TRANSPARENCY_NONE, __TRANSPARENCY_EVEN or __TRANSPARENCY_ODD)
 		__TRANSPARENCY_NONE,
 
 		// Displacement added to the sprite's position
-		{17, -17, 4, 6}
+		{236, -19, 4, 6}
 	},
 
 	// Flag to indicate in which display to show the texture (__WORLD_ON, __WORLD_LON or __WORLD_RON)
-	__WORLD_ON,
+	__WORLD_LON,
+
+	// The display mode (__WORLD_BGMAP, __WORLD_AFFINE or __WORLD_HBIAS)
+	__WORLD_BGMAP,
+	
+	// Pointer to affine/hbias manipulation function
+	NULL
+};
+
+TextureROMSpec Pole_1Sprite1RTextureSpec =
+{
+	// Pointer to the char spec that the texture uses
+	(CharSetSpec*)&Pole_1Sprite1CharsetSpec,
+
+	// Pointer to the map array that defines how to use the tiles from the char set
+	Pole_1ActorPole_1_raMap,
+
+	// Horizontal size in tiles of the texture (max. 64)
+	59,
+
+	// Vertical size in tiles of the texture (max. 64)
+	5,
+
+	// padding for affine/hbias transformations
+	{0, 0},
+
+	// Number of frames that the texture supports
+	1,
+
+	// Palette index to use by the graphical data (0 - 3)
+	0,
+
+	// Flag to recycle the texture with a different map
+	false,
+
+	// Flag to vertically flip the image
+	false,
+
+	// Flag to horizontally flip the image
+	false
+};
+
+BgmapSpriteROMSpec Pole_1Sprite1RSpriteSpec =
+{
+	{
+		// VisualComponent
+		{
+			// Component
+			{
+				// Allocator
+				__TYPE(BgmapSprite),
+
+				// Component type
+				kSpriteComponent
+			},
+
+			// Array of animation functions
+			(const AnimationFunction**)NULL
+		},
+
+		// Spec for the texture to display
+		(TextureSpec*)&Pole_1Sprite1RTextureSpec,
+
+		// Transparency mode (__TRANSPARENCY_NONE, __TRANSPARENCY_EVEN or __TRANSPARENCY_ODD)
+		__TRANSPARENCY_NONE,
+
+		// Displacement added to the sprite's position
+		{236, -19, 4, 6}
+	},
+
+	// Flag to indicate in which display to show the texture (__WORLD_ON, __WORLD_LON or __WORLD_RON)
+	__WORLD_RON,
 
 	// The display mode (__WORLD_BGMAP, __WORLD_AFFINE or __WORLD_HBIAS)
 	__WORLD_BGMAP,
@@ -117,7 +189,8 @@ BgmapSpriteROMSpec Pole_1Sprite1SpriteSpec =
 
 ComponentSpec* const Pole_1ComponentSpecs[] = 
 {
-	(ComponentSpec*)&Pole_1Sprite1SpriteSpec,
+	(ComponentSpec*)&Pole_1Sprite1LSpriteSpec,
+	(ComponentSpec*)&Pole_1Sprite1RSpriteSpec,
 	NULL
 };
 

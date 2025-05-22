@@ -38,13 +38,19 @@
                                     "data": "H4sIAAAAAAAACotWMjAwMFDSAVGGEMoIQhlDKBMIZQqhzCCUOYSygFCWEMoRQjkpxQIAn4ZObVUAAAA=",
                                     "height": "3",
                                     "width": "4",
-                                    "name": "smallpipe"
+                                    "name": "smallpipe_l"
+                                },
+                                {
+                                    "data": "H4sIAAAAAAAACotWMjAwcFbSAVEuEMoVQrmBKUMDCGUIoYwglDGEMoFQphDKDEKZK8UCAEXfm/BVAAAA",
+                                    "height": "3",
+                                    "width": "4",
+                                    "name": "smallpipe_r"
                                 }
                             ],
                             "tiles": {
-                                "count": 12,
-                                "data": "H4sIAAAAAAAACn2OQQoDIQxF7+J6Fgr+QJY/jLlE6f2vUYw67RRbV89HSN4juTkA1HSk5q7m7UxHt2ru592Sxj4c2BpJm/bCyyq5ZpVCEbKjUha+LahaxiwUEPmDfe0sI2ue6d5qdq95oQVyPJu40s2ctLDNjGweJ3jloN8bh0UJSlgRArOXOnNyUcz0XAT9G4iF+7IfvVEWOR9lextlyu+yrd2X3awOfL4AfMZhlRECAAA=",
-                                "name": "smallpipe"
+                                "count": 24,
+                                "data": "H4sIAAAAAAAACn2SQarDMAxE7+J1FglEAi1H1LpE+fe/RpEsO07q/tDA9CHihzzvoqZERGfZipmK1foqm1MxizhRKMyHPdZaAdWkPU4UQJ9l+A9lKwLucaIsIkebJSJhIv4Z/bNpBpx7qtd67qbnnlFbRDxPHVUzqJrPqhqqWZgNHSLps5zYIwOUvhBKnf0gSnWP/t7j2mxNw6zpTGZr6maCL7MlXZuto6n1PlQz0SyBerTXnQI67hh+89CkIw4q1wVECdpSRcA9XpRw9UGImP+J/tk0m/pgvl+Lpdq1amQhHvX0pfb+qgLV4ggMHfLz2sEsIHBQZhClLyR19kOuPjD537HfiGuzH75hFjqT2ZqGmeBptqRrsxuVFv8+JZKztSEEAAA=",
+                                "name": "smallpipe_l"
                             }
                         }
                     ]
@@ -58,7 +64,7 @@
                     "y": -13,
                     "z": 0
                 },
-                "displayMode": "Mono",
+                "displayMode": "Stereo",
                 "displays": "ON",
                 "imageProcessingSettings": {
                     "colorDistanceFormula": "euclidean",
@@ -68,16 +74,18 @@
                 },
                 "isAnimated": true,
                 "manipulationFunction": "",
-                "name": "smallpipe",
+                "name": "smallpipe_l",
                 "optimizeTiles": true,
                 "section": "rom",
                 "shareTiles": true,
                 "sourceType": "image",
                 "texture": {
                     "files": [
-                        "smallpipe.png"
+                        "smallpipe_l.png"
                     ],
-                    "files2": [],
+                    "files2": [
+                        "smallpipe_r.png"
+                    ],
                     "flip": {
                         "x": false,
                         "y": false
