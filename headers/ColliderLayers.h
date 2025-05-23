@@ -17,9 +17,7 @@
 
 enum ColliderLayers
 {
-	kLayerDisk = 1 << (kLayerNone + 1),
-	kLayerPaddle = 1 << (kLayerNone + 2),
-	kLayerWall = 1 << (kLayerNone + 3),
+	kLayerGround = 1 << (kLayerNone + 1),
 	kLayerAll = __COLLISION_ALL_LAYERS,
 };
 

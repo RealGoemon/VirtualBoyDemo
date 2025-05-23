@@ -1,8 +1,6 @@
 {
     "_version": "0.6.0",
     "layers": {
-        "8mqpu6KL9PPdifyY": "Paddle",
-        "EXUdZOmEedD9n6AS": "Wall",
-        "Kcw7MNbiPnV3qhmO": "Disk"
+        "SXbvDALTwppzIflY": "Ground"
     }
 }

@@ -23,6 +23,7 @@
 
 extern ActorSpec LowPowerIndicatorActorSpec;
 extern ActorSpec UnderworldActorSpec;
+extern ActorSpec UHoleAnimActorSpec;
 
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 // ACTOR LISTS
@@ -32,6 +33,7 @@ PositionedActorROMSpec UnderworldStageActors[] =
 {
 	
 	{&UnderworldActorSpec, 				{0, 0, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	{&UHoleAnimActorSpec, 				{-64, 33, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
 	{&LowPowerIndicatorActorSpec, 	{-192 + 8, 112 - 4, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
 
 	{NULL, {0, 0, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},

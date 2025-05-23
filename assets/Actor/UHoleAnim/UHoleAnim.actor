@@ -1,0 +1,159 @@
+{
+    "_id": "1LBQQnTEYdooP6p3",
+    "_version": "0.6.0",
+    "animations": {
+        "default": 1,
+        "multiframe": false,
+        "totalFrames": 9
+    },
+    "body": {
+        "bounciness": 0,
+        "enabled": false,
+        "friction": 0,
+        "gravityAxes": [],
+        "mass": 0,
+        "maximumSpeed": 0,
+        "maximumVelocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotationAxes": []
+    },
+    "components": {
+        "animations": [
+            {
+                "callback": "",
+                "cycles": 20,
+                "frames": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                ],
+                "loop": true,
+                "name": "Hole"
+            },
+            {
+                "callback": "",
+                "cycles": 24,
+                "frames": [
+                    7,
+                    8
+                ],
+                "loop": true,
+                "name": "Frame"
+            }
+        ],
+        "children": [],
+        "colliders": [],
+        "mutators": [],
+        "sprites": [
+            {
+                "_imageData": {
+                    "images": [
+                        {
+                            "animation": {
+                                "frames": 9
+                            },
+                            "maps": [
+                                {
+                                    "data": "H4sIAAAAAAAACiXVu5HgNgAFwVzWlrEPf5oESCZxpfzTUOnaGrPN+fPz+/v7+/PP/4kUqdKky5ApSy65ZcuRR175/ia88MILL7zwwgsvvPDCCy+88MILr/AKr/AKr/AKr/AKr/AKr/AKr/AKr/AKr/Iqr/Iqr/Iqr/Iqr/Iqr/Iqr/Iqr/Iqr/Ear/Ear/Ear/Ear/Ear/Ear/Ear/Ear/M6r/M6r/M6r/M6r/M6r/M6r/M6r/M6b/AGb/AGb/AGb/AGb/AGb/AGb/AGb/AGb/Imb/Imb/Imb/Imb/Imb/Imb/Imb/Imb/EWb/EWb/EWb/EWb/EWb/EWb/EWb/EW7+JdvIt38S7exbt4F+/iXbyLd/Eu3sW7eBfv5t28m3fzbt7Nu3k37+bdvJt3827ezbt5N2/zNm/zNm/zNm/zNm/zNm/zNm/zNm/zNu/wDu/wDu/wDu/wDu/wDu/wDu/wDu/wDu/hPbyH9/Ae3sN7eA/v4T28h/fwHt7De3gP7+W9vJf38l7ey3t5L+/lvbyX9/Je3st7eS/v4328j/fxPt7H+3gf7+N9vI/38T7ex/t4318v/hf/i//F/+J/8b/4X/wv/hf/i//F/+J/8b/4X/wv/hf/i//F/+J/8b/4X/wv/hf/i//F/+J/8b/4X/wv/hf/i//F/+J/8b/4X/wv/hf/i//F/+J/8b/4X/wv/hf/i//F/+J/8b/4X/wv/hf/i//F/+J/8b/4X/wv/hf/i/+l1Z9//wN9T5bY3QgAAA==",
+                                    "height": "54",
+                                    "width": "6",
+                                    "name": "UHoleAnim_L"
+                                },
+                                {
+                                    "data": "H4sIAAAAAAAACiXVubHcMAAFwVy+LWPxuMRhEgeTUCn/NFRSW2O2Ob9/PuX7/fn1L7dUadJlyCNTlmw58v7P/ZEikUt4N+/m3bybd/Nu3s27eTfv5t28yqu8yqu8yqu8yqu8yqu8yqu8yqu8yqu8xmu8xmu8xmu8xmu8xmu8xmu8xmu8xmu8zuu8zuu8zuu8zuu8zuu8zuu8zuu8zuu8wRu8wRu8wRu8wRu8wRu8wRu8wRu8wRu8h/fwHt7De3gP7+E9vIf38B7ew3t4D+/hPbzJm7zJm7zJm7zJm7zJm7zJm7zJm7zJm7zFW7zFW7zFW7zFW7zFW7zFW7zFW7zFW7zN27zN27zN27zN27zN27zN27zN27zN27zDO7zDO7zDO7zDO7zDO7zDO7zDO7zDO7yX9/Je3st7eS/v5b28l/fyXt7Le3kv7+W9/718PlIkcslXbqnSpMuQR6Ys2XKEV3iFV3iFV3iFV3iFV3iFV3iFV3iFV3iFF1544YUXXnjhhRdeeOGFF1544YV38S7exbt4F+/iXbyLd/Eu3sW7eBfv4l28i/flfXlf3pfnf/G/+F/8L/4X/4v/xf/if/G/+F/8L/4X/4v/xf/if/G/+F/8L/4X/4v/xf/if/G/+F/8L/4X/4v/xf/if/G/+F/8L/4X/4v/xf/if/G/+F/8L/4X/4v/xf/if/G/+F/8L/4X/4v/xf/if/G/+F/8L/4X/4v/xf/if/G/+F96+/nzF9oXGxPdCAAA",
+                                    "height": "54",
+                                    "width": "6",
+                                    "name": "UHoleAnim_R"
+                                }
+                            ],
+                            "tiles": {
+                                "count": 648,
+                                "data": "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",
+                                "name": "UHoleAnim_L"
+                            }
+                        }
+                    ]
+                },
+                "bgmapMode": "Bgmap",
+                "colorMode": 0,
+                "compression": "none",
+                "displacement": {
+                    "parallax": 4,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "displayMode": "Stereo",
+                "displays": "ON",
+                "imageProcessingSettings": {
+                    "colorDistanceFormula": "euclidean",
+                    "imageQuantizationAlgorithm": "nearest",
+                    "minimumColorDistanceToDither": 0,
+                    "serpentine": false
+                },
+                "isAnimated": true,
+                "manipulationFunction": "",
+                "name": "UHoleAnim_L",
+                "optimizeTiles": true,
+                "section": "rom",
+                "shareTiles": true,
+                "sourceType": "image",
+                "texture": {
+                    "files": [
+                        "UHoleAnim_L.png"
+                    ],
+                    "files2": [
+                        "UHoleAnim_R.png"
+                    ],
+                    "flip": {
+                        "x": false,
+                        "y": false
+                    },
+                    "padding": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "palette": 0,
+                    "recycleable": false,
+                    "repeat": {
+                        "mode": "1x1",
+                        "size": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "x": false,
+                        "y": false
+                    }
+                },
+                "transparency": "None"
+            }
+        ],
+        "wireframes": []
+    },
+    "extraProperties": {
+        "enabled": false,
+        "extraInfo": "",
+        "pixelSize": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        }
+    },
+    "inGameType": "None",
+    "logic": {
+        "configuration": {},
+        "customAllocator": "",
+        "enabled": false
+    },
+    "sprites": {
+        "type": "Bgmap"
+    }
+}
