@@ -26,7 +26,7 @@ extern uint16 UnderworldActorug_raMap[];
 CharSetROMSpec UnderworldSprite1CharsetSpec =
 {
 	// Number of CHARs in function of the number of frames to load at the same time
-	305,
+	304,
 
 	// Whether it is shared or not
 	true,
