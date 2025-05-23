@@ -62,7 +62,7 @@ TextureROMSpec Hill2Sprite1LTextureSpec =
 	1,
 
 	// Palette index to use by the graphical data (0 - 3)
-	0,
+	3,
 
 	// Flag to recycle the texture with a different map
 	false,
@@ -133,7 +133,7 @@ TextureROMSpec Hill2Sprite1RTextureSpec =
 	1,
 
 	// Palette index to use by the graphical data (0 - 3)
-	0,
+	3,
 
 	// Flag to recycle the texture with a different map
 	false,

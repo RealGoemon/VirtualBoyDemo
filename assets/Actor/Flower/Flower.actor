@@ -1,132 +1,136 @@
 {
-    "_id": "luZ4exiH8elatxlQ",
-    "_version": "0.6.0",
-    "animations": {
-        "default": 0,
-        "multiframe": false,
-        "totalFrames": 1
-    },
-    "body": {
-        "bounciness": 0,
-        "enabled": false,
-        "friction": 0,
-        "gravityAxes": [],
-        "mass": 0,
-        "maximumSpeed": 0,
-        "maximumVelocity": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-        },
-        "rotationAxes": []
-    },
-    "components": {
-        "animations": [],
-        "children": [],
-        "colliders": [],
-        "mutators": [],
-        "sprites": [
-            {
-                "_imageData": {
-                    "images": [
-                        {
-                            "animation": {
-                                "frames": 3
-                            },
-                            "maps": [
-                                {
-                                    "data": "H4sIAAAAAAAACiXNuRGAMBAEwVzOxjjtIh4TkJQERf5pUDBWm31HZjlj+rigQYfxo4QCAsMMFRZYYYMdDuATn/jEJz7zmc985jOfazwvJrdqOL4AAAA=",
-                                    "height": "9",
-                                    "width": "3",
-                                    "name": "flower_l"
-                                },
-                                {
-                                    "data": "H4sIAAAAAAAACiXNuRGAMAwAwV4UE+j4CQ3GTXjovw0GLtpwe2RmxvCBjDLJLIussskuhxQ55ZIqt7Qf/PDDDz/88MMPP/zwo8TzAm/gEQS+AAAA",
-                                    "height": "9",
-                                    "width": "3",
-                                    "name": "flower_r"
-                                }
-                            ],
-                            "tiles": {
-                                "count": 54,
-                                "data": "H4sIAAAAAAAACs2VQW7cMAxF7+J1FhSgT5VLEtS/RNH7X6MQNRnHDTqZoA0Qrz4I2hT5xeefh9ye4+UQ3KWPFIy+JNjFaJVw5rYUkV5SiWzs/Xg5BqcGqdfct69J6zepbqpQO14Ozi6DVS1ShLnPwBS/RadJ7DM4bSgn1heC02N6fYHMIFcup5Ocq5rDNdxKBpvHeg1wh3pUx+oNWl+ACKyqJUS4e5smMmZF17ltRxOJwarGBJMjl3QnBquECBzwah5DGmxLiLRRUkNa5J5OE2l/n9lF3sf3YW4Dns/td9mRKYJ1MjOm7d6c/IHB1cWkyeTsO7r8XlHDGmuskbiT6l5DJRl7UKpoir6dV1WzNaimrvCSAmiD6qsX/hVetKsX8g9eRJdamGdy141bBZ/02EUEtU5dwipKpgxmdXzK7UVJjxkxY24DEgBqGUjfe/HGC2muIrV6om6iXh2r+UWaf6kXOqTZp/fiZFRcGZXPM2oEOZ5hFNwU7xjFk1HBlLhFHzEqHjIKejJKHzAq7e7Fmlg+8gKjrCgDMDiyOt5e5HtGUVpdmMKVNJ5e4PszKt4yKmsv1q+DxajgVC9GAVhc4s5195o6b89KUNSJynlVnIxqd0YNQa1IecGv8KJxLcR/8YKfYNT6Hzf09qTHtnarrvKFUbFptPjELddO3KJOTzp9M0qvjMo/GWUuoptGroKNCtVXMK29kO+yF79+AxZtJMJJCQAA",
-                                "name": "flower_l"
-                            }
-                        }
-                    ]
-                },
-                "bgmapMode": "Bgmap",
-                "colorMode": 0,
-                "compression": "none",
-                "displacement": {
-                    "parallax": 4,
-                    "x": 0,
-                    "y": 0,
-                    "z": 4
-                },
-                "displayMode": "Stereo",
-                "displays": "ON",
-                "imageProcessingSettings": {
-                    "colorDistanceFormula": "euclidean",
-                    "imageQuantizationAlgorithm": "nearest",
-                    "minimumColorDistanceToDither": 0,
-                    "serpentine": false
-                },
-                "isAnimated": true,
-                "manipulationFunction": "",
-                "name": "flower_l",
-                "optimizeTiles": true,
-                "section": "rom",
-                "shareTiles": false,
-                "sourceType": "image",
-                "texture": {
-                    "files": [
-                        "flower_l.png"
-                    ],
-                    "files2": [
-                        "flower_r.png"
-                    ],
-                    "flip": {
-                        "x": false,
-                        "y": false
-                    },
-                    "padding": {
-                        "x": 0,
-                        "y": 0
-                    },
-                    "palette": 1,
-                    "recycleable": false,
-                    "repeat": {
-                        "mode": "1x1",
-                        "size": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "x": false,
-                        "y": false
-                    }
-                },
-                "transparency": "None"
-            }
-        ],
-        "wireframes": []
-    },
-    "extraProperties": {
-        "enabled": false,
-        "extraInfo": "",
-        "pixelSize": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-        }
-    },
-    "inGameType": "None",
-    "logic": {
-        "configuration": {},
-        "customAllocator": "",
-        "enabled": false
-    },
-    "sprites": {
-        "type": "Bgmap"
-    }
+	"_id": "luZ4exiH8elatxlQ",
+	"_version": "0.6.0",
+	"animations": {
+		"default": 0,
+		"multiframe": false,
+		"totalFrames": 3
+	},
+	"components": {
+		"animations": [
+			{
+				"callback": "",
+				"cycles": 8,
+				"frames": [
+					0
+				],
+				"loop": true,
+				"name": "Default"
+			},
+			{
+				"callback": "",
+				"cycles": 8,
+				"frames": [
+					1,2
+				],
+				"loop": true,
+				"name": "Haps"
+			}
+		],
+		"bodies": [],
+		"children": [],
+		"colliders": [],
+		"mutators": [],
+		"sprites": [
+			{
+				"_imageData": {
+					"images": [
+						{
+							"animation": {
+								"frames": 3
+							},
+							"maps": [
+								{
+									"data": "H4sIAAAAAAAAEyXNuRGAMAwAwV4UE+j4CQ3GTXjovw0GLtpwe2RmxvCBjDLJLIussskuhxQ55ZIqt7Qf/PDDDz/88MMPP/zwo8TzAm/gEQS+AAAA",
+									"height": "9",
+									"width": "3",
+									"name": "flower_l"
+								},
+								{
+									"data": "H4sIAAAAAAAAEyXNuRGAMBAEwVzOxjjtIh4TkJQERf5pUDBWm31HZjlj+rigQYfxo4QCAsMMFRZYYYMdDuATn/jEJz7zmc985jOfazwvJrdqOL4AAAA=",
+									"height": "9",
+									"width": "3",
+									"name": "flower_r"
+								}
+							],
+							"tiles": {
+								"count": 54,
+								"data": "H4sIAAAAAAAAE82UUYocMQxE79Lf81EGS44+JeS6RMj9rxEsT6a3s+xkQrKwDQOFUI8sV9f7fuD+HLcD8pAxEjL6ksKOpFXD2dsSQC+plGzs/bgdg3MEOa69b19D63cpbiqidtwOzo7BmsYE1m+dgYm4V6ch9hmcNpRT1uDg9JhRDWQGWa9NJznXNBcXdSsZbBrrNRFf1aiN1ZuoH7cjDRDfGwuQe7dpwJhVXee2XZUhg2SuwTI4sjamO2VkjVj/JeK1vBBNZMsBNJbUQItdRQOafnhnF/m4vj/2NpHXe/tDdskEZO1mxrQYWbfObzJq48mEk8tuD051Wt2ZqLtz97p73Trvz2pQqROV86pitpZv6tq8JEQGxPWXF/wMLxqB/+QFOyowr/Sqmzbp7UWPbWWrPuWOsD2twpCokCW45crEver0pHOt6U4VqTWDpMe+HZKxvUAzB7TWVFeIWUl1qPk9F/iauTgZ5VdG2euM0iA/9vgNo5Zv+o5RcTLKKwy7+oxR/pRRGiej/AmjuO7PaloKwGdepGSZUUwVJivH2wu+92KgiW0pQBunF/n1GcW3jLJilGFy9l1dfq+qybrW4I4IF6+uuVCVpptR6qp6MkoejNImFZzywj/Di3b1Av/gRfwFo9YXtwa+6LEDkIrThVFj0yhPub3YjIoZMWNuA/LKKP7OKFdAN5jcFqdKml+k+ad6oQPNXsjFj5/sLMASSQkAAA==",
+								"name": "flower_l"
+							}
+						}
+					]
+				},
+				"bgmapMode": "Bgmap",
+				"colorMode": 0,
+				"compression": "none",
+				"displacement": {
+					"parallax": 5,
+					"x": -5,
+					"y": 0,
+					"z": 4
+				},
+				"displayMode": "Stereo",
+				"displays": "ON",
+				"imageProcessingSettings": {
+					"colorDistanceFormula": "euclidean",
+					"imageQuantizationAlgorithm": "nearest",
+					"minimumColorDistanceToDither": 0,
+					"serpentine": false
+				},
+				"isAnimated": true,
+				"manipulationFunction": "",
+				"name": "Flower",
+				"optimizeTiles": true,
+				"section": "rom",
+				"shareTiles": false,
+				"sourceType": "image",
+				"texture": {
+					"files": [
+						"flower_l.png"
+					],
+					"files2": [
+						"flower_r.png"
+					],
+					"flip": {
+						"x": false,
+						"y": false
+					},
+					"padding": {
+						"x": 0,
+						"y": 0
+					},
+					"palette": 1,
+					"recycleable": false,
+					"repeat": {
+						"mode": "1x1",
+						"size": {
+							"x": 0,
+							"y": 0
+						},
+						"x": false,
+						"y": false
+					}
+				},
+				"transparency": "None"
+			}
+		],
+		"wireframes": []
+	},
+	"extraProperties": {
+		"extraInfo": "",
+		"pixelSize": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		}
+	},
+	"inGameType": "None",
+	"logic": {
+		"configuration": {},
+		"customAllocator": ""
+	},
+	"sprites": {
+		"type": "Bgmap"
+	}
 }
