@@ -15,9 +15,14 @@
 // DECLARATIONS
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
-extern uint32 Pole_1ActorPole_1_laTiles[];
-extern uint16 Pole_1ActorPole_1_laMap[];
-extern uint16 Pole_1ActorPole_1_raMap[];
+extern uint32 Pole_1Actorpole_1_rTiles[];
+extern uint16 Pole_1Actorpole_1_rMap[];
+
+extern uint32 Pole_1Actorpole_2_rTiles[];
+extern uint16 Pole_1Actorpole_2_rMap[];
+
+extern uint32 Pole_1Actorpole_3_rTiles[];
+extern uint16 Pole_1Actorpole_3_rMap[];
 
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 // SPRITES
@@ -26,7 +31,7 @@ extern uint16 Pole_1ActorPole_1_raMap[];
 CharSetROMSpec Pole_1Sprite1CharsetSpec =
 {
 	// Number of CHARs in function of the number of frames to load at the same time
-	33,
+	17,
 
 	// Whether it is shared or not
 	true,
@@ -35,25 +40,25 @@ CharSetROMSpec Pole_1Sprite1CharsetSpec =
 	true,
 
 	// Tiles array
-	Pole_1ActorPole_1_laTiles,
+	Pole_1Actorpole_1_rTiles,
 
 	// Frame offsets array
 	NULL
 };
 
-TextureROMSpec Pole_1Sprite1LTextureSpec =
+TextureROMSpec Pole_1Sprite1TextureSpec =
 {
 	// Pointer to the char spec that the texture uses
 	(CharSetSpec*)&Pole_1Sprite1CharsetSpec,
 
 	// Pointer to the map array that defines how to use the tiles from the char set
-	Pole_1ActorPole_1_laMap,
+	Pole_1Actorpole_1_rMap,
 
 	// Horizontal size in tiles of the texture (max. 64)
-	59,
+	64,
 
 	// Vertical size in tiles of the texture (max. 64)
-	5,
+	6,
 
 	// padding for affine/hbias transformations
 	{0, 0},
@@ -74,7 +79,7 @@ TextureROMSpec Pole_1Sprite1LTextureSpec =
 	false
 };
 
-BgmapSpriteROMSpec Pole_1Sprite1LSpriteSpec =
+BgmapSpriteROMSpec Pole_1Sprite1SpriteSpec =
 {
 	{
 		// VisualComponent
@@ -93,17 +98,17 @@ BgmapSpriteROMSpec Pole_1Sprite1LSpriteSpec =
 		},
 
 		// Spec for the texture to display
-		(TextureSpec*)&Pole_1Sprite1LTextureSpec,
+		(TextureSpec*)&Pole_1Sprite1TextureSpec,
 
 		// Transparency mode (__TRANSPARENCY_NONE, __TRANSPARENCY_EVEN or __TRANSPARENCY_ODD)
 		__TRANSPARENCY_NONE,
 
 		// Displacement added to the sprite's position
-		{236, -19, 4, 6}
+		{255, -24, 4, 6}
 	},
 
 	// Flag to indicate in which display to show the texture (__WORLD_ON, __WORLD_LON or __WORLD_RON)
-	__WORLD_LON,
+	__WORLD_ON,
 
 	// The display mode (__WORLD_BGMAP, __WORLD_AFFINE or __WORLD_HBIAS)
 	__WORLD_BGMAP,
@@ -112,19 +117,38 @@ BgmapSpriteROMSpec Pole_1Sprite1LSpriteSpec =
 	NULL
 };
 
-TextureROMSpec Pole_1Sprite1RTextureSpec =
+
+CharSetROMSpec Pole_1Sprite2CharsetSpec =
+{
+	// Number of CHARs in function of the number of frames to load at the same time
+	31,
+
+	// Whether it is shared or not
+	true,
+
+	// Whether the tiles are optimized or not
+	true,
+
+	// Tiles array
+	Pole_1Actorpole_2_rTiles,
+
+	// Frame offsets array
+	NULL
+};
+
+TextureROMSpec Pole_1Sprite2TextureSpec =
 {
 	// Pointer to the char spec that the texture uses
-	(CharSetSpec*)&Pole_1Sprite1CharsetSpec,
+	(CharSetSpec*)&Pole_1Sprite2CharsetSpec,
 
 	// Pointer to the map array that defines how to use the tiles from the char set
-	Pole_1ActorPole_1_raMap,
+	Pole_1Actorpole_2_rMap,
 
 	// Horizontal size in tiles of the texture (max. 64)
-	59,
+	64,
 
 	// Vertical size in tiles of the texture (max. 64)
-	5,
+	6,
 
 	// padding for affine/hbias transformations
 	{0, 0},
@@ -145,7 +169,7 @@ TextureROMSpec Pole_1Sprite1RTextureSpec =
 	false
 };
 
-BgmapSpriteROMSpec Pole_1Sprite1RSpriteSpec =
+BgmapSpriteROMSpec Pole_1Sprite2SpriteSpec =
 {
 	{
 		// VisualComponent
@@ -164,17 +188,107 @@ BgmapSpriteROMSpec Pole_1Sprite1RSpriteSpec =
 		},
 
 		// Spec for the texture to display
-		(TextureSpec*)&Pole_1Sprite1RTextureSpec,
+		(TextureSpec*)&Pole_1Sprite2TextureSpec,
 
 		// Transparency mode (__TRANSPARENCY_NONE, __TRANSPARENCY_EVEN or __TRANSPARENCY_ODD)
 		__TRANSPARENCY_NONE,
 
 		// Displacement added to the sprite's position
-		{236, -19, 4, 6}
+		{767, -24, 4, 6}
 	},
 
 	// Flag to indicate in which display to show the texture (__WORLD_ON, __WORLD_LON or __WORLD_RON)
-	__WORLD_RON,
+	__WORLD_ON,
+
+	// The display mode (__WORLD_BGMAP, __WORLD_AFFINE or __WORLD_HBIAS)
+	__WORLD_BGMAP,
+	
+	// Pointer to affine/hbias manipulation function
+	NULL
+};
+
+
+CharSetROMSpec Pole_1Sprite3CharsetSpec =
+{
+	// Number of CHARs in function of the number of frames to load at the same time
+	17,
+
+	// Whether it is shared or not
+	true,
+
+	// Whether the tiles are optimized or not
+	true,
+
+	// Tiles array
+	Pole_1Actorpole_3_rTiles,
+
+	// Frame offsets array
+	NULL
+};
+
+TextureROMSpec Pole_1Sprite3TextureSpec =
+{
+	// Pointer to the char spec that the texture uses
+	(CharSetSpec*)&Pole_1Sprite3CharsetSpec,
+
+	// Pointer to the map array that defines how to use the tiles from the char set
+	Pole_1Actorpole_3_rMap,
+
+	// Horizontal size in tiles of the texture (max. 64)
+	46,
+
+	// Vertical size in tiles of the texture (max. 64)
+	6,
+
+	// padding for affine/hbias transformations
+	{0, 0},
+
+	// Number of frames that the texture supports
+	1,
+
+	// Palette index to use by the graphical data (0 - 3)
+	2,
+
+	// Flag to recycle the texture with a different map
+	false,
+
+	// Flag to vertically flip the image
+	false,
+
+	// Flag to horizontally flip the image
+	false
+};
+
+BgmapSpriteROMSpec Pole_1Sprite3SpriteSpec =
+{
+	{
+		// VisualComponent
+		{
+			// Component
+			{
+				// Allocator
+				__TYPE(BgmapSprite),
+
+				// Component type
+				kSpriteComponent
+			},
+
+			// Array of animation functions
+			(const AnimationFunction**)NULL
+		},
+
+		// Spec for the texture to display
+		(TextureSpec*)&Pole_1Sprite3TextureSpec,
+
+		// Transparency mode (__TRANSPARENCY_NONE, __TRANSPARENCY_EVEN or __TRANSPARENCY_ODD)
+		__TRANSPARENCY_NONE,
+
+		// Displacement added to the sprite's position
+		{1207, -24, 4, 6}
+	},
+
+	// Flag to indicate in which display to show the texture (__WORLD_ON, __WORLD_LON or __WORLD_RON)
+	__WORLD_ON,
 
 	// The display mode (__WORLD_BGMAP, __WORLD_AFFINE or __WORLD_HBIAS)
 	__WORLD_BGMAP,
@@ -189,8 +303,9 @@ BgmapSpriteROMSpec Pole_1Sprite1RSpriteSpec =
 
 ComponentSpec* const Pole_1ComponentSpecs[] = 
 {
-	(ComponentSpec*)&Pole_1Sprite1LSpriteSpec,
-	(ComponentSpec*)&Pole_1Sprite1RSpriteSpec,
+	(ComponentSpec*)&Pole_1Sprite1SpriteSpec,
+	(ComponentSpec*)&Pole_1Sprite2SpriteSpec,
+	(ComponentSpec*)&Pole_1Sprite3SpriteSpec,
 	NULL
 };
 

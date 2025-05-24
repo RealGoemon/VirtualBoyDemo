@@ -35,9 +35,9 @@
                             },
                             "maps": [
                                 {
-                                    "data": "H4sIAAAAAAAACotWMjAwMFTSAVFGEMp4QHkmEMoUQhlQRpHrMTMIZQ6hLAYDz5IqAUKGx2IBqQiagiMCAAA=",
-                                    "height": "2",
-                                    "width": "39",
+                                    "data": "H4sIAAAAAAAACotWMjAwMFTSAVFGEMp4QHkmEMoUQhlQRpHrMQqtpYWT8PHMIJQ5hLIYDDxLqgQWuR6jYfzRIqxp6NxRirZULAD+0ZkAQQUAAA==",
+                                    "height": "3",
+                                    "width": "64",
                                     "name": "MidFloor_1"
                                 }
                             ],
@@ -54,8 +54,8 @@
                 "compression": "none",
                 "displacement": {
                     "parallax": 4,
-                    "x": 156,
-                    "y": -8,
+                    "x": 256,
+                    "y": 0,
                     "z": 3
                 },
                 "displayMode": "Mono",
@@ -87,6 +87,310 @@
                         "y": 0
                     },
                     "palette": 0,
+                    "recycleable": false,
+                    "repeat": {
+                        "mode": "1x1",
+                        "size": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "x": false,
+                        "y": false
+                    }
+                },
+                "transparency": "None"
+            },
+            {
+                "_imageData": {
+                    "images": [
+                        {
+                            "animation": {
+                                "frames": 1
+                            },
+                            "maps": [
+                                {
+                                    "data": "H4sIAAAAAAAACotWMjAwMFTSAVFGEGrw8gzIpIypYrsJZY6goQNNIZTZYOeRGzzmVLHdgnbxR6EDaeGkQUhZQihHMnlOg8EP6F6JBQCJxqUBQQUAAA==",
+                                    "height": "3",
+                                    "width": "64",
+                                    "name": "MidFloor_2"
+                                }
+                            ],
+                            "tiles": {
+                                "count": 12,
+                                "data": "H4sIAAAAAAAACpWOMQ7DIBAE/0LtgrXuVt5y3xHl/9+I4DBS3EShGqGBnVfr67TjN9r2QtKUpHa0JG/kxNTTfQhemNvdEzQvyfUsL0nXwOSNvSeXC5o9578giZo4J6a+hxGBFKIdTbQC4oq0vd36LJiANFwHLMRwc5p0uXcOgpGFYvTAnLAdtvrO2Q2oBtDq1XDaPqth5fhPlGya+5ZPYU0MhAZy3/JbeH8ARo/rlhECAAA=",
+                                "name": "MidFloor_2"
+                            }
+                        }
+                    ]
+                },
+                "bgmapMode": "Bgmap",
+                "colorMode": 0,
+                "compression": "none",
+                "displacement": {
+                    "parallax": 4,
+                    "x": 768,
+                    "y": 0,
+                    "z": 3
+                },
+                "displayMode": "Mono",
+                "displays": "ON",
+                "imageProcessingSettings": {
+                    "colorDistanceFormula": "euclidean",
+                    "imageQuantizationAlgorithm": "nearest",
+                    "minimumColorDistanceToDither": 0,
+                    "serpentine": false
+                },
+                "isAnimated": true,
+                "manipulationFunction": "",
+                "name": "MidFloor_2",
+                "optimizeTiles": true,
+                "section": "rom",
+                "shareTiles": true,
+                "sourceType": "image",
+                "texture": {
+                    "files": [
+                        "MidFloor_2.png"
+                    ],
+                    "files2": [],
+                    "flip": {
+                        "x": false,
+                        "y": false
+                    },
+                    "padding": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "palette": 0,
+                    "recycleable": false,
+                    "repeat": {
+                        "mode": "1x1",
+                        "size": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "x": false,
+                        "y": false
+                    }
+                },
+                "transparency": "None"
+            },
+            {
+                "_imageData": {
+                    "images": [
+                        {
+                            "animation": {
+                                "frames": 1
+                            },
+                            "maps": [
+                                {
+                                    "data": "H4sIAAAAAAAACotWMjAwMFTSAVFGEIrePCKUGEMoA9pRJtT0mCmEMhsYHhFKzGkenhbU9JglhHKkAY+GQTAoqVgAQWJFT/EDAAA=",
+                                    "height": "3",
+                                    "width": "48",
+                                    "name": "MidFloor_3"
+                                }
+                            ],
+                            "tiles": {
+                                "count": 11,
+                                "data": "H4sIAAAAAAAACpWPMQ7DMAwD/5K5gwlIhDnyHUX//41CtuMgWYp6Oghninofbb3j9RtteyFJStJGL0wp9XR9uvn8NtzWkssFyZZDKMTMBZk4c3cdml3yXJFdUi9MbqwVMyyYgBSVELAQrDrVUvT9IEQghXJFKyCug8rezabrOHMbaAQ4pnajV24oR51gtqtDFyJmh26xXyv8J0o2zT3lXfh8AbJSorTlAQAA",
+                                "name": "MidFloor_3"
+                            }
+                        }
+                    ]
+                },
+                "bgmapMode": "Bgmap",
+                "colorMode": 0,
+                "compression": "none",
+                "displacement": {
+                    "parallax": 4,
+                    "x": 1216,
+                    "y": 0,
+                    "z": 3
+                },
+                "displayMode": "Mono",
+                "displays": "ON",
+                "imageProcessingSettings": {
+                    "colorDistanceFormula": "euclidean",
+                    "imageQuantizationAlgorithm": "nearest",
+                    "minimumColorDistanceToDither": 0,
+                    "serpentine": false
+                },
+                "isAnimated": true,
+                "manipulationFunction": "",
+                "name": "MidFloor_3",
+                "optimizeTiles": true,
+                "section": "rom",
+                "shareTiles": true,
+                "sourceType": "image",
+                "texture": {
+                    "files": [
+                        "MidFloor_3.png"
+                    ],
+                    "files2": [],
+                    "flip": {
+                        "x": false,
+                        "y": false
+                    },
+                    "padding": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "palette": 0,
+                    "recycleable": false,
+                    "repeat": {
+                        "mode": "1x1",
+                        "size": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "x": false,
+                        "y": false
+                    }
+                },
+                "transparency": "None"
+            },
+            {
+                "_imageData": {
+                    "images": [
+                        {
+                            "animation": {
+                                "frames": 1
+                            },
+                            "maps": [
+                                {
+                                    "data": "H4sIAAAAAAAACotWMjAwMFDSQaIMIZQRNp4BHsoYQplg4xFvAz4ePhtw8GIBTYe4yuEAAAA=",
+                                    "height": "4",
+                                    "width": "8",
+                                    "name": "block"
+                                }
+                            ],
+                            "tiles": {
+                                "count": 5,
+                                "data": "H4sIAAAAAAAACoWMsQ2AQAwDd0lNQZNQ20q8BGL/NdDz+W9xdZbsu+3s2PGPktLd3Q4jmaM2Vn1YZGLiJam3QTIkTUSgamIFSn0jtqwNwPYOEYDcN3F5pyGA5R3bUe15AThAIlHdAAAA",
+                                "name": "block"
+                            }
+                        }
+                    ]
+                },
+                "bgmapMode": "Bgmap",
+                "colorMode": 0,
+                "compression": "none",
+                "displacement": {
+                    "parallax": 4,
+                    "x": 1120,
+                    "y": -28,
+                    "z": 3
+                },
+                "displayMode": "Mono",
+                "displays": "ON",
+                "imageProcessingSettings": {
+                    "colorDistanceFormula": "euclidean",
+                    "imageQuantizationAlgorithm": "nearest",
+                    "minimumColorDistanceToDither": 0,
+                    "serpentine": false
+                },
+                "isAnimated": true,
+                "manipulationFunction": "",
+                "name": "block",
+                "optimizeTiles": true,
+                "section": "rom",
+                "shareTiles": true,
+                "sourceType": "image",
+                "texture": {
+                    "files": [
+                        "block.png"
+                    ],
+                    "files2": [],
+                    "flip": {
+                        "x": false,
+                        "y": false
+                    },
+                    "padding": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "palette": 1,
+                    "recycleable": false,
+                    "repeat": {
+                        "mode": "1x1",
+                        "size": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "x": false,
+                        "y": false
+                    }
+                },
+                "transparency": "None"
+            },
+            {
+                "_imageData": {
+                    "images": [
+                        {
+                            "animation": {
+                                "frames": 1
+                            },
+                            "maps": [
+                                {
+                                    "data": "H4sIAAAAAAAACotWMjAwMFDSAVGGEMoIQhlDKBMIZQqhzCCUOYSygFCWEMoRQjkpxQIAn4ZObVUAAAA=",
+                                    "height": "3",
+                                    "width": "4",
+                                    "name": "smallpipe_l"
+                                },
+                                {
+                                    "data": "H4sIAAAAAAAACotWMjAwcFbSAVEuEMoVQrmBKUMDCGUIoYwglDGEMoFQphDKDEKZK8UCAEXfm/BVAAAA",
+                                    "height": "3",
+                                    "width": "4",
+                                    "name": "smallpipe_r"
+                                }
+                            ],
+                            "tiles": {
+                                "count": 24,
+                                "data": "H4sIAAAAAAAACn2SQarDMAxE7+J1FglEAi1H1LpE+fe/RpEsO07q/tDA9CHihzzvoqZERGfZipmK1foqm1MxizhRKMyHPdZaAdWkPU4UQJ9l+A9lKwLucaIsIkebJSJhIv4Z/bNpBpx7qtd67qbnnlFbRDxPHVUzqJrPqhqqWZgNHSLps5zYIwOUvhBKnf0gSnWP/t7j2mxNw6zpTGZr6maCL7MlXZuto6n1PlQz0SyBerTXnQI67hh+89CkIw4q1wVECdpSRcA9XpRw9UGImP+J/tk0m/pgvl+Lpdq1amQhHvX0pfb+qgLV4ggMHfLz2sEsIHBQZhClLyR19kOuPjD537HfiGuzH75hFjqT2ZqGmeBptqRrsxuVFv8+JZKztSEEAAA=",
+                                "name": "smallpipe_l"
+                            }
+                        }
+                    ]
+                },
+                "bgmapMode": "Bgmap",
+                "colorMode": 0,
+                "compression": "none",
+                "displacement": {
+                    "parallax": 4,
+                    "x": 64,
+                    "y": -24,
+                    "z": 3
+                },
+                "displayMode": "Stereo",
+                "displays": "ON",
+                "imageProcessingSettings": {
+                    "colorDistanceFormula": "euclidean",
+                    "imageQuantizationAlgorithm": "nearest",
+                    "minimumColorDistanceToDither": 0,
+                    "serpentine": false
+                },
+                "isAnimated": true,
+                "manipulationFunction": "",
+                "name": "smallpipe_l",
+                "optimizeTiles": true,
+                "section": "rom",
+                "shareTiles": true,
+                "sourceType": "image",
+                "texture": {
+                    "files": [
+                        "smallpipe_l.png"
+                    ],
+                    "files2": [
+                        "smallpipe_r.png"
+                    ],
+                    "flip": {
+                        "x": false,
+                        "y": false
+                    },
+                    "padding": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "palette": 1,
                     "recycleable": false,
                     "repeat": {
                         "mode": "1x1",

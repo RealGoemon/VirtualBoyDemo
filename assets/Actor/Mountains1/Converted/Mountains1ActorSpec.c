@@ -52,7 +52,7 @@ TextureROMSpec Mountains1Sprite1TextureSpec =
 	64,
 
 	// Vertical size in tiles of the texture (max. 64)
-	14,
+	13,
 
 	// padding for affine/hbias transformations
 	{0, 0},
@@ -98,7 +98,7 @@ BgmapSpriteROMSpec Mountains1Sprite1SpriteSpec =
 		__TRANSPARENCY_NONE,
 
 		// Displacement added to the sprite's position
-		{256, 0, 6, 10}
+		{64, -12, 0, -12}
 	},
 
 	// Flag to indicate in which display to show the texture (__WORLD_ON, __WORLD_LON or __WORLD_RON)

@@ -1,0 +1,136 @@
+{
+    "_id": "F5qRz2xzd1ij50ml",
+    "_version": "0.6.0",
+    "animations": {
+        "default": 0,
+        "multiframe": false,
+        "totalFrames": 3
+    },
+    "body": {
+        "bounciness": 0,
+        "enabled": false,
+        "friction": 0,
+        "gravityAxes": [],
+        "mass": 0,
+        "maximumSpeed": 0,
+        "maximumVelocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotationAxes": []
+    },
+    "components": {
+        "animations": [
+            {
+                "callback": "",
+                "cycles": 8,
+                "frames": [
+                    0,
+                    1,
+                    2
+                ],
+                "loop": true,
+                "name": "Koopa"
+            }
+        ],
+        "children": [],
+        "colliders": [],
+        "mutators": [],
+        "sprites": [
+            {
+                "_imageData": {
+                    "images": [
+                        {
+                            "animation": {
+                                "frames": 3
+                            },
+                            "maps": [
+                                {
+                                    "data": "H4sIAAAAAAAACiXNuRECQRAEsFzOxtju4TV5k6DIPw0KZMnUe1trrW33IygGexxwxAlnXHDFDXc88MTrT3zxxRdffPHFF1988cUXX3zxxRdfffXVV1999dVXX3311VdfffXVV9/4xje+8Y1vfOMb3/jGN765bZ8v+b4lAaUBAAA=",
+                                    "height": "15",
+                                    "width": "4",
+                                    "name": "Koopa"
+                                }
+                            ],
+                            "tiles": {
+                                "count": 60,
+                                "data": "H4sIAAAAAAAACu2VTaocMQyE7zLrLMrgktGyTEuXCLn/NYLl/nnwskgggcCbhoZvBmFXtVTo+6tjP69vrwNAf/DYSADcCJiAxoVtJqC8sM2Fpnk0m0fV3uf+VaQ6yMJwwuQLJbnc+oWSF85jvYXMCxeEWx0m2QztKwxAe9C2YwKtai2JNvtv6m0nOtUp9fNLqrP0doB9GyIgLzTVs6S75Ovnsmluh7S+ero8nSqcIW5DYZlhub0Npc+FM1xT9vSt0GagVd/alKAyv25q+7YZHbnlZHasd2HcuGSfeoPDk7Q6IdOVUf9aHqp5cIDZm6oBMaTYbRkheekdMZalutiC6XHKOc1/wPYgjDz1/tHs5IHObSizr7fGqCOjxmhNv++2iFK6Zp3AQVq1BSM7Ru5aOspbs5lg1ZpWZdV+1LtGloXvvL3z9p/kbfzrvOEZ8OQ91WUzHm/HlTc/82aWSVYDzGbayBp7ks1POXfegNbRKm+/1vDO2ztvXyVvlF/7TVLXbou8Q/q038yZXi4AGkmWIVOHnYuKx6f9NsLv/ZaZI+PZb5mvHz8BR066/1EKAAA=",
+                                "name": "Koopa"
+                            }
+                        }
+                    ]
+                },
+                "bgmapMode": "Bgmap",
+                "colorMode": 0,
+                "compression": "none",
+                "displacement": {
+                    "parallax": 0,
+                    "x": 0,
+                    "y": -19,
+                    "z": 0
+                },
+                "displayMode": "Mono",
+                "displays": "ON",
+                "imageProcessingSettings": {
+                    "colorDistanceFormula": "euclidean",
+                    "imageQuantizationAlgorithm": "nearest",
+                    "minimumColorDistanceToDither": 0,
+                    "serpentine": false
+                },
+                "isAnimated": true,
+                "manipulationFunction": "",
+                "name": "Koopa",
+                "optimizeTiles": true,
+                "section": "rom",
+                "shareTiles": true,
+                "sourceType": "image",
+                "texture": {
+                    "files": [
+                        "Koopa.png"
+                    ],
+                    "files2": [],
+                    "flip": {
+                        "x": false,
+                        "y": false
+                    },
+                    "padding": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "palette": 1,
+                    "recycleable": false,
+                    "repeat": {
+                        "mode": "1x1",
+                        "size": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "x": false,
+                        "y": false
+                    }
+                },
+                "transparency": "None"
+            }
+        ],
+        "wireframes": []
+    },
+    "extraProperties": {
+        "enabled": false,
+        "extraInfo": "",
+        "pixelSize": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        }
+    },
+    "inGameType": "None",
+    "logic": {
+        "configuration": {},
+        "customAllocator": "",
+        "enabled": false
+    },
+    "sprites": {
+        "type": "Bgmap"
+    }
+}

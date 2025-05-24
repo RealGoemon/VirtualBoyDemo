@@ -35,13 +35,177 @@
                             },
                             "maps": [
                                 {
-                                    "data": "H4sIAAAAAAAACotWMjAwNFLSAVHGYMrAAJkyNIFQphBBCGVoBqHMIZQFCmUJoRwhGpwhPCcIBeW5YKNcIZShUiwAw/P+rJQAAAA=",
+                                    "data": "H4sIAAAAAAAACotWMjAwMFTSAVFGEMoAhTKGUCYQyhSbkgGihqaraUGZQShzCGWBQllCKEcI5TQYnDukXU0LyhlCuUAoV2yUG5gyHBTOHdKupjIVCwDn4uf2QQUAAA==",
+                                    "height": "3",
+                                    "width": "64",
+                                    "name": "bridge_la"
+                                },
+                                {
+                                    "data": "H4sIAAAAAAAACotWMjAwNFTSAVFGEMoYTBkYIFOGJhCeKRa5AaKGpqtpEhIQ/xmaQShzCGUBoSwhlCNEg9MgcO6QdjVNQgLiP0NnCOWCjXKFUIPBuUPa1dSmYgE2KSKGQQUAAA==",
+                                    "height": "3",
+                                    "width": "64",
+                                    "name": "bridge_ra"
+                                }
+                            ],
+                            "tiles": {
+                                "count": 31,
+                                "data": "H4sIAAAAAAAACq2TUW6EMAxE78L3foxNYpnPCdpTVL3/NSo7YZel0G6lAhJDNMGe5OVjwrim2z9IJy8MwpQiBtQuvVRxsZOfCUNWV0B8m+Zib7ZTHUB9y6v03aiSa0g2gNlDl+0gxQvEi0y3qbgL4CEXQOEpAVUr1EhRax0lqlUbclmWZVfYzKzHFOkxVam6GZYl9PBS09tD5uogOxiBYvk2STyngWw98Rqpn3I9yNPE/irXLkkq6TpKtD7a2MiW1Vpr7X6/37s3r6eXl15o3BpNxv4o5vDObPT5u/c0xbn8lYdLfjfAd6Pm8Zx5O78QGNChFRNc8Cu5JEIFMrF5MSFsVNsxWX5iMigCLDc2CID0Ud2kusKhCWJvJ0g1jcLQZDLrbbtpZgd+rdomL/j9gxcopig5LU4NEuU48fGZJyCacbsEMV7+nck4hNRRjWyZLRjb8LxkcoA4vHz1qpKKhxfzwzsfvJ9fQC0BJlUFAAA=",
+                                "name": "bridge_la"
+                            }
+                        }
+                    ]
+                },
+                "bgmapMode": "Bgmap",
+                "colorMode": 0,
+                "compression": "none",
+                "displacement": {
+                    "parallax": 0,
+                    "x": 256,
+                    "y": -12,
+                    "z": 0
+                },
+                "displayMode": "Stereo",
+                "displays": "ON",
+                "imageProcessingSettings": {
+                    "colorDistanceFormula": "euclidean",
+                    "imageQuantizationAlgorithm": "nearest",
+                    "minimumColorDistanceToDither": 0,
+                    "serpentine": false
+                },
+                "isAnimated": true,
+                "manipulationFunction": "",
+                "name": "bridge_la",
+                "optimizeTiles": true,
+                "section": "rom",
+                "shareTiles": true,
+                "sourceType": "image",
+                "texture": {
+                    "files": [
+                        "bridge_la.png"
+                    ],
+                    "files2": [
+                        "bridge_ra.png"
+                    ],
+                    "flip": {
+                        "x": false,
+                        "y": false
+                    },
+                    "padding": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "palette": 0,
+                    "recycleable": false,
+                    "repeat": {
+                        "mode": "1x1",
+                        "size": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "x": false,
+                        "y": false
+                    }
+                },
+                "transparency": "None"
+            },
+            {
+                "_imageData": {
+                    "images": [
+                        {
+                            "animation": {
+                                "frames": 1
+                            },
+                            "maps": [
+                                {
+                                    "data": "H4sIAAAAAAAACotWMjAwcFXSAVFuEMoAmTKEUoYQQTMsSgaKGpqupgFlaAThWeKmDI0hPMdB4Nwh7WqahIQJ4ZAwhfBcBoFzh7SrqU3FAgDwBCFYQQUAAA==",
+                                    "height": "3",
+                                    "width": "64",
+                                    "name": "bridge_bg_la"
+                                },
+                                {
+                                    "data": "H4sIAAAAAAAACotWMjAwMFTSAVFGEMoYQhlAKBMIZQqhzFDkBpYamq6mBWUOoSwglCUeynEwOHdIu5oWlBOEciYcEi6DwblD2tVUpmIBzUlH7kEFAAA=",
+                                    "height": "3",
+                                    "width": "64",
+                                    "name": "bridge_bg_ra"
+                                }
+                            ],
+                            "tiles": {
+                                "count": 22,
+                                "data": "H4sIAAAAAAAACq2SUQ7DIAxD79LvfRjJPs3U+19jCgkla4HxMSSkpyo1TuL3gTjH6w9YJEKaF4gAAyVauRUUXbWuQEfZvWEXMyGuECFcUbLrJoVSUXG22vTfeFlvCoaM5ssDazdeS4hExkuMDdV112h2ynM6Q0x2kt8p6hvXHpYPj/c2iYZEenYiDv61DhD9Ydw8DLMz7m3qQXnHyIvV3szsXV939wsLe0ObAzfFcqLa+H7s4vwA/stUiskDAAA=",
+                                "name": "bridge_bg_la"
+                            }
+                        }
+                    ]
+                },
+                "bgmapMode": "Bgmap",
+                "colorMode": 0,
+                "compression": "none",
+                "displacement": {
+                    "parallax": 0,
+                    "x": 256,
+                    "y": -12,
+                    "z": 1
+                },
+                "displayMode": "Stereo",
+                "displays": "ON",
+                "imageProcessingSettings": {
+                    "colorDistanceFormula": "euclidean",
+                    "imageQuantizationAlgorithm": "nearest",
+                    "minimumColorDistanceToDither": 0,
+                    "serpentine": false
+                },
+                "isAnimated": true,
+                "manipulationFunction": "",
+                "name": "bridge_bg_la",
+                "optimizeTiles": true,
+                "section": "rom",
+                "shareTiles": true,
+                "sourceType": "image",
+                "texture": {
+                    "files": [
+                        "bridge_bg_la.png"
+                    ],
+                    "files2": [
+                        "bridge_bg_ra.png"
+                    ],
+                    "flip": {
+                        "x": false,
+                        "y": false
+                    },
+                    "padding": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "palette": 1,
+                    "recycleable": false,
+                    "repeat": {
+                        "mode": "1x1",
+                        "size": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "x": false,
+                        "y": false
+                    }
+                },
+                "transparency": "None"
+            },
+            {
+                "_imageData": {
+                    "images": [
+                        {
+                            "animation": {
+                                "frames": 1
+                            },
+                            "maps": [
+                                {
+                                    "data": "H4sIAAAAAAAACotWMjAwMFTSAVFGEMoAhTKGUCYQyhRCmUEocwhlgUJZQihHCOUEoZwhlAuEcsVGuYEpQwOlWABvNP8ulAAAAA==",
                                     "height": "3",
                                     "width": "7",
                                     "name": "bridgeL"
                                 },
                                 {
-                                    "data": "H4sIAAAAAAAACotWMjAwMFTSAVFGEMoYQhmgUCYQyhRCmUEocwhlAaEsIZQjhHKCUM4QygVCuUIoNyyUIcQiQ0OlWACTl+CGlAAAAA==",
+                                    "data": "H4sIAAAAAAAACotWMjAwNFTSAVFGEMoYTBkYIFOGJhCeKYQHpcwglDmEsoBQlhDKEaLBCcKDUs4QygUb5QqhDJRiASeNmM+UAAAA",
                                     "height": "3",
                                     "width": "7",
                                     "name": "bridgeR"
@@ -49,7 +213,7 @@
                             ],
                             "tiles": {
                                 "count": 31,
-                                "data": "H4sIAAAAAAAACq2UUW6DMBBE78J3PmYXe7X+HCNOUfX+16jWNgFSSFupJJFerCEZLw8+JoxjevwHku8Dflg1j/dVVthQYIB1NIHY5e8KW4AKqE+PyTyZEParvko/NFNyabuoSOwdWBGfF0Rr5g0lOvRV3VBd4dDA3KtLNNMoCZ0eUynt/3TUMbPAnHMedSzbhqWUcqhuZrE3+UMWSKZI7TS4C7yVBCS+Bsbw1J8zI2ufzhIT2nF5wX0kfh6U76tLR0Lh1NGMrG0OrKy1B2qtdV3XNVbHMepEaM/ynFUlFc8s5md2/pa92cU1/uSO37oubChiQO7oKYvLlZPd9exxNXw7zW9c/445PMpj9eAv3vkrniCewskUOsADSwjsDcMGS3xxMlu2906KifTqqgypeqCU4O1qasv24j5udESLdgHaLTQwnLnfhZ9x84xU0rc7a5OLlUOje882uS6z0Hi1J0w8MxRzZMMxn8/Zzy/vVVihVQUAAA==",
+                                "data": "H4sIAAAAAAAACq2TUW6EMAxE78L3foxNYpnPCdpTVL3/NSo7YZel0G6lAhJDNMGe5OVjwrim2z9IJy8MwpQiBtQuvVRxsZOfCUNWV0B8m+Zib7ZTHUB9y6v03aiSa0g2gNlDl+0gxQvEi0y3qbgL4CEXQOEpAVUr1EhRax0lqlUbclmWZVfYzKzHFOkxVam6GZYl9PBS09tD5uogOxiBYvk2STyngWw98Rqpn3I9yNPE/irXLkkq6TpKtD7a2MiW1Vpr7X6/37s3r6eXl15o3BpNxv4o5vDObPT5u/c0xbn8lYdLfjfAd6Pm8Zx5O78QGNChFRNc8Cu5JEIFMrF5MSFsVNsxWX5iMigCLDc2CID0Ud2kusKhCWJvJ0g1jcLQZDLrbbtpZgd+rdomL/j9gxcopig5LU4NEuU48fGZJyCacbsEMV7+nck4hNRRjWyZLRjb8LxkcoA4vHz1qpKKhxfzwzsfvJ9fQC0BJlUFAAA=",
                                 "name": "bridgeL"
                             }
                         }
@@ -59,9 +223,9 @@
                 "colorMode": 0,
                 "compression": "none",
                 "displacement": {
-                    "parallax": 1,
-                    "x": 0,
-                    "y": 0,
+                    "parallax": 0,
+                    "x": 732,
+                    "y": -12,
                     "z": 0
                 },
                 "displayMode": "Stereo",
@@ -117,13 +281,13 @@
                             },
                             "maps": [
                                 {
-                                    "data": "H4sIAAAAAAAACotWMjAwcFXSAVFuEMoAmTKEUoYQQTMIzwjCs8RNGRpDeI4QnglhDaYQnotSLABzLorplAAAAA==",
+                                    "data": "H4sIAAAAAAAACotWMjAwMFTSAVFGEMoAhTKGUCYQyhRCmUEoczyUBYSyhFCOhDU4QShnpVgAPsLT/ZQAAAA=",
                                     "height": "3",
                                     "width": "7",
                                     "name": "bridgeL_bg"
                                 },
                                 {
-                                    "data": "H4sIAAAAAAAACotWMjAwMFTSAVFGEMoYQhlAKBMIZQqhzCCUOYSygFCWeChHCOUEoZwJa3BRigUAOdh9CZQAAAA=",
+                                    "data": "H4sIAAAAAAAACotWMjAwcFHSAVGuEMoNQhmAKUMoZQgRNIXwjCCUMUTQHA9lCVFpAqFMCWtwVooFAENJfRiUAAAA",
                                     "height": "3",
                                     "width": "7",
                                     "name": "bridgeR_bg"
@@ -131,7 +295,7 @@
                             ],
                             "tiles": {
                                 "count": 22,
-                                "data": "H4sIAAAAAAAACq2SUQ7DIAxD79LvfRjJPs3U+19jCgkla4HxMSSkpyo1TuL3gTjH6w9YJEKaF4gAAyVauRUUXbWuQEfZvWEXMyGuECFcUbLrJoVSUXG22vTfeFlvCoaM5ssDazdeS4hExkuMDdV112h2ynM6Q0x2kt8p6hvXHpYPj/c2iYZEenYiDv61DhD9Ydw8DLMz7m3qQXnHyIvV3szsXV939wsLe0ObAzfFcqLa+H7s4vwA/stUiskDAAA=",
+                                "data": "H4sIAAAAAAAACq2SUQ7DIAxD79LvfTiSfZpp97/GFBIKHS3wMaRKT8gkTur3gTzH6w8oiZQcTd0t4V8I/HQor5BixxRnMQ346EGtgoCou7TuWutb6LHxFdW0K/R5yjO2PUAEKkoQlWi5knI7wR2TFe3ybO532bjH1X4tpp8EhgBbdup2bvOw9OCFOENk4YJnSixCMK7kJg8+kA1YHIaWEIkez3/B32e7OduI3OcLemABMMkDAAA=",
                                 "name": "bridgeL_bg"
                             }
                         }
@@ -141,9 +305,9 @@
                 "colorMode": 0,
                 "compression": "none",
                 "displacement": {
-                    "parallax": 1,
-                    "x": 0,
-                    "y": 0,
+                    "parallax": 0,
+                    "x": 732,
+                    "y": -12,
                     "z": 1
                 },
                 "displayMode": "Stereo",

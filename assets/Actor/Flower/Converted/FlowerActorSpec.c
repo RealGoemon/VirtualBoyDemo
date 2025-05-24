@@ -20,70 +20,19 @@ extern uint16 FlowerActorflower_lMap[];
 extern uint16 FlowerActorflower_rMap[];
 
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
-// ANIMATIONS
-//——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
-
-AnimationFunctionROMSpec FlowerAnimation1AnimationSpec =
-{
-	// Number of frames that the texture supports of this animation function
-	1,
-
-	// Frames to play in animation
-	{
-		0, 
-	},
-
-	// Number of cycles a frame of animation is displayed
-	8,
-
-	// Whether to play it in loop or not
-	true,
-
-	// Animation's name
-	"Default",
-};
-
-AnimationFunctionROMSpec FlowerAnimation2AnimationSpec =
-{
-	// Number of frames that the texture supports of this animation function
-	2,
-
-	// Frames to play in animation
-	{
-		1, 2, 
-	},
-
-	// Number of cycles a frame of animation is displayed
-	8,
-
-	// Whether to play it in loop or not
-	true,
-
-	// Animation's name
-	"Haps",
-};
-
-AnimationFunctionROMSpec* FlowerAnimationSpecs[] =
-{
-	(AnimationFunction*)&FlowerAnimation1AnimationSpec,
-	(AnimationFunction*)&FlowerAnimation2AnimationSpec,
-	NULL,
-};
-
-//——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 // SPRITES
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 CharSetROMSpec FlowerSprite1CharsetSpec =
 {
 	// Number of CHARs in function of the number of frames to load at the same time
-	18,
+	43,
 
 	// Whether it is shared or not
-	false,
+	true,
 
 	// Whether the tiles are optimized or not
-	false,
+	true,
 
 	// Tiles array
 	FlowerActorflower_lTiles,
@@ -104,7 +53,7 @@ TextureROMSpec FlowerSprite1LTextureSpec =
 	3,
 
 	// Vertical size in tiles of the texture (max. 64)
-	3,
+	9,
 
 	// padding for affine/hbias transformations
 	{0, 0},
@@ -140,7 +89,7 @@ BgmapSpriteROMSpec FlowerSprite1LSpriteSpec =
 			},
 
 			// Array of animation functions
-			(const AnimationFunction**)FlowerAnimationSpecs
+			(const AnimationFunction**)NULL
 		},
 
 		// Spec for the texture to display
@@ -150,7 +99,7 @@ BgmapSpriteROMSpec FlowerSprite1LSpriteSpec =
 		__TRANSPARENCY_NONE,
 
 		// Displacement added to the sprite's position
-		{-5, 0, 4, 5}
+		{0, 0, 4, 4}
 	},
 
 	// Flag to indicate in which display to show the texture (__WORLD_ON, __WORLD_LON or __WORLD_RON)
@@ -175,7 +124,7 @@ TextureROMSpec FlowerSprite1RTextureSpec =
 	3,
 
 	// Vertical size in tiles of the texture (max. 64)
-	3,
+	9,
 
 	// padding for affine/hbias transformations
 	{0, 0},
@@ -211,7 +160,7 @@ BgmapSpriteROMSpec FlowerSprite1RSpriteSpec =
 			},
 
 			// Array of animation functions
-			(const AnimationFunction**)FlowerAnimationSpecs
+			(const AnimationFunction**)NULL
 		},
 
 		// Spec for the texture to display
@@ -221,7 +170,7 @@ BgmapSpriteROMSpec FlowerSprite1RSpriteSpec =
 		__TRANSPARENCY_NONE,
 
 		// Displacement added to the sprite's position
-		{-5, 0, 4, 5}
+		{0, 0, 4, 4}
 	},
 
 	// Flag to indicate in which display to show the texture (__WORLD_ON, __WORLD_LON or __WORLD_RON)
@@ -267,6 +216,6 @@ ActorROMSpec FlowerActorSpec =
 	kTypeNone,
 
 	// Animation to play automatically
-	"Default"
+	NULL
 	
 };

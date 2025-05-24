@@ -1,117 +1,272 @@
 {
-	"_id": "POHzMqWBb12vyao8",
-	"_version": "0.6.0",
-	"animations": {
-		"default": 0,
-		"multiframe": false,
-		"totalFrames": 1
-	},
-	"components": {
-		"animations": [],
-		"bodies": [],
-		"children": [],
-		"colliders": [],
-		"mutators": [],
-		"sprites": [
-			{
-				"_imageData": {
-					"images": [
-						{
-							"animation": {
-								"frames": 1
-							},
-							"maps": [
-								{
-									"data": "H4sIAAAAAAAAE82TuQ2AQAwEe7mYwOYn5G0C0X8bSExuIWTfEU0467X2TCIiqSoIBTVoQFs00p/OjK/HMnSgBwMYf1SPD6wzy9ZjGSYwgwWsmeuJf451ppVsAzs4HqhrMssQb88t8qxAWZWyKmVV6rl3yxBvfxEi/jlfKrhu9xHdLRIIAAA=",
-									"height": "5",
-									"width": "59",
-									"name": "Pole_1_la"
-								},
-								{
-									"data": "H4sIAAAAAAAAE82UOw7AIAxD78LcIan6oWO/l6h6/2t0MLOFECRMlslg50XiDSIiYfATnSELZMVs8qzU05rt8bAEjXB41A0u9oOnUjpZ0xcPbbbDHXAQOW3xGByHrEnxJBIP3AWp2owktE/PKGFwnEIEekMwG9Nj1W+NJLRPzyhhcJwCBN8P0B2a6xIIAAA=",
-									"height": "5",
-									"width": "59",
-									"name": "Pole_1_ra"
-								}
-							],
-							"tiles": {
-								"count": 33,
-								"data": "H4sIAAAAAAAAE52TQY6EQAhF7+K6F5gIhiVEuMRk7n+NCRSlpd097YxJJV/8oV6Vn68J6pkef5KyAGCTLgv41qRvoMZNGiJiekVNRCSliLt7GtyrCqgOgDg9JkMRNEov715zdyrvCWfe5WwAsKZcDWCt3ZZYTbK7dxmrMWyxoqoqHVK1b5xVMyneqhKJEKcXMSjVSyI1dDEXUQ2c2QhmT3RihNmtS6I4MawmsPbb6WQXyDe8jewC+cybZEh0lgE5yM6bZPkvRhmQg7zJa+58l1cC4iYvx153eYl54FV3zg7ceUMSEZ/D1b7nFohpqN/NxTB4I+iRiZLxdki8hJYQgYR2ybjLJ+/LeZPzvMmLeRN5nrdxhsZ5Y0Zr98vM3WtmRK2qxwyp7jOkymJ2yWSevJ04ZDEM9zCSHR0uzV73xaPv0OwffYdMfuxbKYm+fM4O/ZadyoPeyUPzEr3F2b3fP9vf1litBQAA",
-								"name": "Pole_1_la"
-							}
-						}
-					]
-				},
-				"bgmapMode": "Bgmap",
-				"colorMode": 0,
-				"compression": "none",
-				"displacement": {
-					"parallax": 6,
-					"x": 236,
-					"y": -19,
-					"z": 4
-				},
-				"displayMode": "Stereo",
-				"displays": "ON",
-				"imageProcessingSettings": {
-					"colorDistanceFormula": "euclidean",
-					"imageQuantizationAlgorithm": "nearest",
-					"minimumColorDistanceToDither": 0,
-					"serpentine": false
-				},
-				"isAnimated": true,
-				"manipulationFunction": "",
-				"name": "Pole",
-				"optimizeTiles": true,
-				"section": "rom",
-				"shareTiles": true,
-				"sourceType": "image",
-				"texture": {
-					"files": [
-						"Pole_1_la.png"
-					],
-					"files2": [
-						"Pole_1_ra.png"
-					],
-					"flip": {
-						"x": false,
-						"y": false
-					},
-					"padding": {
-						"x": 0,
-						"y": 0
-					},
-					"palette": 2,
-					"recycleable": false,
-					"repeat": {
-						"mode": "1x1",
-						"size": {
-							"x": 0,
-							"y": 0
-						},
-						"x": false,
-						"y": false
-					}
-				},
-				"transparency": "None"
-			}
-		],
-		"wireframes": []
-	},
-	"extraProperties": {
-		"extraInfo": "",
-		"pixelSize": {
-			"x": 0,
-			"y": 0,
-			"z": 0
-		}
-	},
-	"inGameType": "None",
-	"logic": {
-		"configuration": {},
-		"customAllocator": ""
-	},
-	"sprites": {
-		"type": "Bgmap"
-	}
+    "_id": "POHzMqWBb12vyao8",
+    "_version": "0.6.0",
+    "animations": {
+        "default": 0,
+        "multiframe": false,
+        "totalFrames": 1
+    },
+    "body": {
+        "bounciness": 0,
+        "enabled": false,
+        "friction": 0,
+        "gravityAxes": [],
+        "mass": 0,
+        "maximumSpeed": 0,
+        "maximumVelocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotationAxes": []
+    },
+    "components": {
+        "animations": [],
+        "children": [],
+        "colliders": [],
+        "mutators": [],
+        "sprites": [
+            {
+                "_imageData": {
+                    "images": [
+                        {
+                            "animation": {
+                                "frames": 1
+                            },
+                            "maps": [
+                                {
+                                    "data": "H4sIAAAAAAAACu3ROw6AMAwD0Lt0Zkj5M/K9BOL+10DCu4UosUDq9EY7zh7MzEKRyTwkghJUoP5Cs7+c6b8gS2hACzrQ/2vBG7AzE5v5L8gSBjCCCcziBf3/x85MbOa/IEuQ/U8WpJ5gASvYLuKr5VmCf7o6SDjBcQI27ffbgQoAAA==",
+                                    "height": "6",
+                                    "width": "64",
+                                    "name": "pole_1_r"
+                                }
+                            ],
+                            "tiles": {
+                                "count": 17,
+                                "data": "H4sIAAAAAAAACp2QS2oFMQwE7zLrt5DAkulli1iXCLn/NYL8yZtJdhEMLuQeq+zPS3Zdr/8iRKQtJESy/Q5kopm1GViFjZmZz6x6pqhZnevuHWBl3f1v9oldRHRip4jmHNwkuAYPCImFo2V+HIxgu15XZGYp1eBafaK5M8YcXGiY3YgIAHULMzPY9C3cJ9iu0tEM0VFZ6YD0iUoz6cmNCtj0zVbf0+yGtXm6EUmOHzMDn1iBg7ueZjeszY2apA6+zVb3hhVYGDmOr5Mtc0x0byQPAhsZx9fMQY6N9YJvtPWb33xvT/1XXel+fGGmnNmFK4Ct/vUNiOtJze0CAAA=",
+                                "name": "pole_1_r"
+                            }
+                        }
+                    ]
+                },
+                "bgmapMode": "Bgmap",
+                "colorMode": 0,
+                "compression": "none",
+                "displacement": {
+                    "parallax": 6,
+                    "x": 255,
+                    "y": -24,
+                    "z": 4
+                },
+                "displayMode": "Mono",
+                "displays": "ON",
+                "imageProcessingSettings": {
+                    "colorDistanceFormula": "euclidean",
+                    "imageQuantizationAlgorithm": "nearest",
+                    "minimumColorDistanceToDither": 0,
+                    "serpentine": false
+                },
+                "isAnimated": true,
+                "manipulationFunction": "",
+                "name": "pole_1_r",
+                "optimizeTiles": true,
+                "section": "rom",
+                "shareTiles": true,
+                "sourceType": "image",
+                "texture": {
+                    "files": [
+                        "pole_1_r.png"
+                    ],
+                    "files2": [],
+                    "flip": {
+                        "x": false,
+                        "y": false
+                    },
+                    "padding": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "palette": 2,
+                    "recycleable": false,
+                    "repeat": {
+                        "mode": "1x1",
+                        "size": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "x": false,
+                        "y": false
+                    }
+                },
+                "transparency": "None"
+            },
+            {
+                "_imageData": {
+                    "images": [
+                        {
+                            "animation": {
+                                "frames": 1
+                            },
+                            "maps": [
+                                {
+                                    "data": "H4sIAAAAAAAACu2UMQ7CMAxF79K5Q36BtowUyiWq3v8aiL4KMVlR7AiGTm+wbOf721malFJq2kwIdOAEztnpB36MC+jBAMaQ0sdqBA3EyruCG5jAPcQAazUeYAbPDfrD0YU2Kr0VK8/yz3mbRmkhU8gUMlXxNit+MzGzLhxkcczpHzLVf8c01PPPKSWmUeEjhP0iXaRrcsUypJildxvf32j3ic3V/HNKiWmU94j1BTyxEjOBCgAA",
+                                    "height": "6",
+                                    "width": "64",
+                                    "name": "pole_2_r"
+                                }
+                            ],
+                            "tiles": {
+                                "count": 31,
+                                "data": "H4sIAAAAAAAACp2UUYrkMAxE75Lv+ZDBUtBniZYusez9r7FIltPJ9LALawj9sKutilzOr4N6HF//i0pEcyGUKOZ3QYRO5lmCNbQxIuKpHRJBgzn3FZFTFakVkU/tE08iGoUniEZU4UmGVdiVAF3oM+K10Qzz+DosItJSFs5fKWQRmFfhRNaaNTNT1XwLZmbl8pvYO3CPtDPCaHhq6VSls3CAmc5A41Dl8hszn6ezG+binjULwC9nrHhiCjb2eDq7YS42jgCG4+1szd4wBQt/PgtMIm7EpHh95sGzGD2d/ZwHYguiquasyi5SOVP9Vx7GhcMzHlX4RRmE6g4msDupu+tmCq8T8oiQ5UwEEO32KRAWjdnu1Lq7SDnLF5O/5oFOz4hWNFxoVAhIlGmEbxTpPLzyeTq7YS7uWXgAZtsZt50LU9BIp4NOXIVlObthChZa+M6kADPCC0V2+xJVG2E7k8zZMm/MW/JGXn+TW3du1+kzngMiO5PKPFDahUugVzw9QrtnCqhFpDa3l/XdKRRZmA66Z1x3/V1Yvp2b5OXtnjGTQC5UvpD5+P0HTVi/91UFAAA=",
+                                "name": "pole_2_r"
+                            }
+                        }
+                    ]
+                },
+                "bgmapMode": "Bgmap",
+                "colorMode": 0,
+                "compression": "none",
+                "displacement": {
+                    "parallax": 6,
+                    "x": 767,
+                    "y": -24,
+                    "z": 4
+                },
+                "displayMode": "Mono",
+                "displays": "ON",
+                "imageProcessingSettings": {
+                    "colorDistanceFormula": "euclidean",
+                    "imageQuantizationAlgorithm": "nearest",
+                    "minimumColorDistanceToDither": 0,
+                    "serpentine": false
+                },
+                "isAnimated": true,
+                "manipulationFunction": "",
+                "name": "pole_2_r",
+                "optimizeTiles": true,
+                "section": "rom",
+                "shareTiles": true,
+                "sourceType": "image",
+                "texture": {
+                    "files": [
+                        "pole_2_r.png"
+                    ],
+                    "files2": [],
+                    "flip": {
+                        "x": false,
+                        "y": false
+                    },
+                    "padding": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "palette": 2,
+                    "recycleable": false,
+                    "repeat": {
+                        "mode": "1x1",
+                        "size": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "x": false,
+                        "y": false
+                    }
+                },
+                "transparency": "None"
+            },
+            {
+                "_imageData": {
+                    "images": [
+                        {
+                            "animation": {
+                                "frames": 1
+                            },
+                            "maps": [
+                                {
+                                    "data": "H4sIAAAAAAAACotWMjAwMFDSwUkZQigjCGUMoUzwaBil0ChTCGUGocwhlAVVjB5ikYPPufjkLCGUI4RyglDONI+cAQpdfNbicy4+ORqGID6jaZj0yY1UfM4lV46GIUhDa2nhJBcI5Qqh3MCUoQFhOQqpAbKWyk6KBQCl0g8GjQcAAA==",
+                                    "height": "6",
+                                    "width": "46",
+                                    "name": "pole_3_r"
+                                }
+                            ],
+                            "tiles": {
+                                "count": 17,
+                                "data": "H4sIAAAAAAAACp2QS2oFMQwE7zLrt5DAkulli1iXCLn/NYL8yZtJdhEMLuQeq+zPS3Zdr/8iRKQtJESy/Q5kopm1GViFjZmZz6x6pqhZnevuHWBl3f1v9oldRHRip4jmHNwkuAYPCImFo2V+HIxgu15XZGYp1eBafaK5M8YcXGiY3YgIAHULMzPY9C3cJ9iu0tEM0VFZ6YD0iUoz6cmNCtj0zVbf0+yGtXm6EUmOHzMDn1iBg7ueZjeszY2apA6+zVb3hhVYGDmOr5Mtc0x0byQPAhsZx9fMQY6N9YJvtPWb33xvT/1XXel+fGGmnNmFK4Ct/vUNiOtJze0CAAA=",
+                                "name": "pole_3_r"
+                            }
+                        }
+                    ]
+                },
+                "bgmapMode": "Bgmap",
+                "colorMode": 0,
+                "compression": "none",
+                "displacement": {
+                    "parallax": 6,
+                    "x": 1207,
+                    "y": -24,
+                    "z": 4
+                },
+                "displayMode": "Mono",
+                "displays": "ON",
+                "imageProcessingSettings": {
+                    "colorDistanceFormula": "euclidean",
+                    "imageQuantizationAlgorithm": "nearest",
+                    "minimumColorDistanceToDither": 0,
+                    "serpentine": false
+                },
+                "isAnimated": true,
+                "manipulationFunction": "",
+                "name": "pole_3_r",
+                "optimizeTiles": true,
+                "section": "rom",
+                "shareTiles": true,
+                "sourceType": "image",
+                "texture": {
+                    "files": [
+                        "pole_3_r.png"
+                    ],
+                    "files2": [],
+                    "flip": {
+                        "x": false,
+                        "y": false
+                    },
+                    "padding": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "palette": 2,
+                    "recycleable": false,
+                    "repeat": {
+                        "mode": "1x1",
+                        "size": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "x": false,
+                        "y": false
+                    }
+                },
+                "transparency": "None"
+            }
+        ],
+        "wireframes": []
+    },
+    "extraProperties": {
+        "enabled": false,
+        "extraInfo": "",
+        "pixelSize": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        }
+    },
+    "inGameType": "None",
+    "logic": {
+        "configuration": {},
+        "customAllocator": "",
+        "enabled": false
+    },
+    "sprites": {
+        "type": "Bgmap"
+    }
 }

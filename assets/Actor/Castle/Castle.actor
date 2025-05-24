@@ -1,0 +1,198 @@
+{
+    "_id": "jTgGHRA5HfUz0fbM",
+    "_version": "0.6.0",
+    "animations": {
+        "default": 0,
+        "multiframe": false,
+        "totalFrames": 1
+    },
+    "body": {
+        "bounciness": 0,
+        "enabled": false,
+        "friction": 0,
+        "gravityAxes": [],
+        "mass": 0,
+        "maximumSpeed": 0,
+        "maximumVelocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotationAxes": []
+    },
+    "components": {
+        "animations": [],
+        "children": [],
+        "colliders": [],
+        "mutators": [],
+        "sprites": [
+            {
+                "_imageData": {
+                    "images": [
+                        {
+                            "animation": {
+                                "frames": 1
+                            },
+                            "maps": [
+                                {
+                                    "data": "H4sIAAAAAAAACotWMjAwMFTSAVFGEArKM0ahaChnAqFMIZQZhDKHUBYQypJ2cvT2LWpY09u3qGE9Gu+j8T4a76PxPhrvo/E+Gu+ocgZ4KNrHOz7baRjvxPudqvGOqhKf7cSbOULjPRYAhX0ik9ELAAA=",
+                                    "height": "24",
+                                    "width": "18",
+                                    "name": "Castle"
+                                }
+                            ],
+                            "tiles": {
+                                "count": 10,
+                                "data": "H4sIAAAAAAAACoWPSwrEMAxD75J1FyHgNF1KYF1imPtfozRuMj/IePUWD0l+pHxf2v4jMFFSk/BCtU/MOey0pUIqw3WhUeVQ4M5iVT13urpvgRwVhJo7oxi5juKo7hV1VBTYXg7DJQAogM3fgGUufnLf5pCku3t8Ibhjuj23C+ECJKYLs+PLvfd67K2Lvc8Ti0L6QbkBAAA=",
+                                "name": "Castle"
+                            }
+                        }
+                    ]
+                },
+                "bgmapMode": "Bgmap",
+                "colorMode": 0,
+                "compression": "none",
+                "displacement": {
+                    "parallax": 1,
+                    "x": 72,
+                    "y": -96,
+                    "z": 1
+                },
+                "displayMode": "Mono",
+                "displays": "ON",
+                "imageProcessingSettings": {
+                    "colorDistanceFormula": "euclidean",
+                    "imageQuantizationAlgorithm": "nearest",
+                    "minimumColorDistanceToDither": 0,
+                    "serpentine": false
+                },
+                "isAnimated": true,
+                "manipulationFunction": "",
+                "name": "Castle",
+                "optimizeTiles": true,
+                "section": "rom",
+                "shareTiles": true,
+                "sourceType": "image",
+                "texture": {
+                    "files": [
+                        "Castle.png"
+                    ],
+                    "files2": [],
+                    "flip": {
+                        "x": false,
+                        "y": false
+                    },
+                    "padding": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "palette": 0,
+                    "recycleable": false,
+                    "repeat": {
+                        "mode": "1x1",
+                        "size": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "x": false,
+                        "y": false
+                    }
+                },
+                "transparency": "None"
+            },
+            {
+                "_imageData": {
+                    "images": [
+                        {
+                            "animation": {
+                                "frames": 1
+                            },
+                            "maps": [
+                                {
+                                    "data": "H4sIAAAAAAAACu3FMQ0AAAgDMC/cHPND8G8DHSTt06kkqZYkSZL0rz0ZkXih0QsAAA==",
+                                    "height": "24",
+                                    "width": "18",
+                                    "name": "Castle_BG"
+                                }
+                            ],
+                            "tiles": {
+                                "count": 1,
+                                "data": "H4sIAAAAAAAACotWMoUCJR1CzFgA6PMc4y0AAAA=",
+                                "name": "Castle_BG"
+                            }
+                        }
+                    ]
+                },
+                "bgmapMode": "Bgmap",
+                "colorMode": 0,
+                "compression": "none",
+                "displacement": {
+                    "parallax": 1,
+                    "x": 72,
+                    "y": -96,
+                    "z": 2
+                },
+                "displayMode": "Mono",
+                "displays": "ON",
+                "imageProcessingSettings": {
+                    "colorDistanceFormula": "euclidean",
+                    "imageQuantizationAlgorithm": "nearest",
+                    "minimumColorDistanceToDither": 0,
+                    "serpentine": false
+                },
+                "isAnimated": true,
+                "manipulationFunction": "",
+                "name": "Castle_BG",
+                "optimizeTiles": true,
+                "section": "rom",
+                "shareTiles": true,
+                "sourceType": "image",
+                "texture": {
+                    "files": [
+                        "Castle_BG.png"
+                    ],
+                    "files2": [],
+                    "flip": {
+                        "x": false,
+                        "y": false
+                    },
+                    "padding": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "palette": 1,
+                    "recycleable": false,
+                    "repeat": {
+                        "mode": "1x1",
+                        "size": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "x": false,
+                        "y": false
+                    }
+                },
+                "transparency": "None"
+            }
+        ],
+        "wireframes": []
+    },
+    "extraProperties": {
+        "enabled": false,
+        "extraInfo": "",
+        "pixelSize": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        }
+    },
+    "inGameType": "None",
+    "logic": {
+        "configuration": {},
+        "customAllocator": "",
+        "enabled": false
+    },
+    "sprites": {
+        "type": "Bgmap"
+    }
+}

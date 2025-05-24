@@ -35,13 +35,13 @@
                             },
                             "maps": [
                                 {
-                                    "data": "H4sIAAAAAAAACotWMjAwsFTSAVGOEMoJQjlDKBcI5Qqh3JR0lIwMDMzBPEMDpVgAWvnqIkAAAAA=",
+                                    "data": "H4sIAAAAAAAACotWMjAwMFDSAVGGEMoIQhlDKBMIZQqhzCCUOYSyUIoFAIXiFYBAAAAA",
                                     "height": "3",
                                     "width": "3",
                                     "name": "mblock_La"
                                 },
                                 {
-                                    "data": "H4sIAAAAAAAACotWMjAwMFDSAVGGEMoIQhlDKBMIZQqhzCCUOYSyUIoFAIXiFYBAAAAA",
+                                    "data": "H4sIAAAAAAAACotWMjAwsFTSAVGOEMoJQjlDKBcI5Qqh3JR0lIwMDMzBPEMDpVgAWvnqIkAAAAA=",
                                     "height": "3",
                                     "width": "3",
                                     "name": "mblock_Ra"
@@ -49,7 +49,7 @@
                             ],
                             "tiles": {
                                 "count": 17,
-                                "data": "H4sIAAAAAAAACnWRUWrEMAxE7+LvfGRhx4M/5RVzidL7X6PIUjbZNjUIns1gaTRfTdJL0t62wHXa1rpNmc1Ax5T3hRfBBQ2AmVnbGh2Malt7xKcpgEtkImAALXHENT4DFW0KowL9jfSpqNUYorCQ8mMcrGdf8wIOIVvEGSfWK0+cUeUYadNO84ALZI2+A3yW4/rB6vxpcUErm594CHYAj8T7LEySVSwn3mdRUWQLAbmHf7LoNtBT2yH0sV4l9dIqlv0b+ylwyp3K0RlZ+AqLimuOIzpyMiraJDpQS1Xg0nYh6tOx+Rvvs0gXA4l2GLrZ7/cPyL18le0CAAA=",
+                                "data": "H4sIAAAAAAAACn2SXWrEMAyE7+LnPGShI+FHuWIuUXr/axT97Dol3RoEn8XE0kj5GiQ/SZ7jCMwzjmEkrVA2XgQXBGBxEomIcYxHPNoCJ1ULxSaktAJCZmZJSmtJ4oayBa501yxBqpP0cQx1ZVyrHaqjOlNGmUKPazUZmFohIn47Nn8h4IT2ZzgB/WjHAPKzPpVFZ6+YjmejPc1vwQngUfj3LsQWzVaax6LLer8L62XkSKAR73eRLrTbmXGNx6CMMo2smdFfqL4YkYVBZc6XSn+2g0x79gt4/Q9teN4GpRtXRDtG2bRt/t9d2A1v8/3+AZdjaiHtAgAA",
                                 "name": "mblock_La"
                             }
                         }
@@ -85,6 +85,88 @@
                     ],
                     "files2": [
                         "mblock_Ra.png"
+                    ],
+                    "flip": {
+                        "x": false,
+                        "y": false
+                    },
+                    "padding": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "palette": 0,
+                    "recycleable": false,
+                    "repeat": {
+                        "mode": "1x1",
+                        "size": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "x": false,
+                        "y": false
+                    }
+                },
+                "transparency": "None"
+            },
+            {
+                "_imageData": {
+                    "images": [
+                        {
+                            "animation": {
+                                "frames": 1
+                            },
+                            "maps": [
+                                {
+                                    "data": "H4sIAAAAAAAACotWMjAwsFTSAVGOEMoJQjlDKBcI5Qqh3JR0lIwMDMzBPEMDpVgAWvnqIkAAAAA=",
+                                    "height": "3",
+                                    "width": "3",
+                                    "name": "mblock2"
+                                },
+                                {
+                                    "data": "H4sIAAAAAAAACotWMjAwMFDSAVGGEMoIQhlDKBMIZQqhzCCUOYSyUIoFAIXiFYBAAAAA",
+                                    "height": "3",
+                                    "width": "3",
+                                    "name": "mblock2_La"
+                                }
+                            ],
+                            "tiles": {
+                                "count": 17,
+                                "data": "H4sIAAAAAAAACn2SXWrEMAyE7+LnPGShI+FHuWIuUXr/axT97Dol3RoEn8XE0kj5GiQ/SZ7jCMwzjmEkrVA2XgQXBGBxEomIcYxHPNoCJ1ULxSaktAJCZmZJSmtJ4oayBa501yxBqpP0cQx1ZVyrHaqjOlNGmUKPazUZmFohIn47Nn8h4IT2ZzgB/WjHAPKzPpVFZ6+YjmejPc1vwQngUfj3LsQWzVaax6LLer8L62XkSKAR73eRLrTbmXGNx6CMMo2smdFfqL4YkYVBZc6XSn+2g0x79gt4/Q9teN4GpRtXRDtG2bRt/t9d2A1v8/3+AZdjaiHtAgAA",
+                                "name": "mblock2_La"
+                            }
+                        }
+                    ]
+                },
+                "bgmapMode": "Bgmap",
+                "colorMode": 0,
+                "compression": "none",
+                "displacement": {
+                    "parallax": 0,
+                    "x": 1080,
+                    "y": -13,
+                    "z": 0
+                },
+                "displayMode": "Stereo",
+                "displays": "ON",
+                "imageProcessingSettings": {
+                    "colorDistanceFormula": "euclidean",
+                    "imageQuantizationAlgorithm": "nearest",
+                    "minimumColorDistanceToDither": 0,
+                    "serpentine": false
+                },
+                "isAnimated": true,
+                "manipulationFunction": "",
+                "name": "mblock2_La",
+                "optimizeTiles": true,
+                "section": "rom",
+                "shareTiles": true,
+                "sourceType": "image",
+                "texture": {
+                    "files": [
+                        "mblock2_La.png"
+                    ],
+                    "files2": [
+                        "mblock2.png"
                     ],
                     "flip": {
                         "x": false,

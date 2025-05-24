@@ -35,8 +35,8 @@
                             },
                             "maps": [
                                 {
-                                    "data": "H4sIAAAAAAAACu2XSw6DMAxE78K6i9h8WpYUyiWq3v8alTq0EpXlJsKhQfLqiQSJyYzjhHsVQgjVyfFPEMBADTRAC3Ql6HR84QxcVuilwQVDCaodcnDx8BgPGpzHWFxwtd4xr79j3KhsBCbgBswvEF4hym5PESLy7zjT/FbKCLcnwu2JGuFD1O5sj1TXWUTYBKdtw/Uaum35ScoIg7Q8KVpUByP20aDY08c6kR7jRmWWIDRVGrOVFE2pDqbuIyMnImLM3wCTVaN6aDYL7nMIc0jUwlSCIWKMNsFpxSfNMStm4XRinE58yOLbIcb4RWfoDNwpc6IyD+5tj3TrKh8e3LGx9x+RwwyPJ01Nc3iBGAAA",
-                                    "height": "14",
+                                    "data": "H4sIAAAAAAAACu2WTQ6CMBCF78LaRWcQ0CWCXMJ4/2uY+MAEM5YptE2Rrr6Ahry+r3+PwhhjilNGXBDAQAmcgQqoU8iZ8YUGuMxwlV6OaFNInSGL0yNr3Km4rDE5caV9x7ypNTYrk3VAD9yB4Q3CX4iC15NEiPArToGVyQi3J8Ltic7Cp6mKXI80r4OE8CPOtgznY6i3+ZOSEV7S+GTJYm1QsY7a3yGmCpabcNe4MZlPEDZV6lz9qZNR79qg6zry1IRCY+wNUJEas4cGtb+lMXwOYTaOWZhSKETU6EecbfJJvzFbysLpxDiduFr2l97ki6BRP+gAOwNbDjdWJDuiuKke6da1NxxR3J/g+QJeN0LnwRYAAA==",
+                                    "height": "13",
                                     "width": "64",
                                     "name": "Mountains1"
                                 }
@@ -53,10 +53,10 @@
                 "colorMode": 0,
                 "compression": "none",
                 "displacement": {
-                    "parallax": 10,
-                    "x": 256,
-                    "y": 0,
-                    "z": 6
+                    "parallax": -12,
+                    "x": 64,
+                    "y": -12,
+                    "z": 0
                 },
                 "displayMode": "Mono",
                 "displays": "ON",
