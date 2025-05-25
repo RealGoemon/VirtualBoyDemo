@@ -42,6 +42,8 @@ extern ActorSpec MarioBridgeUpActorSpec;
 extern ActorSpec StangeActorSpec;
 extern ActorSpec WimpelActorSpec;
 extern ActorSpec CastleActorSpec;
+extern ActorSpec StarFXActorSpec;
+extern ActorSpec BlockhitActorSpec;
 
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 // ACTOR LISTS
@@ -59,6 +61,8 @@ PositionedActorROMSpec OverworldStageActors[] =
 		
 	
 	{&MBlock_1ActorSpec, 			{16, 24, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	{&BlockhitActorSpec, 			{28, 24, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	{&StarFXActorSpec, 				{28, 12, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
 	{&Bridge_1ActorSpec, 			{264, 80, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
 	{&WarioActorSpec, 				{350, -32, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
 	{&Torii_1ActorSpec, 			{496, 12, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},

@@ -15,36 +15,36 @@
 // DECLARATIONS
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
-extern uint32 FlowerActorflower_lTiles[];
-extern uint16 FlowerActorflower_lMap[];
+extern uint32 BlockhitActorblockhitTiles[];
+extern uint16 BlockhitActorblockhitMap[];
 
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 // ANIMATIONS
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
-AnimationFunctionROMSpec FlowerAnimation1AnimationSpec =
+AnimationFunctionROMSpec BlockhitAnimation1AnimationSpec =
 {
 	// Number of frames that the texture supports of this animation function
-	2,
+	3,
 
 	// Frames to play in animation
 	{
-		1, 2, 
+		0, 1, 2, 
 	},
 
 	// Number of cycles a frame of animation is displayed
-	8,
+	6,
 
 	// Whether to play it in loop or not
 	true,
 
 	// Animation's name
-	"Animation",
+	"Blockhit",
 };
 
-AnimationFunctionROMSpec* FlowerAnimationSpecs[] =
+AnimationFunctionROMSpec* BlockhitAnimationSpecs[] =
 {
-	(AnimationFunction*)&FlowerAnimation1AnimationSpec,
+	(AnimationFunction*)&BlockhitAnimation1AnimationSpec,
 	NULL,
 };
 
@@ -52,10 +52,10 @@ AnimationFunctionROMSpec* FlowerAnimationSpecs[] =
 // SPRITES
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
-CharSetROMSpec FlowerSprite1CharsetSpec =
+CharSetROMSpec BlockhitSprite1CharsetSpec =
 {
 	// Number of CHARs in function of the number of frames to load at the same time
-	9,
+	16,
 
 	// Whether it is shared or not
 	true,
@@ -64,25 +64,25 @@ CharSetROMSpec FlowerSprite1CharsetSpec =
 	false,
 
 	// Tiles array
-	FlowerActorflower_lTiles,
+	BlockhitActorblockhitTiles,
 
 	// Frame offsets array
 	NULL
 };
 
-TextureROMSpec FlowerSprite1TextureSpec =
+TextureROMSpec BlockhitSprite1TextureSpec =
 {
 	// Pointer to the char spec that the texture uses
-	(CharSetSpec*)&FlowerSprite1CharsetSpec,
+	(CharSetSpec*)&BlockhitSprite1CharsetSpec,
 
 	// Pointer to the map array that defines how to use the tiles from the char set
-	FlowerActorflower_lMap,
+	BlockhitActorblockhitMap,
 
 	// Horizontal size in tiles of the texture (max. 64)
-	3,
+	4,
 
 	// Vertical size in tiles of the texture (max. 64)
-	3,
+	4,
 
 	// padding for affine/hbias transformations
 	{0, 0},
@@ -91,7 +91,7 @@ TextureROMSpec FlowerSprite1TextureSpec =
 	1,
 
 	// Palette index to use by the graphical data (0 - 3)
-	1,
+	0,
 
 	// Flag to recycle the texture with a different map
 	false,
@@ -103,7 +103,7 @@ TextureROMSpec FlowerSprite1TextureSpec =
 	false
 };
 
-BgmapSpriteROMSpec FlowerSprite1SpriteSpec =
+BgmapSpriteROMSpec BlockhitSprite1SpriteSpec =
 {
 	{
 		// VisualComponent
@@ -118,17 +118,17 @@ BgmapSpriteROMSpec FlowerSprite1SpriteSpec =
 			},
 
 			// Array of animation functions
-			(const AnimationFunction**)FlowerAnimationSpecs
+			(const AnimationFunction**)BlockhitAnimationSpecs
 		},
 
 		// Spec for the texture to display
-		(TextureSpec*)&FlowerSprite1TextureSpec,
+		(TextureSpec*)&BlockhitSprite1TextureSpec,
 
 		// Transparency mode (__TRANSPARENCY_NONE, __TRANSPARENCY_EVEN or __TRANSPARENCY_ODD)
 		__TRANSPARENCY_NONE,
 
 		// Displacement added to the sprite's position
-		{0, 0, 4, 4}
+		{0, 0, 0, 0}
 	},
 
 	// Flag to indicate in which display to show the texture (__WORLD_ON, __WORLD_LON or __WORLD_RON)
@@ -145,19 +145,19 @@ BgmapSpriteROMSpec FlowerSprite1SpriteSpec =
 // ACTOR
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
-ComponentSpec* const FlowerComponentSpecs[] = 
+ComponentSpec* const BlockhitComponentSpecs[] = 
 {
-	(ComponentSpec*)&FlowerSprite1SpriteSpec,
+	(ComponentSpec*)&BlockhitSprite1SpriteSpec,
 	NULL
 };
 
-ActorROMSpec FlowerActorSpec =
+ActorROMSpec BlockhitActorSpec =
 {
 	// Class allocator
 	__TYPE(Actor),
 
 	// Component specs
-	(ComponentSpec**)FlowerComponentSpecs,
+	(ComponentSpec**)BlockhitComponentSpecs,
 
 	// Children specs
 	NULL,
@@ -173,6 +173,6 @@ ActorROMSpec FlowerActorSpec =
 	kTypeNone,
 
 	// Animation to play automatically
-	"Animation"
+	"Blockhit"
 	
 };

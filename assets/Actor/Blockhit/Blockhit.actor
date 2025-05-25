@@ -1,5 +1,5 @@
 {
-    "_id": "n5mjv8EOX5lpGvyj",
+    "_id": "xpz1tjZtt8lZ4tCl",
     "_version": "0.6.0",
     "animations": {
         "default": 0,
@@ -24,13 +24,14 @@
         "animations": [
             {
                 "callback": "",
-                "cycles": 8,
+                "cycles": 6,
                 "frames": [
+                    0,
                     1,
                     2
                 ],
                 "loop": true,
-                "name": "Animation"
+                "name": "Blockhit"
             }
         ],
         "children": [],
@@ -46,16 +47,16 @@
                             },
                             "maps": [
                                 {
-                                    "data": "H4sIAAAAAAAACiXNuRGAMAwAwV4UE+j4CQ3GTXjovw0GLtpwe2RmxvCBjDLJLIussskuhxQ55ZIqt7Qf/PDDDz/88MMPP/zwo8TzAm/gEQS+AAAA",
-                                    "height": "9",
-                                    "width": "3",
-                                    "name": "flower_l"
+                                    "data": "H4sIAAAAAAAACiXNuRHCQAAEsF4udnC7gA0hn5tg3H8bDChSqM+Yc86x/AiKE864YMWGK26444EnXnhj/xNffPHFF1988cUXX3zxxRdffPHFV1999dVXX3311VdfffXVV1999XUfxxfduuQZUQEAAA==",
+                                    "height": "12",
+                                    "width": "4",
+                                    "name": "blockhit"
                                 }
                             ],
                             "tiles": {
-                                "count": 27,
-                                "data": "H4sIAAAAAAAACsVTQW4kMQj8i899KEsGwhHLrk+s9v/fiMCTnkTRKrOnWGqpGpUNVMGfhsdpV4PccNqC2EioHFj0Ijy5fQEYOARZnWO0qxm3TdK+cj9fQx8PqOGqot6uxj0wWdm4gPyyBq47uh3z1BB0U27JFyZ3zD2LQK5J1rUdJHdmCwnR8IKTXWdd88hoXoNG9NDIqACMymYCyOltO5DVtatl3X6iNKNw5WNUo6llx4z4iOYDIRLVvBr6XAXNgH7U0XlH0YGu/9TsC7zl+5HbRV7njhsOWQuQrMydy6etUp1vYky4uRBk2h2TW4Opr4hoRPBwI6JU5+Okvupd5UxUqKqHlC2hGi7HC8vfdrXlgB7nRYD19MK+eSEmRlZlFKMt3l7Ydy+E6JUYkPSCTy/kP73gQC3MK9yc9S6jv+ix527VKA9MP9lqGVaNJxd4YO7EIxqMxWC2GUEVESkCGfOoQ3IeL9A9ANWjukLdC2pAPW5Ye1FexG968fcd6WkFLKUEAAA=",
-                                "name": "flower_l"
+                                "count": 48,
+                                "data": "H4sIAAAAAAAACt1VW27DMAy7S773IYBHIMBLDL3/NQbJciy7SZt2GFAsX4QiWk/a35vlt339b4gdEmZQs8rM/6w0NzNpMCMdctD+KEloD0wGsh6Y9wWhpw4CJiEcvE7wU7r+ATAbeZGG2IhTB7Eth0PI9HgfUKyRxpKOT7XQ2jRVHQQzya0eTMwZe1w1WndgWJUh/OR0OC4eM0RfeyhpyjVCqTirXw7jcdcjx9YzULmTEqWApUwaO/QSTSk9BnOcizXfSKw5KNSZvgdqOYFR8bDi0QUib3FTFi1r+/16nsCheVygYbKuVWimcXSHecu9mCTKYYcwHWDT9fpUhWwSKb5Xii+QNckemCOHXZAAuiDfmNA1GmZr2cn64pRhvTwLsEye8xKY7mkojULTEHj4ALZ3b8sXkqe6uP0AkI3ap0EIAAA=",
+                                "name": "blockhit"
                             }
                         }
                     ]
@@ -64,10 +65,10 @@
                 "colorMode": 0,
                 "compression": "none",
                 "displacement": {
-                    "parallax": 4,
+                    "parallax": 0,
                     "x": 0,
                     "y": 0,
-                    "z": 4
+                    "z": 0
                 },
                 "displayMode": "Mono",
                 "displays": "ON",
@@ -79,14 +80,14 @@
                 },
                 "isAnimated": true,
                 "manipulationFunction": "",
-                "name": "flower_l",
+                "name": "blockhit",
                 "optimizeTiles": true,
                 "section": "rom",
                 "shareTiles": true,
                 "sourceType": "image",
                 "texture": {
                     "files": [
-                        "flower_l.png"
+                        "blockhit.png"
                     ],
                     "files2": [],
                     "flip": {
@@ -97,7 +98,7 @@
                         "x": 0,
                         "y": 0
                     },
-                    "palette": 1,
+                    "palette": 0,
                     "recycleable": false,
                     "repeat": {
                         "mode": "1x1",
