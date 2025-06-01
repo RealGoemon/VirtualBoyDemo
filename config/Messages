@@ -1,6 +1,12 @@
 {
-    "_version": "0.6.0",
-    "messages": {
-        "sT6VG9CEg4GlXgaU": "Keypad Hold Down"
-    }
+	"_version": "0.6.0",
+	"messages": {
+		"azNZdAVfax8Xgq2O": "Overworld: No Message",
+		"dq4EyvXRq8xYIC2r": "Overworld: Released Left",
+		"eUJ5Mo0YSvELTyzj": "Mario: Revive",
+		"sT6VG9CEg4GlXgaU": "Keypad Hold Down",
+		"teFbohNQ3Uov7DEG": "Overworld: Hold Right",
+		"W7zgE1xlWYRVf30v": "Overworld: Released Right",
+		"yW8Wm0pHRaWp4wOW": "Overworld: Hold Left"
+	}
 }

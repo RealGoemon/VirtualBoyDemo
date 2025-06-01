@@ -1,188 +1,214 @@
 {
-    "_id": "eIJcjpMOxRbeh9tF",
-    "_version": "0.6.0",
-    "animations": {
-        "default": 0,
-        "multiframe": false,
-        "totalFrames": 17
-    },
-    "body": {
-        "bounciness": 0,
-        "enabled": false,
-        "friction": 0,
-        "gravityAxes": [],
-        "mass": 0,
-        "maximumSpeed": 0,
-        "maximumVelocity": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-        },
-        "rotationAxes": []
-    },
-    "components": {
-        "animations": [
-            {
-                "callback": "",
-                "cycles": 20,
-                "frames": [
-                    0,
-                    1,
-                    2
-                ],
-                "loop": true,
-                "name": "idle"
-            },
-            {
-                "callback": "",
-                "cycles": 8,
-                "frames": [
-                    3,
-                    4,
-                    5,
-                    6,
-                    7
-                ],
-                "loop": true,
-                "name": "run"
-            },
-            {
-                "callback": "",
-                "cycles": 8,
-                "frames": [
-                    8,
-                    9
-                ],
-                "loop": true,
-                "name": "jump"
-            },
-            {
-                "callback": "",
-                "cycles": 8,
-                "frames": [
-                    10
-                ],
-                "loop": true,
-                "name": "stop"
-            },
-            {
-                "callback": "",
-                "cycles": 8,
-                "frames": [
-                    13
-                ],
-                "loop": true,
-                "name": "die"
-            },
-            {
-                "callback": "",
-                "cycles": 8,
-                "frames": [
-                    14,
-                    15,
-                    16
-                ],
-                "loop": true,
-                "name": "poledown"
-            }
-        ],
-        "children": [],
-        "colliders": [],
-        "mutators": [],
-        "sprites": [
-            {
-                "_imageData": {
-                    "images": [
-                        {
-                            "animation": {
-                                "frames": 17
-                            },
-                            "maps": [
-                                {
-                                    "data": "H4sIAAAAAAAACiXVuZHgRgDAwFzWlrHgT5PfJHGl/NNQ6dqCCbP//Pz+/v7+/PN/kklmWWSVTXY55JRLbnnklU/G3+SXX3755Zdffvnll19++eWXX375TX6T3+Q3+U1+k9/kN/lNfpPf5Df5TX6T3+Q3+c1+s9/sN/vNfrPf7Df7zX6z3+w3+81+s9/sN/stfovf4rf4LX6L3+K3+C1+i9/it/gtfovf4rf4rX6r3+q3+q1+q9/qt/qtfqvf6rf6rX6r3+q3+m1+m9/mt/ltfpvf5rf5bX6b3+a3+W1+m9/mt/ntfrvf7rf77X673+63++1+u9/ut/vtfrvf7rf7HX6H3+F3+B1+h9/hd/gdfoff4Xf4HX6H3+F3+J1+p9/pd/qdfqff6Xf6nX6n3+l3+p1+p9/pd/pdfpff5Xf5XX6X3+V3+V1+l9/ld/ldfpff5Xf53X633+13+91+t9/td/vdfrff7Xf73X633+13+z1+j9/j9/g9fo/f4/f4PX6P3+P3+D1+j9/j9/i9fq/f6/f6vX6v3+v3+r1+r9/r9/q9fq/f6/f6fX6f3+f3+X1+n9/n9/l9fp/f5/f5fX6f3+f3+Q2/4Tf8ht/wG37Db/gNv+E3/Ibf8Bt+w2/8/cW/+Bf/4l/8i3/xL/7Fv/gX/+Jf/It/8S/+xb/4F//iX/yLf/Ev/sW/+Bf/4l/8i3/xL/7Fv/gX/+Jf/It/8S/+xb/4F//iX/yLf/Ev/sW/+Bf/4l/8i3/xL/7Fv/gX/+Jf/It/8S/+xb/4F//iX/yLf/Ev/sW/+Bf/4l/8i3/xL/7Fv/gX/+Jf/It/8S/+xb/4F//iX/yLf/Ev/sW/+Bf/4l/8i3/xL/7Fv/gX/+Jf/It/8S/+xb/4F//iX/yLf/Ev/sW/+Bf/4l/8i3/xL/7Fv/gX/+Jf/It/8S/+xb/4F//iX/yLf/Ev/sW/+Bf/4l/8i3/xL/7Fv/gX/+Jf/It/8S/+xb/4F//iX/yLf/Ev/sW/+Bf/4l/8i3/xL/7Fv/gX/+Jf/It/8S/+xb/4F//iX/yLf/Ev/sW/+Bf/4l/8i3/xL/7Fv/gX/+Jf/It/8S/+xb/4F//iX/yLf/Ev/sW/+Bf/4l/8i3/xL/7Fv/gX/+Jf/It/8S/+xb/4F//iX/yLf/Ev/sW/+Bf/4l/8i3/xL/7Fv/gX/+Jf/Gu8P//+B6oyFUbzDQAA",
-                                    "height": "102",
-                                    "width": "5",
-                                    "name": "BigMario"
-                                }
-                            ],
-                            "tiles": {
-                                "count": 510,
-                                "data": "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",
-                                "name": "BigMario"
-                            }
-                        }
-                    ]
-                },
-                "bgmapMode": "Bgmap",
-                "colorMode": 0,
-                "compression": "none",
-                "displacement": {
-                    "parallax": 0,
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "displayMode": "Mono",
-                "displays": "ON",
-                "imageProcessingSettings": {
-                    "colorDistanceFormula": "euclidean",
-                    "imageQuantizationAlgorithm": "nearest",
-                    "minimumColorDistanceToDither": 0,
-                    "serpentine": false
-                },
-                "isAnimated": true,
-                "manipulationFunction": "",
-                "name": "BigMario",
-                "optimizeTiles": true,
-                "section": "rom",
-                "shareTiles": true,
-                "sourceType": "image",
-                "texture": {
-                    "files": [
-                        "BigMario.png"
-                    ],
-                    "files2": [],
-                    "flip": {
-                        "x": false,
-                        "y": false
-                    },
-                    "padding": {
-                        "x": 0,
-                        "y": 0
-                    },
-                    "palette": 1,
-                    "recycleable": false,
-                    "repeat": {
-                        "mode": "1x1",
-                        "size": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "x": false,
-                        "y": false
-                    }
-                },
-                "transparency": "None"
-            }
-        ],
-        "wireframes": []
-    },
-    "extraProperties": {
-        "enabled": false,
-        "extraInfo": "",
-        "pixelSize": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-        }
-    },
-    "inGameType": "None",
-    "logic": {
-        "configuration": {},
-        "customAllocator": "",
-        "enabled": false
-    },
-    "sprites": {
-        "type": "Bgmap"
-    }
+	"_id": "eIJcjpMOxRbeh9tF",
+	"_version": "0.6.0",
+	"animations": {
+		"default": 0,
+		"multiframe": false,
+		"totalFrames": 17
+	},
+	"components": {
+		"animations": [
+			{
+				"callback": "",
+				"cycles": 8,
+				"frames": [
+					0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0
+				],
+				"loop": true,
+				"name": "Idle"
+			},
+			{
+				"callback": "",
+				"cycles": 8,
+				"frames": [
+					3,4,5,6,7
+				],
+				"loop": true,
+				"name": "Move"
+			},
+			{
+				"callback": "",
+				"cycles": 8,
+				"frames": [
+					8,9
+				],
+				"loop": true,
+				"name": "Jump"
+			},
+			{
+				"callback": "",
+				"cycles": 8,
+				"frames": [
+					10
+				],
+				"loop": true,
+				"name": "Slide"
+			},
+			{
+				"callback": "",
+				"cycles": 8,
+				"frames": [
+					13
+				],
+				"loop": true,
+				"name": "Die"
+			},
+			{
+				"callback": "",
+				"cycles": 8,
+				"frames": [
+					14,15,16
+				],
+				"loop": true,
+				"name": "Pole Down"
+			}
+		],
+		"bodies": [
+			{
+				"bounciness": 0.1,
+				"friction": 0.3,
+				"gravityAxes": [
+					"Y_AXIS"
+				],
+				"mass": 1,
+				"maximumSpeed": 3,
+				"maximumVelocity": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"name": "Body",
+				"rotationAxes": [
+					"Y_AXIS"
+				]
+			}
+		],
+		"children": [],
+		"colliders": [
+			{
+				"checkForCollisions": true,
+				"displacement": {
+					"parallax": 0,
+					"x": 0,
+					"y": 2,
+					"z": 0
+				},
+				"layers": [],
+				"layersToCheck": [
+					"SXbvDALTwppzIflY"
+				],
+				"name": "Collider",
+				"pixelSize": {
+					"x": 14,
+					"y": 40,
+					"z": 32
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"scale": {
+					"x": 1,
+					"y": 1,
+					"z": 1
+				},
+				"type": "Box"
+			}
+		],
+		"mutators": [],
+		"sprites": [
+			{
+				"_imageData": {
+					"images": [
+						{
+							"animation": {
+								"frames": 17
+							},
+							"maps": [
+								{
+									"data": "H4sIAAAAAAAACiXVuZHgRgDAwFzWlrHgT5PfJHGl/NNQ6dqCCbP//Pz+/v7+/PN/kklmWWSVTXY55JRLbnnklU/G3+SXX3755Zdffvnll19++eWXX375TX6T3+Q3+U1+k9/kN/lNfpPf5Df5TX6T3+Q3+c1+s9/sN/vNfrPf7Df7zX6z3+w3+81+s9/sN/stfovf4rf4LX6L3+K3+C1+i9/it/gtfovf4rf4rX6r3+q3+q1+q9/qt/qtfqvf6rf6rX6r3+q3+m1+m9/mt/ltfpvf5rf5bX6b3+a3+W1+m9/mt/ntfrvf7rf77X673+63++1+u9/ut/vtfrvf7rf7HX6H3+F3+B1+h9/hd/gdfoff4Xf4HX6H3+F3+J1+p9/pd/qdfqff6Xf6nX6n3+l3+p1+p9/pd/pdfpff5Xf5XX6X3+V3+V1+l9/ld/ldfpff5Xf53X633+13+91+t9/td/vdfrff7Xf73X633+13+z1+j9/j9/g9fo/f4/f4PX6P3+P3+D1+j9/j9/i9fq/f6/f6vX6v3+v3+r1+r9/r9/q9fq/f6/f6fX6f3+f3+X1+n9/n9/l9fp/f5/f5fX6f3+f3+Q2/4Tf8ht/wG37Db/gNv+E3/Ibf8Bt+w2/8/cW/+Bf/4l/8i3/xL/7Fv/gX/+Jf/It/8S/+xb/4F//iX/yLf/Ev/sW/+Bf/4l/8i3/xL/7Fv/gX/+Jf/It/8S/+xb/4F//iX/yLf/Ev/sW/+Bf/4l/8i3/xL/7Fv/gX/+Jf/It/8S/+xb/4F//iX/yLf/Ev/sW/+Bf/4l/8i3/xL/7Fv/gX/+Jf/It/8S/+xb/4F//iX/yLf/Ev/sW/+Bf/4l/8i3/xL/7Fv/gX/+Jf/It/8S/+xb/4F//iX/yLf/Ev/sW/+Bf/4l/8i3/xL/7Fv/gX/+Jf/It/8S/+xb/4F//iX/yLf/Ev/sW/+Bf/4l/8i3/xL/7Fv/gX/+Jf/It/8S/+xb/4F//iX/yLf/Ev/sW/+Bf/4l/8i3/xL/7Fv/gX/+Jf/It/8S/+xb/4F//iX/yLf/Ev/sW/+Bf/4l/8i3/xL/7Fv/gX/+Jf/It/8S/+xb/4F//iX/yLf/Ev/sW/+Bf/4l/8i3/xL/7Fv/gX/+Jf/It/8S/+xb/4F//iX/yLf/Ev/sW/+Bf/4l/8i3/xL/7Fv/gX/+Jf/Gu8P//+B6oyFUbzDQAA",
+									"height": "102",
+									"width": "5",
+									"name": "BigMario"
+								}
+							],
+							"tiles": {
+								"count": 510,
+								"data": "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",
+								"name": "BigMario"
+							}
+						}
+					]
+				},
+				"bgmapMode": "Bgmap",
+				"colorMode": 0,
+				"compression": "none",
+				"displacement": {
+					"parallax": 0,
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"displayMode": "Mono",
+				"displays": "ON",
+				"imageProcessingSettings": {
+					"colorDistanceFormula": "euclidean",
+					"imageQuantizationAlgorithm": "nearest",
+					"minimumColorDistanceToDither": 0,
+					"serpentine": false
+				},
+				"isAnimated": true,
+				"manipulationFunction": "",
+				"name": "BigMario",
+				"optimizeTiles": true,
+				"section": "rom",
+				"shareTiles": true,
+				"sourceType": "image",
+				"texture": {
+					"files": [
+						"BigMario.png"
+					],
+					"files2": [],
+					"flip": {
+						"x": false,
+						"y": false
+					},
+					"padding": {
+						"x": 0,
+						"y": 0
+					},
+					"palette": 1,
+					"recycleable": false,
+					"repeat": {
+						"mode": "1x1",
+						"size": {
+							"x": 0,
+							"y": 0
+						},
+						"x": false,
+						"y": false
+					}
+				},
+				"transparency": "None"
+			}
+		],
+		"wireframes": []
+	},
+	"extraProperties": {
+		"extraInfo": "",
+		"pixelSize": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		}
+	},
+	"inGameType": "None",
+	"logic": {
+		"configuration": {},
+		"customAllocator": "Mario"
+	},
+	"sprites": {
+		"type": "Bgmap"
+	}
 }

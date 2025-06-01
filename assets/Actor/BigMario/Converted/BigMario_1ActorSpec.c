@@ -6,9 +6,12 @@
 // INCLUDES
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
-#include <Actor.h>
 #include <BgmapSprite.h>
+#include <Body.h>
+#include <Box.h>
+#include <ColliderLayers.h>
 #include <InGameTypes.h>
+#include <Mario.h>
 #include <Texture.h>
 
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
@@ -25,21 +28,22 @@ extern uint16 BigMario_1ActorBigMarioMap[];
 AnimationFunctionROMSpec BigMario_1Animation1AnimationSpec =
 {
 	// Number of frames that the texture supports of this animation function
-	3,
+	16,
 
 	// Frames to play in animation
 	{
-		0, 1, 2, 
+		0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 
+		0, 0, 0, 0, 0, 0, 
 	},
 
 	// Number of cycles a frame of animation is displayed
-	20,
+	8,
 
 	// Whether to play it in loop or not
 	true,
 
 	// Animation's name
-	"idle",
+	"Idle",
 };
 
 AnimationFunctionROMSpec BigMario_1Animation2AnimationSpec =
@@ -59,7 +63,7 @@ AnimationFunctionROMSpec BigMario_1Animation2AnimationSpec =
 	true,
 
 	// Animation's name
-	"run",
+	"Move",
 };
 
 AnimationFunctionROMSpec BigMario_1Animation3AnimationSpec =
@@ -79,7 +83,7 @@ AnimationFunctionROMSpec BigMario_1Animation3AnimationSpec =
 	true,
 
 	// Animation's name
-	"jump",
+	"Jump",
 };
 
 AnimationFunctionROMSpec BigMario_1Animation4AnimationSpec =
@@ -99,7 +103,7 @@ AnimationFunctionROMSpec BigMario_1Animation4AnimationSpec =
 	true,
 
 	// Animation's name
-	"stop",
+	"Slide",
 };
 
 AnimationFunctionROMSpec BigMario_1Animation5AnimationSpec =
@@ -119,7 +123,7 @@ AnimationFunctionROMSpec BigMario_1Animation5AnimationSpec =
 	true,
 
 	// Animation's name
-	"die",
+	"Die",
 };
 
 AnimationFunctionROMSpec BigMario_1Animation6AnimationSpec =
@@ -139,7 +143,7 @@ AnimationFunctionROMSpec BigMario_1Animation6AnimationSpec =
 	true,
 
 	// Animation's name
-	"poledown",
+	"Pole Down",
 };
 
 AnimationFunctionROMSpec* BigMario_1AnimationSpecs[] =
@@ -247,19 +251,100 @@ BgmapSpriteROMSpec BigMario_1Sprite1SpriteSpec =
 };
 
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+// COLLIDERS
+//——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+ColliderROMSpec BigMario_1Collider1ColliderSpec = 
+{
+	// Component
+	{
+		// Allocator
+		__TYPE(Box),
+
+		// Component type
+		kColliderComponent
+	},
+
+	// Size (x, y, z)
+	{14, 40, 32},
+
+	// Displacement (x, y, z, p)
+	{0, 2, 0, 0},
+
+	// Rotation (x, y, z)
+	{0, 0, 0},
+
+	// Scale (x, y, z)
+	{__F_TO_FIX7_9(1.000f), __F_TO_FIX7_9(1.000f), __F_TO_FIX7_9(1.000f)},
+
+	// If true this collider checks for collisions against other colliders
+	true,
+
+	// Layers in which I live
+	kLayerNone,
+
+	// Layers to ignore when checking for collisions
+	kLayerAll & ~(kLayerGround)
+};
+
+
+//——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+// BODIES
+//——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+BodyROMSpec BigMario_1Body1BodySpec =
+{
+	// Component
+	{
+		// Allocator
+		__TYPE(Body),
+
+		// Component type
+		kPhysicsComponent
+	},
+
+	// Create body
+	true,
+
+	// Mass
+	__F_TO_FIX10_6(1.000f),
+
+	// Friction
+	__F_TO_FIX10_6(0.300f),
+
+	// Bounciness
+	__F_TO_FIX10_6(0.100f),
+
+	// Maximum velocity
+	{ __I_TO_FIXED(0), __I_TO_FIXED(0), __I_TO_FIXED(0) },
+
+	// Maximum speed
+	__I_TO_FIX10_6(3),
+
+	// Axises on which the body is subject to gravity
+	__Y_AXIS,
+
+	// Axises around which to rotate the owner when syncronizing with body
+	__Y_AXIS
+};
+
+//——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 // ACTOR
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 ComponentSpec* const BigMario_1ComponentSpecs[] = 
 {
 	(ComponentSpec*)&BigMario_1Sprite1SpriteSpec,
+	(ComponentSpec*)&BigMario_1Collider1ColliderSpec,
+	(ComponentSpec*)&BigMario_1Body1BodySpec,
 	NULL
 };
 
-ActorROMSpec BigMario_1ActorSpec =
+MarioROMSpec BigMario_1ActorSpec =
 {
+	{
 	// Class allocator
-	__TYPE(Actor),
+	__TYPE(Mario),
 
 	// Component specs
 	(ComponentSpec**)BigMario_1ComponentSpecs,
@@ -278,6 +363,6 @@ ActorROMSpec BigMario_1ActorSpec =
 	kTypeNone,
 
 	// Animation to play automatically
-	"idle"
-	
+	"Idle"
+	},
 };

@@ -18,6 +18,12 @@
 enum Messages
 {
 	kMessageKeypadHoldDown = kMessageLastEngine + 1,
+	kMessageMarioRevive,
+	kMessageOverworldHoldLeft,
+	kMessageOverworldHoldRight,
+	kMessageOverworldNoMessage,
+	kMessageOverworldReleasedLeft,
+	kMessageOverworldReleasedRight,
 };
 
 #endif

@@ -1,24 +1,43 @@
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////  THIS FILE WAS AUTO-GENERATED - DO NOT EDIT  ///////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/*
+ * Nintendo Virtual Boy Demo
+ *
+ * For the full copyright and license information, please view the LICENSE file
+ * that was distributed with this source code.
+ */
 
-#ifndef IN_GAME_TYPES_H_
-#define IN_GAME_TYPES_H_
+#ifndef MARIO_WALKING_H_
+#define MARIO_WALKING_H_
 
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 // INCLUDES
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
-#include <Constants.h>
+#include <Mario.h>
 
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
-// DEFINITIONS
+// CLASS' DECLARATION
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
-enum InGameTypes
+/// Class MarioWalking
+///
+/// Inherits from Mario
+///
+/// Controls the logic for Mario when he walks.
+mutation class MarioWalking : Mario
 {
-	kTypeMario = kTypeNone + 1,
-	kTypeSolidObject,
-};
+	/// Process a newly detected collision by one of the component colliders.
+	/// @param collisionInformation: Information struct about the collision to resolve
+	/// @return True if the collider must keep track of the collision to detect if it persists and when it
+	/// ends; false otherwise
+	override bool collisionStarts(const CollisionInformation* collisionInformation);
+
+	/// Receive and process a Telegram.
+	/// @param telegram: Received telegram to process
+	/// @return True if the telegram was processed
+	override bool handleMessage(Telegram telegram);
+
+	/// Update this instance's logic.
+	override void update();
+}
 
 #endif

@@ -115,7 +115,7 @@
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 #undef __MEMORY_POOLS
-#define __MEMORY_POOLS 11
+#define __MEMORY_POOLS 12
 
 #undef __MEMORY_POOL_ARRAYS
 #define __MEMORY_POOL_ARRAYS \
@@ -124,6 +124,7 @@
 	__BLOCK_DEFINITION(140, 10) \
 	__BLOCK_DEFINITION(116, 40) \
 	__BLOCK_DEFINITION(108, 40) \
+	__BLOCK_DEFINITION(96, 64) \
 	__BLOCK_DEFINITION(80, 50) \
 	__BLOCK_DEFINITION(68, 60) \
 	__BLOCK_DEFINITION(40, 30) \
@@ -138,6 +139,7 @@
 	__SET_MEMORY_POOL_ARRAY(140) \
 	__SET_MEMORY_POOL_ARRAY(116) \
 	__SET_MEMORY_POOL_ARRAY(108) \
+	__SET_MEMORY_POOL_ARRAY(96) \
 	__SET_MEMORY_POOL_ARRAY(80) \
 	__SET_MEMORY_POOL_ARRAY(68) \
 	__SET_MEMORY_POOL_ARRAY(40) \
@@ -172,7 +174,7 @@
 // TEXTURE MANAGEMENT
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
-#define __TOTAL_NUMBER_OF_BGMAPS_SEGMENTS 12
+#define __TOTAL_NUMBER_OF_BGMAPS_SEGMENTS 11
 #define __PARAM_TABLE_SEGMENTS			  1
 #define __NUM_BGMAPS_PER_SEGMENT		  8
 #define __MAX_NUMBER_OF_BGMAPS_SEGMENTS	  (__TOTAL_NUMBER_OF_BGMAPS_SEGMENTS - __PARAM_TABLE_SEGMENTS)
@@ -180,7 +182,6 @@
 #define __PRINTING_BGMAP_X_OFFSET		  0
 #define __PRINTING_BGMAP_Y_OFFSET		  (64 * 8 - __SCREEN_HEIGHT)
 #define __PRINTING_BGMAP_PARALLAX_OFFSET  0
-#define __PRINTABLE_BGMAP_AREA			  1792
 
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 // PARAM TABLE

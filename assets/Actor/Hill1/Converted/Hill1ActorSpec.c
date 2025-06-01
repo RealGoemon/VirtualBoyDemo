@@ -572,7 +572,7 @@ BgmapSpriteROMSpec Hill1Sprite6SpriteSpec =
 		__TRANSPARENCY_NONE,
 
 		// Displacement added to the sprite's position
-		{176, -117, 5, 8}
+		{176, -127, 5, 8}
 	},
 
 	// Flag to indicate in which display to show the texture (__WORLD_ON, __WORLD_LON or __WORLD_RON)
@@ -662,7 +662,7 @@ BgmapSpriteROMSpec Hill1Sprite7SpriteSpec =
 		__TRANSPARENCY_NONE,
 
 		// Displacement added to the sprite's position
-		{688, -117, 5, 8}
+		{688, -127, 5, 8}
 	},
 
 	// Flag to indicate in which display to show the texture (__WORLD_ON, __WORLD_LON or __WORLD_RON)
@@ -842,7 +842,7 @@ BgmapSpriteROMSpec Hill1Sprite9SpriteSpec =
 		__TRANSPARENCY_NONE,
 
 		// Displacement added to the sprite's position
-		{1200, -117, 5, 8}
+		{1200, -127, 5, 8}
 	},
 
 	// Flag to indicate in which display to show the texture (__WORLD_ON, __WORLD_LON or __WORLD_RON)

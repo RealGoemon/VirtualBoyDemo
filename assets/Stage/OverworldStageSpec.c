@@ -24,6 +24,7 @@
 extern ActorSpec LowPowerIndicatorActorSpec;
 extern ActorSpec Torii_1ActorSpec;
 extern ActorSpec WarioActorSpec;
+extern ActorSpec CloudsActorSpec;
 extern ActorSpec Floor_1ActorSpec;
 extern ActorSpec Bridge_1ActorSpec;
 extern ActorSpec MBlock_1ActorSpec;
@@ -58,8 +59,7 @@ PositionedActorROMSpec OverworldStageActors[] =
     {&Pole_1ActorSpec, 				{-173, 64, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
 	{&FlowerActorSpec, 				{-108, 0, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
 	{&MidFloor_1ActorSpec, 			{-172, 76, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
-		
-	
+
 	{&MBlock_1ActorSpec, 			{16, 24, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
 	{&BlockhitActorSpec, 			{28, 24, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
 	{&StarFXActorSpec, 				{28, 12, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
@@ -68,23 +68,23 @@ PositionedActorROMSpec OverworldStageActors[] =
 	{&Torii_1ActorSpec, 			{496, 12, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
 	{&PipeActorSpec, 				{628, 64, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
 	{&GoombaActorSpec, 				{872, 57, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
-	
-	
+
 	{&MarioBridgeDownActorSpec, 	{500, 54, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
 	{&SmallMarioActorSpec, 			{808, 44, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
 	{&KoopaActorSpec, 				{790, 80, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
-	{&BigMario_1ActorSpec, 			{-168, 56, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
-	{&Floor_1ActorSpec, 			{-192, 112, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
-	{&StangeActorSpec, 				{1194, 80, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	{&BigMario_1ActorSpec, 			{-168,  56, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	{&CloudsActorSpec, 				{  0, -100, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	{&Floor_1ActorSpec, 			{  64, 96, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	{&StangeActorSpec, 				{1194,  80, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
 	{&WimpelActorSpec, 				{1166, -51, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
-	{&CastleActorSpec, 				{1223, 80, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
-	{&LowPowerIndicatorActorSpec, 	{-384 + 8, 112 - 4, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
+	{&CastleActorSpec, 				{1223,  80, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
 
 	{NULL, {0, 0, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
 };
 
 PositionedActorROMSpec OverworldStageUiActors[] =
 {
+	{&LowPowerIndicatorActorSpec, 	{-192 + 12, 112 - 8, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
 	{NULL, {0, 0, 0}, {0, 0, 0}, {1, 1, 1}, 0, NULL, NULL, NULL, false},
 };
 
@@ -287,7 +287,7 @@ StageROMSpec OverworldStageSpec =
 		// Gravity
 		{
 			__I_TO_FIX10_6(0),
-			__F_TO_FIX10_6(0),
+			__F_TO_FIX10_6(8.0f),
 			__I_TO_FIX10_6(0),
 		},
 

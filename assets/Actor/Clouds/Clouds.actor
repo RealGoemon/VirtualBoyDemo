@@ -1,0 +1,109 @@
+{
+	"_id": "8TlZzCLoEmHojhJK",
+	"_version": "0.6.0",
+	"animations": {
+		"default": 0,
+		"multiframe": false,
+		"totalFrames": 1
+	},
+	"components": {
+		"animations": [],
+		"bodies": [],
+		"children": [],
+		"colliders": [],
+		"mutators": [],
+		"sprites": [
+			{
+				"_imageData": {
+					"images": [
+						{
+							"animation": {
+								"frames": 1
+							},
+							"maps": [
+								{
+									"data": "H4sIAAAAAAAAE4tWMjAwMFDSGaVGqVFqgChDCGUEoYwhlAmEMoVQZqMqB6XKWACT4fdVQQUAAA==",
+									"height": "3",
+									"width": "64",
+									"name": "Clouds"
+								}
+							],
+							"tiles": {
+								"count": 7,
+								"data": "H4sIAAAAAAAAE4tWcoQCJR3CTDME09TMzNHMDMo0NQMhJR0lAyhA1QZS4OjoaIlQa4qu1hQkj2YYLrVILgObawqzAr9aJKalGZRJUK0pgglXGwsAIXIUQDUBAAA=",
+								"name": "Clouds"
+							}
+						}
+					]
+				},
+				"bgmapMode": "Bgmap",
+				"colorMode": 0,
+				"compression": "none",
+				"displacement": {
+					"parallax": 0,
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"displayMode": "Mono",
+				"displays": "ON",
+				"imageProcessingSettings": {
+					"colorDistanceFormula": "euclidean",
+					"imageQuantizationAlgorithm": "nearest",
+					"minimumColorDistanceToDither": 0,
+					"serpentine": false
+				},
+				"isAnimated": true,
+				"manipulationFunction": "",
+				"name": "Clouds",
+				"optimizeTiles": true,
+				"section": "rom",
+				"shareTiles": true,
+				"sourceType": "image",
+				"texture": {
+					"files": [
+						"Clouds.png"
+					],
+					"files2": [],
+					"flip": {
+						"x": false,
+						"y": false
+					},
+					"padding": {
+						"x": 0,
+						"y": 0
+					},
+					"palette": 0,
+					"recycleable": false,
+					"repeat": {
+						"mode": "1x1",
+						"size": {
+							"x": 0,
+							"y": 0
+						},
+						"x": true,
+						"y": false
+					}
+				},
+				"transparency": "None"
+			}
+		],
+		"wireframes": []
+	},
+	"extraProperties": {
+		"extraInfo": "",
+		"pixelSize": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		}
+	},
+	"inGameType": "None",
+	"logic": {
+		"configuration": {},
+		"customAllocator": ""
+	},
+	"sprites": {
+		"type": "Bgmap"
+	}
+}
